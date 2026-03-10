@@ -1,0 +1,71 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../fonts/Aeonik/AeonikTRIAL-Thin.otf") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../fonts/Aeonik/AeonikTRIAL-Light.otf") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../fonts/Aeonik/AeonikTRIAL-Regular.otf") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../fonts/Aeonik/AeonikTRIAL-Medium.otf") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../fonts/Aeonik/AeonikTRIAL-SemiBold.otf") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../fonts/Aeonik/AeonikTRIAL-Bold.otf") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../fonts/Aeonik/AeonikTRIAL-Black.otf") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+} 
+
+@theme {
+  --color-primary: #c2c5cc;
+  --color-secondary: #a5a7ac;
+  --color-tertiary: #6d6e70;
+  --color-quaternary: #5a5b5d;
+  --color-quinary: #47484a;
+  --font-aeonik: "Aeonik", sans-serif;
+}
