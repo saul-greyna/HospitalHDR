@@ -119,7 +119,7 @@ const seleccionarServicio = (servicio) => {
 </script>
 
 <template>
-    <aside class="flex items-center w-1/3">
+    <aside class="flex w-full md:w-1/3">
         <ul class="space-y-4">
             <li v-for="servicio in listaServicios" :key="servicio.id" @click="seleccionarServicio(servicio)"
                 class="text-lg cursor-pointer"
@@ -128,8 +128,8 @@ const seleccionarServicio = (servicio) => {
             </li>
         </ul>
     </aside>
-    <div class="relative w-2/3 overflow-hidden bg-gray-50 rounded-3xl h-150">
-        <img :src="servicioActivo.imagen" :alt="servicioActivo.nombre" class="w-full" />
+    <div class="relative overflow-hidden md:w-2/3 bg-gray-50 rounded-3xl md:h-150 h-160">
+        <img :src="servicioActivo.imagen" :alt="servicioActivo.nombre" class="object-cover w-full h-full" />
         <div class="absolute max-w-sm p-6 shadow-md top-8 left-8 bg-white/90 backdrop-blur-md rounded-2xl">
             <h3 class="mb-4 text-3xl font-semibold text-quinary">
                 {{ servicioActivo.nombre }}

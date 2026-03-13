@@ -168,105 +168,105 @@ const doctores = [
         nombre: "Dr. Augusto Ramírez",
         especialidad: "Cirugía Cardiovascular y Torácica / Angiología",
         consultorio: "102",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/DR. AUGUSTO RAMIREZ SOLIS.png"
     },
     {
         id: 25,
         nombre: "Dr. Benjamín Sánchez",
         especialidad: "Cirugía Maxilofacial",
         consultorio: "112",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/Dr. Benjamín Sánchez Trocino.png"
     },
     {
         id: 26,
         nombre: "Dr. Jacinto Díaz",
         especialidad: "Cirugía Maxilofacial",
         consultorio: "112",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/Dr. Jacinto Armando Díaz Acevedo.png"
     },
     {
         id: 27,
         nombre: "Dr. José Quintana",
         especialidad: "Cirujano Oncológico",
         consultorio: "133",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/Dr. José Alejandro Quintana.png"
     },
     {
         id: 28,
         nombre: "Dr. Julio Torres",
         especialidad: "Cirugía Cardiotorácica y Vascular Periférica",
         consultorio: "142",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/Dr. Julio Torres Escamilla.png"
     },
     {
         id: 29,
         nombre: "Dra. Nereida Cortez",
         especialidad: "Periodoncia",
         consultorio: "112",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/DRA. NEREIDA CORTEZ LOPEZ.png"
     },
     {
         id: 30,
         nombre: "Dra. Paulina Montaño",
         especialidad: "Radiología y Radiología Oncológica",
         consultorio: "108",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/DRA. PAULINA MONTAÑO ASCENCIO.png"
     },
     {
         id: 31,
         nombre: "Dr. Francisco Castrejón",
         especialidad: "Cardiología",
         consultorio: "142",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/DR. FRANCISCO JOSE CASTREJON AIVAR.png"
     },
     {
         id: 32,
         nombre: "Dr. Francisco Vilches",
         especialidad: "Radiología",
         consultorio: "109",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/DR. FRANCISCO VILCHES DURAN.png"
     },
     {
         id: 33,
         nombre: "Dr. Francisco Mendoza",
         especialidad: "Alergia e Inmunología Clínica",
         consultorio: "103",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/Dr. Francisco Javier Mendoza Espinoza.png"
     },
     {
         id: 34,
         nombre: "Dr. Francisco Orta",
         especialidad: "Neurocirugía y Cirugía de Columna",
         consultorio: "137",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/Dr. Francisco Javier Orta Montejano.png"
     },
     {
         id: 35,
         nombre: "Lic. Edna Hernández",
         especialidad: "Fisioterapia",
         consultorio: "143",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/Lic. Edna Hernandez Sanchez.png"
     },
     {
         id: 36,
         nombre: "Lic. Fátima García",
         especialidad: "Fisioterapia",
         consultorio: "143",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/Lic. Fatima Teresa de la O Garcia.png"
     },
     {
         id: 37,
         nombre: "Lic. Israel Rentería",
         especialidad: "Fisioterapia",
         consultorio: "143",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/Lic. Israel Renteria Troncoso.png"
     },
     {
         id: 38,
         nombre: "Lic. Patricia Maldonado",
         especialidad: "Nutrición Clínica",
         consultorio: "133",
-        imagen: "/images/Doctores/174x224.png"
+        imagen: "/images/Doctores/Lic. Patricia Maldonado Valadez.png"
     },
     {
         id: 39,
@@ -351,23 +351,23 @@ const listaDoctores = ref(doctores)
 </script>
 
 <template>
-    <ul class="grid grid-cols-4 grid-rows-5 gap-4">
-        <li v-for="doctor in listaDoctores" :key="doctor.id" class="text-left">
-            <figure class="flex items-center justify-center w-72">
+    <ul
+        class="flex flex-col items-center justify-center gap-4 md:grid-rows-5 md:grid-cols-4 md:grid md:place-items-center">
+        <li v-for="doctor in listaDoctores" :key="doctor.id" class="flex flex-col text-left w-80">
+            <figure class="flex items-center justify-center">
                 <img :src="doctor.imagen" :alt="doctor.nombre" class="rounded-2xl w-72">
             </figure>
-
-            <h3 class="my-2 text-2xl font-semibold">
-                {{ doctor.nombre }}
-            </h3>
-
-            <p class="text-base">
-                {{ doctor.especialidad }}
-            </p>
-
-            <span>
-                Consultorio {{ doctor.consultorio }}
-            </span>
+            <div class="pl-4">
+                <h3 class="my-2 text-2xl font-semibold">
+                    {{ doctor.nombre }}
+                </h3>
+                <p class="text-base">
+                    {{ doctor.especialidad }}
+                </p>
+                <span>
+                    Consultorio {{ doctor.consultorio }}
+                </span>
+            </div>
         </li>
     </ul>
 </template>

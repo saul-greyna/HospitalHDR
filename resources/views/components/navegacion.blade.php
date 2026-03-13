@@ -13,7 +13,7 @@
     @props(['title' => 'Hospital | Dr. Raúl Hernández'])
     <title>{{ $title }}</title>
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/menu.js'])
     @endif
 </head>
 
@@ -33,7 +33,7 @@
                         d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                 </svg>
             </button>
-            <ul class="absolute flex-col items-center hidden w-full gap-6 py-6 mt-4 font-medium top-full rounded-4xl md:static md:flex md:flex-row md:w-auto md:gap-8 md:mt-0 md:bg-gray-100 md:py-3 md:px-4"
+            <ul class="absolute left-0 flex-col items-center hidden w-full gap-6 py-6 mt-4 font-medium bg-gray-200 top-full rounded-4xl md:static md:flex md:flex-row md:w-auto md:gap-8 md:mt-0 md:bg-gray-100 md:py-3 md:px-4"
                 id="menu" aria-label="Menú de navegación">
                 {{-- <li>
                     <a href="" class="text-sm text-tertiary" title="Solicita tu cotización de flete o mudanza">
