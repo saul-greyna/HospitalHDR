@@ -59,7 +59,7 @@
                 </li>
             </ul>
             <button
-                class="px-2 py-2 text-sm font-medium bg-gray-100 border-2 border-gray-300 cursor-pointer rounded-4xl">
+                class="hidden px-2 py-2 text-sm font-medium bg-gray-100 border-2 border-gray-300 cursor-pointer rounded-4xl md:block">
                 Contáctanos
             </button>
         </nav>
@@ -67,20 +67,19 @@
     <main>
         {{ $slot }}
     </main>
-    <footer class="w-full h-auto px-20">
-        <div class="flex items-center justify-center py-12 min-h-96 rounded-4xl">
-            <picture class="w-1/4">
+    <footer class="w-full h-auto px-6 md:px-20">
+        <div class="flex flex-col items-center justify-center min-h-96 rounded-4xl md:flex-row">
+            <picture class="w-full md:w-1/4">
                 <img src="{{ asset('icons/HospitalDrRaulHernadez_vertical.svg') }}" alt="Logo pie pagina"
                     class="mim-h-40 mim-w-40">
             </picture>
-            <nav aria-label="Footer Navigation" class="flex justify-around w-3/4">
+            <nav aria-label="Footer Navigation" class="flex flex-col justify-around w-3/4 gap-8 md:flex-row">
                 <div>
                     <h3 class="mb-3 text-xl font-semibold">Servicios</h3>
                     <ul class="space-y-2">
                         <li><a href="#" class="hover:underline">Paquetes</a></li>
                         <li><a href="#" class="hover:underline">Especialidades </a></li>
                         <li><a href="#" class="hover:underline">Paquetes quirurgicos</a></li>
-                        <li><a href="#" class="hover:underline">Patrullaje Nocturno</a></li>
                     </ul>
                 </div>
                 <div>
@@ -89,12 +88,6 @@
                         <li><a href="#" class="hover:underline">Misión</a></li>
                         <li><a href="#" class="hover:underline">Visión</a></li>
                         <li><a href="#" class="hover:underline">Valores</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="mb-3 text-xl font-semibold">Recursos</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="hover:underline">Avisos y Reglamentos</a></li>
                     </ul>
                 </div>
                 <div>
@@ -113,15 +106,15 @@
             </nav>
         </div>
         <hr class="border-t-2 border-gray-400">
-        <div class="flex w-full bg-secondary-text min-h-20">
-            <ul class="flex items-center justify-between w-full">
-                <li>
+        <div class="w-full md:flex bg-secondary-text min-h-20">
+            <ul class="grid w-full grid-cols-2 grid-rows-2 gap-5 md:justify-between md:items-center md:flex place-items-center">
+                <li class="row-start-2">
                     <a href="#" class="hover:underline">Privacidad</a>
                 </li>
-                <li>
-                    <a href="#" class="hover:underline">© 2023 - 2026 HOSPITAL DR RAUL HERNANDEZ S.A. de C.V.</a>
+                <li class="col-span-2">
+                    <span class="hover:underline">© 2023 - 2026 HOSPITAL DR RAUL HERNANDEZ S.A. de C.V.</span>
                 </li>
-                <li>
+                <li class="row-start-2">
                     <a href="#" class="hover:underline">Términos y condiciones</a>
                 </li>
             </ul>
