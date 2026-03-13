@@ -114,7 +114,7 @@
                 <img src="{{ asset('images/Home/Hospital_panoramica.png') }}"
                     alt="Fachada del Hospital Dr. Raúl Hernández" class="w-full rounded-3xl">
             </figure>
-            <article class="flex flex-col justify-center p-12 md:pl-16 md:w-1/2 md:pr-50">
+            <article class="flex flex-col justify-center p-10 md:pl-16 md:w-1/2 md:pr-50">
                 <p class="mb-3 text-sm font-medium tracking-wide text-tertiary">
                     Nuestra ubicación
                 </p>
@@ -128,12 +128,12 @@
                 </p>
                 <div class="flex gap-4">
                     <a href="https://www.google.com/maps/dir//Hospital+HR+Ra%C3%BAl+Hern%C3%A1ndez,+5+de+Febrero+724,+Centro,+37000+Le%C3%B3n+de+los+Aldama,+Gto./@21.1187282,-101.6784173,17z/data=!3m1!5s0x842bbf09b5c238b7:0x65fbaf69bf9210!4m17!1m7!3m6!1s0x842bbf09b45b9033:0x179d54bf60000b1c!2sHospital+HR+Ra%C3%BAl+Hern%C3%A1ndez!8m2!3d21.1187232!4d-101.6758424!16s%2Fg%2F11bxc5gfrr!4m8!1m0!1m5!1m1!1s0x842bbf09b45b9033:0x179d54bf60000b1c!2m2!1d-101.6758424!2d21.1187232!3e3?authuser=0&entry=ttu&g_ep=EgoyMDI2MDIyNC4wIKXMDSoASAFQAw%3D%3D"
-                        class="px-6 py-3 font-medium text-white bg-black rounded-full" target="_blank"
+                        class="px-6 py-3 text-sm text-white bg-black rounded-full md:font-medium" target="_blank"
                         rel="noopener noreferrer">
                         Cómo llegar
                     </a>
                     <a href="https://maps.app.goo.gl/S6CBuMScnpvabART9"
-                        class="px-6 py-3 font-medium bg-white rounded-full" target="_blank" rel="noopener noreferrer">
+                        class="px-6 py-3 text-sm bg-white rounded-full md:font-medium" target="_blank" rel="noopener noreferrer">
                         Ver en mapa
                     </a>
                 </div>

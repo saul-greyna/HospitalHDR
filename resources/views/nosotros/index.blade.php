@@ -1,17 +1,17 @@
 <x-navegacion>
-    <section class="w-full px-20">
+    <section class="w-full px-6 md:px-20">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Sobre nosotros
             </p>
-            <h2 class="w-2/3 pt-4 pb-8 text-6xl font-medium text-center text-quinary">
+            <h2 class="pt-4 pb-8 text-4xl font-medium text-center md:text-6xl md:w-2/3 text-quinary">
                 Comprometidos con tu bienestar
             </h2>
         </header>
-        <div class="grid items-center w-5/6 gap-20 mx-auto mt-20 lg:grid-cols-2">
+        <div class="grid items-center gap-20 mx-auto md:mt-20 md:w-5/6 lg:grid-cols-2">
             <div class="relative">
                 <div class="absolute inset-0 rounded-3xl bg-tertiary/20"></div>
-                <img src="{{ asset('images/Nosotros/Portada.jpg') }}" alt="Equipo médico del hospital"
+                <img src="{{ asset('images/Nosotros/portada.jpg') }}" alt="Equipo médico del hospital"
                     class="object-cover rounded-3xl">
             </div>
             <div class="space-y-12">
@@ -80,10 +80,10 @@
             </div>
         </div>
     </section>
-    <section class="w-full px-20">
+    <section class="w-full px-6 md:px-20">
         <figure class="h-full">
             <video controls playsinline preload="metadata" poster="{{ asset('images/Nosotros/portadaVideo.jpeg') }}"
-                class="object-contain w-full h-204 rounded-3xl">
+                class="object-cover w-full md:h-204 rounded-3xl h-70">
                 <source src="{{ asset('video/institucional_HR2.mp4') }}" type="video/mp4">
             </video>
         </figure>
