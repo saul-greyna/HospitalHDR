@@ -194,7 +194,7 @@
                 Nuestro equipo
             </p>
             <h2 class="pt-4 pb-8 text-6xl font-medium text-center text-quinary">
-                Conoce a nuestros doctores
+                Conoce a nuestros medicos
             </h2>
         </header>
         <ul class="flex flex-col w-full grid-cols-4 grid-rows-2 gap-5 md:grid place-items-center">

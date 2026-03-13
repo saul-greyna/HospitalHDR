@@ -4,6 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="{{ asset('icons/favicon-96x96.png') }}" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="{{ asset('icons/favicon.svg') }}" />
+    <link rel="shortcut icon" href="{{ asset('icons/favicon.ico') }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('icons/apple-touch-icon.png') }}" />
+    <meta name="apple-mobile-web-app-title" content="Hospital Dr." />
+    <link rel="manifest" href="{{ asset('icons/site.webmanifest') }}" />
     @props(['title' => 'Hospital | Dr. Raúl Hernández'])
     <title>{{ $title }}</title>
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
@@ -13,8 +19,8 @@
 
 <body class="font-aeonik">
     <header class="relative flex justify-center">
-        <nav class="sticky flex items-center justify-between w-11/12 px-8 m-2 bg-gray-200 rounded-full" role="navigation"
-            aria-label="Navegación principal">
+        <nav class="sticky flex items-center justify-between w-11/12 px-8 m-2 bg-gray-200 rounded-full"
+            role="navigation" aria-label="Navegación principal">
             <a href="{{ route('inicio') }}" aria-label="Ir al inicio">
                 <img src="{{ asset('icons/HospitalDrRaulHernadez_horizontal.svg') }}" alt="Cargatel Logo" width="350"
                     height="75" />
@@ -73,7 +79,7 @@
                 <img src="{{ asset('icons/HospitalDrRaulHernadez_vertical.svg') }}" alt="Logo pie pagina"
                     class="mim-h-40 mim-w-40">
             </picture>
-            <nav aria-label="Footer Navigation" class="flex flex-col justify-around w-3/4 gap-8 md:flex-row">
+            <nav aria-label="Footer Navigation" class="flex flex-col justify-around w-3/4 gap-8 py-4 md:flex-row">
                 <div>
                     <h3 class="mb-3 text-xl font-semibold">Servicios</h3>
                     <ul class="space-y-2">
@@ -107,7 +113,8 @@
         </div>
         <hr class="border-t-2 border-gray-400">
         <div class="w-full md:flex bg-secondary-text min-h-20">
-            <ul class="grid w-full grid-cols-2 grid-rows-2 gap-5 md:justify-between md:items-center md:flex place-items-center">
+            <ul
+                class="grid w-full grid-cols-2 grid-rows-2 gap-5 md:justify-between md:items-center md:flex place-items-center">
                 <li class="row-start-2">
                     <a href="#" class="hover:underline">Privacidad</a>
                 </li>
