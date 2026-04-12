@@ -189,7 +189,7 @@
             </figure>
         </div>
     </section>
-    <section class="mx-6 my-12">
+    <section class="mx-6 my-12 md:px-20">
         <header class="text-center">
             <span class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Campañas y recomendaciones para tu bienestar
@@ -198,9 +198,13 @@
                 Actualidad en salud
             </h2>
         </header>
-        <picture class="grid grid-cols-2 grid-rows-1 gap-5">
-            <img src="{{ asset('images/Home/fecha-abril.jpeg') }}" alt="" class="rounded-lg max-w-52 h-96">
-            <img src="{{ asset('images/Home/fecha-abril-2.jpeg') }}" alt="" class="rounded-lg max-w-52 h-96">
+        <picture class="grid grid-cols-2 grid-rows-1 gap-5 md:flex">
+            <img src="{{ asset('images/Home/fecha-abril.jpeg') }}"
+                alt="Campaña del Día Mundial de la Salud con mensaje sobre prevención y bienestar"
+                class="rounded-lg max-w-52 h-96 md:h-142 md:min-w-80">
+            <img src="{{ asset('images/Home/fecha-abril-2.jpeg') }}"
+                alt="Campaña del Día Mundial del Parkinson sobre concientización y apoyo a pacientes"
+                class="rounded-lg max-w-52 h-96 md:h-142 md:min-w-80">
         </picture>
     </section>
     <section class="flex flex-col items-center justify-center w-full px-6 py-12 md:px-20">
