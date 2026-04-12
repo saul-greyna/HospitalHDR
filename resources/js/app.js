@@ -51,7 +51,6 @@ if (reviewsContainer) {
                         ${review.relative_time_description}
                     </p>
                 `
-
                 reviewsContainer.appendChild(card)
             })
         })

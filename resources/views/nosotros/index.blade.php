@@ -2,11 +2,11 @@
     <section class="w-full px-6 md:px-20">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
-                Sobre nosotros
-            </p>
-            <h2 class="pt-4 pb-8 text-4xl font-medium text-center md:text-6xl md:w-2/3 text-quinary">
                 Comprometidos con tu bienestar
-            </h2>
+            </p>
+            <h1 class="pt-4 pb-8 text-4xl font-medium text-center md:text-6xl md:w-2/3 text-quinary">
+                Hospital Dr. Raúl Hernández
+            </h1>
         </header>
         <div class="grid items-center gap-20 mx-auto md:mt-20 md:w-5/6 lg:grid-cols-2">
             <div class="relative">

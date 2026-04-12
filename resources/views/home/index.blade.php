@@ -1,16 +1,16 @@
-<x-navegacion>
+<x-main>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <section class="flex flex-col justify-center md:py-20">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Sobre nosotros
             </p>
-            <h1 class="w-2/3 pb-8 text-6xl font-medium text-center md:text-8xl">
+            <h1 class="w-2/3 pb-8 text-5xl font-medium text-center md:text-8xl">
                 Atención que inspira confianza
             </h1>
         </header>
         <figure class="relative flex items-center justify-center px-6">
-            <img src="{{ asset('images/Home/Portada.jpeg') }}"
+            <img src="{{ asset('images/Home/Hero.jpeg') }}"
                 alt="Equipo médico profesional en instalaciones hospitalarias modernas"
                 class="rounded-2xl md:w-7xl h-58 md:h-auto">
         </figure>
@@ -42,7 +42,7 @@
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Como podemos ayudarte
             </p>
-            <h2 class="pt-4 pb-8 text-6xl font-medium text-center md:w-2/3 text-quinary">
+            <h2 class="pt-4 pb-8 text-5xl font-medium text-center md:w-2/3 text-quinary">
                 Atención médica en cada etapa
             </h2>
         </header>
@@ -51,9 +51,9 @@
                 <figure class="flex items-center justify-center w-16 h-16 mb-16 bg-blue-100 rounded-full">
                     <img src="{{ asset('icons/capsule.svg') }}" alt="Icono de paquetes quirúrgicos" class="w-11 h-11">
                 </figure>
-                <h3 class="pb-2 text-4xl font-semibold">
+                <h2 class="pb-2 text-4xl font-semibold">
                     Especialidades médicas
-                </h3>
+                </h2>
                 <p class="pt-2 pr-10 text-base md:pr-18">
                     El hospital integra un equipo multidisciplinario de médicos especialistas que atienden desde
                     consultas generales hasta diagnósticos y tratamientos complejos, ofreciendo atención profesional
@@ -70,9 +70,9 @@
                 <figure class="flex items-center justify-center w-16 h-16 mb-16 bg-gray-100 rounded-full">
                     <img src="{{ asset('icons/hospital.svg') }}" alt="Icono de servicios integrales" class="w-11 h-11">
                 </figure>
-                <h3 class="pb-2 text-4xl font-semibold">
+                <h2 class="pb-2 text-4xl font-semibold">
                     Servicios
-                </h3>
+                </h2>
                 <p class="pt-2 pr-10 text-base md:pr-18">
                     Ofrece servicios de apoyo diagnóstico, hospitalización y atención especializada que permiten una
                     cobertura completa en cada etapa del tratamiento, asegurando continuidad médica y seguimiento
@@ -90,9 +90,9 @@
                     <img src="{{ asset('icons/heart-pulse.svg') }}" alt="Icono de paquetes quirúrgicos"
                         class="w-11 h-11">
                 </figure>
-                <h3 class="pb-2 text-4xl font-semibold">
+                <h2 class="pb-2 text-4xl font-semibold">
                     Paquetes quirúrgicos
-                </h3>
+                </h2>
                 <p class="pt-2 pr-10 text-base md:pr-18">
                     Cuenta con paquetes quirúrgicos diseñados para brindar claridad en costos, seguridad en
                     procedimientos y acompañamiento médico antes, durante y después de la intervención, facilitando una
@@ -133,7 +133,8 @@
                         Cómo llegar
                     </a>
                     <a href="https://maps.app.goo.gl/S6CBuMScnpvabART9"
-                        class="px-6 py-3 text-sm bg-white rounded-full md:font-medium" target="_blank" rel="noopener noreferrer">
+                        class="px-6 py-3 text-sm bg-white rounded-full md:font-medium" target="_blank"
+                        rel="noopener noreferrer">
                         Ver en mapa
                     </a>
                 </div>
@@ -188,12 +189,26 @@
             </figure>
         </div>
     </section>
+    <section class="mx-6 my-12">
+        <header class="text-center">
+            <span class="my-4 text-sm font-medium tracking-wide text-quaternary">
+                Campañas y recomendaciones para tu bienestar
+            </span>
+            <h2 class="pt-4 pb-8 text-5xl font-medium text-center text-quinary">
+                Actualidad en salud
+            </h2>
+        </header>
+        <picture class="grid grid-cols-2 grid-rows-1 gap-5">
+            <img src="{{ asset('images/Home/fecha-abril.jpeg') }}" alt="" class="rounded-lg max-w-52 h-96">
+            <img src="{{ asset('images/Home/fecha-abril-2.jpeg') }}" alt="" class="rounded-lg max-w-52 h-96">
+        </picture>
+    </section>
     <section class="flex flex-col items-center justify-center w-full px-6 py-12 md:px-20">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Nuestro equipo
             </p>
-            <h2 class="pt-4 pb-8 text-6xl font-medium text-center text-quinary">
+            <h2 class="pt-4 pb-8 text-5xl font-medium text-center text-quinary">
                 Conoce a nuestros medicos
             </h2>
         </header>
@@ -301,10 +316,10 @@
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Testimonios
             </p>
-            <h2 class="pt-4 pb-8 text-6xl font-medium text-center text-quinary">
+            <h2 class="pt-4 pb-8 text-5xl font-medium text-center text-quinary">
                 La confianza de nuestra comunidad nos respalda
             </h2>
         </header>
         <div id="reviews" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3"></div>
     </section>
-</x-navegacion>
+</x-main>
