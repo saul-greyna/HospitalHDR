@@ -198,13 +198,13 @@
                 Actualidad en salud
             </h2>
         </header>
-        <picture class="grid grid-cols-2 grid-rows-1 gap-5 md:flex">
+        <picture class="grid grid-cols-2 grid-rows-1 gap-2 md:flex md:justify-center">
             <img src="{{ asset('images/Home/fecha-abril.jpeg') }}"
                 alt="Campaña del Día Mundial de la Salud con mensaje sobre prevención y bienestar"
-                class="rounded-lg max-w-52 h-96 md:h-142 md:min-w-80">
+                class="rounded-lg max-w-42.75 h-77 md:min-w-80.5 md:h-112.5 object-center">
             <img src="{{ asset('images/Home/fecha-abril-2.jpeg') }}"
                 alt="Campaña del Día Mundial del Parkinson sobre concientización y apoyo a pacientes"
-                class="rounded-lg max-w-52 h-96 md:h-142 md:min-w-80">
+                class="rounded-lg max-w-42.75 h-77 md:min-w-80.5 md:h-112.5 object-center">
         </picture>
     </section>
     <section class="flex flex-col items-center justify-center w-full px-6 py-12 md:px-20">
