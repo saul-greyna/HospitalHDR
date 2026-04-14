@@ -112,7 +112,7 @@
             class="flex flex-col-reverse w-full overflow-hidden rounded-3xl bg-linear-to-t from-blue-300 to-gray-200 md:h-164 md:flex-row md:bg-linear-to-r">
             <figure class="md:w-1/2">
                 <img src="{{ asset('images/Home/Hospital_panoramica.png') }}"
-                    alt="Fachada del Hospital Dr. Raúl Hernández" class="w-full rounded-3xl">
+                    alt="Fachada del Hospital Dr. Raúl Hernández" class="rounded-3xl">
             </figure>
             <article class="flex flex-col justify-center p-10 md:pl-16 md:w-1/2 md:pr-50">
                 <p class="mb-3 text-sm font-medium tracking-wide text-tertiary">
@@ -315,7 +315,7 @@
             </li>
         </ul>
     </section>
-    <section class="flex flex-col items-center justify-center w-full px-20">
+    <section class="flex flex-col items-center justify-center w-full px-6 md:px-20">
         <header class="flex flex-col items-center w-1/2">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Testimonios
