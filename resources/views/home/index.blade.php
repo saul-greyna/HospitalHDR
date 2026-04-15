@@ -315,15 +315,4 @@
             </li>
         </ul>
     </section>
-    <section class="flex flex-col items-center justify-center w-full px-6 md:px-20">
-        <header class="flex flex-col items-center w-1/2">
-            <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
-                Testimonios
-            </p>
-            <h2 class="pt-4 pb-8 text-5xl font-medium text-center text-quinary">
-                La confianza de nuestra comunidad nos respalda
-            </h2>
-        </header>
-        <div id="reviews" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3"></div>
-    </section>
 </x-main>
