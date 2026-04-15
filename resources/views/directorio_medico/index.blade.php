@@ -1,4 +1,4 @@
-<x-navegacion>
+<x-main>
     <section class="w-full px-6 py-10 md:px-20">
         <div class="bg-gray-200 rounded-3xl">
             <header class="flex flex-col items-center">
@@ -47,4 +47,4 @@
             </div>
         </div>
     </section>
-</x-navegacion>
+</x-main>

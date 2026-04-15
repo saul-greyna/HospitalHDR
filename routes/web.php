@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\GoogleController;
 
 Route::get('/', function () {
     return view('home.index');
@@ -18,5 +17,3 @@ Route::get('/servicios', function () {
 Route::get('/quienes-somos', function () {
     return view('nosotros.index');
 })->name('quienes.somos');
-
-Route::get('/google-reviews', [GoogleController::class, 'reviews']);

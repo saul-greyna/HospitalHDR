@@ -1,4 +1,4 @@
-<x-navegacion>
+<x-main>
     <section class="w-full px-6 md:px-20">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
@@ -88,4 +88,4 @@
             </video>
         </figure>
     </section>
-</x-navegacion>
+</x-main>

@@ -1,4 +1,4 @@
-<x-navegacion>
+<x-main>
     @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/menu.js'])
     <section class="flex flex-col items-center justify-center w-full px-6 md:px-20">
         <header class="flex flex-col items-center md:w-1/2">
@@ -23,4 +23,4 @@
             </figure>
         </article> --}}
     </section>
-</x-navegacion>
+</x-main>
