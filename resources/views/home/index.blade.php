@@ -1,5 +1,4 @@
 <x-main>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <section class="flex flex-col justify-center md:py-20">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">

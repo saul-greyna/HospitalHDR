@@ -1,4 +1,10 @@
-<x-main>
+@push('scripts')
+    @vite(['resources/js/app.js'])
+@endpush
+
+<x-main title="Directorio medico de Hospital Dr. Raúl Hernández" 
+    description="Conoce el directorio medico del hopital" 
+    :url="route('directorio.medico')">
     <section class="w-full px-6 py-10 md:px-20">
         <div class="bg-gray-200 rounded-3xl">
             <header class="flex flex-col items-center">
