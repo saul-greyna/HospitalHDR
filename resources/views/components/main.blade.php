@@ -1,7 +1,7 @@
 @props([
     'title' => 'Hospital Dr. Raúl Hernández',
     'description' =>
-        'Hospital Dr. Raúl Hernández: Clínica cerca de ti y hospital privado 24 horas. Centro médico con medicina interna, hospitalización, emergencia y paquetes de maternidad accesibles.',
+        'Hospital privado 24 horas, Clínica cerca de ti y centro médico, hospitalización, emergencia y paquetes de maternidad.',
     'image' => asset('image/preview/preview.jpg'),
     'url' => url()->current(),
 ])

@@ -9,9 +9,10 @@
             </h1>
         </header>
         <figure class="relative flex items-center justify-center px-6">
-            <img src="{{ asset('images/Home/Hero.jpeg') }}"
+            <img src="{{ asset('images/Home/Hero.webp') }}"
                 alt="Equipo médico profesional en instalaciones hospitalarias modernas"
-                class="rounded-2xl md:w-7xl h-58 md:h-auto">
+                class="h-40 rounded-2xl md:w-7xl md:h-auto min-w-80" fetchpriority="high" loading="eager" width="1200"
+                height="600">
         </figure>
         <ul class="grid grid-cols-2 grid-rows-3 gap-5 py-12 md:flex md:items-center md:justify-around">
             <li class="text-center">
@@ -50,9 +51,9 @@
                 <figure class="flex items-center justify-center w-16 h-16 mb-16 bg-blue-100 rounded-full">
                     <img src="{{ asset('icons/capsule.svg') }}" alt="Icono de paquetes quirúrgicos" class="w-11 h-11">
                 </figure>
-                <h2 class="pb-2 text-4xl font-semibold">
+                <h3 class="pb-2 text-4xl font-semibold">
                     Especialidades médicas
-                </h2>
+                </h3>
                 <p class="pt-2 pr-10 text-base md:pr-18">
                     El hospital integra un equipo multidisciplinario de médicos especialistas que atienden desde
                     consultas generales hasta diagnósticos y tratamientos complejos, ofreciendo atención profesional
@@ -69,9 +70,9 @@
                 <figure class="flex items-center justify-center w-16 h-16 mb-16 bg-gray-100 rounded-full">
                     <img src="{{ asset('icons/hospital.svg') }}" alt="Icono de servicios integrales" class="w-11 h-11">
                 </figure>
-                <h2 class="pb-2 text-4xl font-semibold">
+                <h3 class="pb-2 text-4xl font-semibold">
                     Servicios
-                </h2>
+                </h3>
                 <p class="pt-2 pr-10 text-base md:pr-18">
                     Ofrece servicios de apoyo diagnóstico, hospitalización y atención especializada que permiten una
                     cobertura completa en cada etapa del tratamiento, asegurando continuidad médica y seguimiento
@@ -89,9 +90,9 @@
                     <img src="{{ asset('icons/heart-pulse.svg') }}" alt="Icono de paquetes quirúrgicos"
                         class="w-11 h-11">
                 </figure>
-                <h2 class="pb-2 text-4xl font-semibold">
+                <h3 class="pb-2 text-4xl font-semibold">
                     Paquetes quirúrgicos
-                </h2>
+                </h3>
                 <p class="pt-2 pr-10 text-base md:pr-18">
                     Cuenta con paquetes quirúrgicos diseñados para brindar claridad en costos, seguridad en
                     procedimientos y acompañamiento médico antes, durante y después de la intervención, facilitando una
@@ -110,7 +111,7 @@
         <div
             class="flex flex-col-reverse w-full overflow-hidden rounded-3xl bg-linear-to-t from-blue-300 to-gray-200 md:h-164 md:flex-row md:bg-linear-to-r">
             <figure class="md:w-1/2">
-                <img src="{{ asset('images/Home/Hospital_panoramica.png') }}"
+                <img src="{{ asset('images/Home/Hospital_panoramica.webp') }}"
                     alt="Fachada del Hospital Dr. Raúl Hernández" class="rounded-3xl">
             </figure>
             <article class="flex flex-col justify-center p-10 md:pl-16 md:w-1/2 md:pr-50">
@@ -188,7 +189,7 @@
             </figure>
         </div>
     </section>
-    <section class="mx-6 my-12 md:px-20">
+    <section class="mx-6 my-12 md:mx-20">
         <header class="text-center">
             <span class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Campañas y recomendaciones para tu bienestar
@@ -197,13 +198,13 @@
                 Actualidad en salud
             </h2>
         </header>
-        <picture class="grid grid-cols-2 grid-rows-1 gap-2 md:flex md:justify-center">
-            <img src="{{ asset('images/Home/fecha-abril.jpeg') }}"
+        <picture class="grid grid-cols-2 grid-rows-1 gap-2 md:flex md:justify-center md:gap-8">
+            <img src="{{ asset('images/Home/fecha-abril.webp') }}"
                 alt="Campaña del Día Mundial de la Salud con mensaje sobre prevención y bienestar"
-                class="rounded-lg max-w-42.75 h-77 md:min-w-80.5 md:h-112.5 object-center">
-            <img src="{{ asset('images/Home/fecha-abril-2.jpeg') }}"
+                class="rounded-lg max-w-42.75 h-77 md:min-w-80 md:h-142 object-center">
+            <img src="{{ asset('images/Home/fecha-abril-2.webp') }}"
                 alt="Campaña del Día Mundial del Parkinson sobre concientización y apoyo a pacientes"
-                class="rounded-lg max-w-42.75 h-77 md:min-w-80.5 md:h-112.5 object-center">
+                class="rounded-lg max-w-42.75 h-77 md:min-w-80 md:h-142 object-center">
         </picture>
     </section>
     <section class="flex flex-col items-center justify-center w-full px-6 py-12 md:px-20">
