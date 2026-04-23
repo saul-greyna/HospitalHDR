@@ -27,7 +27,7 @@
     <meta name="twitter:title" content="{{ $title }}">
     <meta name="twitter:description" content="{{ $metaDescription }}">
     <meta name="twitter:image" content="{{ $image }}">
-    <link rel="canonical" href="{{ $url }}">
+    <link rel="canonical" href="{{ $url }}" />
     <link rel="icon" type="image/png" href="{{ asset('icons/favicon-96x96.png') }}" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="{{ asset('icons/favicon.svg') }}" />
     <link rel="shortcut icon" href="{{ asset('icons/favicon.ico') }}" />
@@ -40,7 +40,7 @@
 
 <body class="font-aeonik">
     <x-header></x-header>
-    <main role="main">
+    <main role="main" class="px-4">
         {{ $slot }}
     </main>
     <x-footer></x-footer>

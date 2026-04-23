@@ -1,5 +1,5 @@
 <header class="relative flex justify-center">
-    <nav class="sticky flex items-center justify-between w-11/12 px-8 m-2 bg-gray-200 rounded-full" role="navigation"
+    <nav class="sticky flex items-center justify-between w-11/12 px-4 mx-4 my-2 bg-gray-200 rounded-full md:px-8" role="navigation"
         aria-label="Navegación principal">
         <a href="{{ route('inicio') }}" aria-label="Ir al inicio">
             <img src="{{ asset('icons/HospitalDrRaulHernadez_horizontal.svg') }}" alt="Cargatel Logo" width="350"
