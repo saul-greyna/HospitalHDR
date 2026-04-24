@@ -219,10 +219,10 @@
                     height="325" alt="Campaña del Día Mundial de la Salud" class="rounded-lg md:min-w-72">
             </picture>
             <picture>
-                <source 
-            srcset="{{ asset('images/Home/11-Abril-Dia-Mundial-del-Parkinson-183.webp') }} 183w,
-                    {{ asset('images/Home/11-Abril-Dia-Mundial-del-Parkinson-288.webp') }} 288w"
-            sizes="(max-width: 768px) 183px, 288px">
+                <source
+                    srcset="{{ asset('images/Home/11-Abril-Dia-Mundial-del-Parkinson-183.webp') }} 183w,
+                            {{ asset('images/Home/11-Abril-Dia-Mundial-del-Parkinson-288.webp') }} 288w"
+                    sizes="(max-width: 768px) 183px, 288px">
                 <img src="{{ asset('images/Home/11-Abril-Dia-Mundial-del-Parkinson-183.webp') }}" width="183"
                     height="325" alt="Campaña del Día Mundial del Parkinson" class="rounded-lg md:min-w-72">
             </picture>
@@ -331,7 +331,7 @@
             </li>
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
-                    <img src="{{ asset('images/Doctores/Dra. Fátima Iranganí Cedillo Azuela.png') }}" width="174"
+                    <img src="{{ asset('images/Doctores/Dra-Fatima-Irangani-Cedillo-Azuela.webp') }}" width="174"
                         height="174" alt="Icono de paquetes quirúrgicos"
                         class="object-cover rounded-full aspect-square">
                 </figure>
