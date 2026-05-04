@@ -43,7 +43,7 @@
             </li>
         </ul>
     </section>
-    <section class="flex flex-col items-center justify-center w-full py-6 md:px-20">
+    <section class="flex flex-col items-center justify-center w-full py-6">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Como podemos ayudarte
@@ -113,7 +113,7 @@
             </li>
         </ul>
     </section>
-    <section class="flex flex-row items-center justify-center w-full py-6 md:px-20 md:flex-col">
+    <section class="flex flex-row items-center justify-center w-full py-6 md:flex-col">
         <div
             class="flex flex-col-reverse w-full overflow-hidden rounded-3xl bg-linear-to-t from-blue-300 to-gray-200 md:h-160 md:flex-row md:bg-linear-to-r">
             <figure class="md:w-1/2">
@@ -228,7 +228,7 @@
             </picture>
         </div>
     </section>
-    <section class="flex flex-col items-center justify-center w-full py-6 md:px-20">
+    <section class="flex flex-col items-center justify-center w-full py-6">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Nuestro equipo

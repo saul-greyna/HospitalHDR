@@ -34,6 +34,21 @@
                     </li>
                 </ul>
             </div>
+             <div>
+                <h3 class="mb-3 text-xl font-semibold">Siguenos</h3>
+                <ul class="flex gap-4 space-y-2">
+                    <li>
+                        <a href="https://www.facebook.com/hospital.hdr.leon/">
+                            <img src="{{ asset('icons/facebook.svg') }}" alt="Facebook del Hospital Dr. Raul Hernandez" class="w-8 h-8">
+                        </a>
+                    </li>
+                    <li>
+                         <a href="https://www.instagram.com/hospitalhrraulhernandez/">
+                            <img src="{{ asset('icons/instagram.svg') }}" alt="Facebook del Hospital Dr. Raul Hernandez" class="w-8 h-8">
+                        </a>    
+                    </li>
+                </ul>
+            </div>
         </nav>
     </div>
     <hr class="border-t-2 border-gray-400">

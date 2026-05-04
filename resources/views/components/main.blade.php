@@ -34,13 +34,14 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('icons/apple-touch-icon.png') }}" />
     <meta name="apple-mobile-web-app-title" content="Hospital Dr. Raúl Hernández" />
     <link rel="manifest" href="{{ asset('icons/site.webmanifest') }}" />
+    <meta name="robots" content="all">
     <title>{{ $title }}</title>
     @vite(['resources/css/app.css', 'resources/js/menu.js'])
 </head>
 
 <body class="font-aeonik">
     <x-header></x-header>
-    <main role="main" class="px-4">
+    <main role="main" class="px-4 md:px-20">
         {{ $slot }}
     </main>
     <x-footer></x-footer>

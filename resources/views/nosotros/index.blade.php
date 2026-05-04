@@ -1,5 +1,5 @@
 <x-main>
-    <section class="w-full px-6 md:px-20">
+    <section class="w-full px-6">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Comprometidos con tu bienestar
@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-full p-12 my-16 bg-gray-100 rounded-3xl ">
+        <div class="w-full p-12 my-16 bg-gray-100 rounded-3xl">
             <div class="mb-12 text-center">
                 <h3 class="text-4xl font-semibold text-quinary">
                     Nuestros valores
@@ -80,7 +80,7 @@
             </div>
         </div>
     </section>
-    <section class="w-full px-6 md:px-20">
+    <section class="w-full px-6">
         <figure class="h-full">
             <video controls playsinline preload="metadata" poster="{{ asset('images/Nosotros/portadaVideo.jpeg') }}"
                 class="object-cover w-full md:h-204 rounded-3xl h-70">
