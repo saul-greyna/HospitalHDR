@@ -1,5 +1,7 @@
+@push('scripts')
+    @vite(['resources/js/app.js'])
+@endpush
 <x-main>
-    @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/menu.js'])
     <section class="flex flex-col items-center justify-center w-full px-6">
         <header class="flex flex-col items-center md:w-1/2">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">

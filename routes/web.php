@@ -7,7 +7,7 @@ Route::get('/', function () {
 })->name('inicio');
 
 Route::get('/directorio-medico', function () {
-    return view('directorio_medico.index');
+    return view('directorio.index');
 })->name('directorio.medico');
 
 Route::get('/servicios', function () {

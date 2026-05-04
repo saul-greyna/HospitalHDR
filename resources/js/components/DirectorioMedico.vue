@@ -7,14 +7,14 @@ const doctores = [
         nombre: "Dr. Santiago I. Godínez",
         especialidad: "Genética Médica",
         consultorio: "120",
-        imagen: "/images/Doctores/dr._Santiago_I._Godínez.png"
+        imagen: "/images/Doctores/Dr-Santiago-Ignacio-Godinez-Hernandez.webp"
     },
     {
         id: 2,
         nombre: "Dr. Alberto González",
         especialidad: "Urología",
         consultorio: "118",
-        imagen: "/images/Doctores/Dr. Alberto.png"
+        imagen: "/images/Doctores/Dr-Alberto-Antonio-Gonzalez-Bravo.webp"
     },
     {
         id: 3,
@@ -42,7 +42,7 @@ const doctores = [
         nombre: "Dra. Guadalupe Uviña",
         especialidad: "Ginecología",
         consultorio: "141",
-        imagen: "/images/Doctores/Dra. Guadalupe Alejandra Uviña Quintero.png"
+        imagen: "/images/Doctores/Dra-Guadalupe-Alejandra-Uvina-Quintero.webp"
     },
     {
         id: 7,
@@ -91,14 +91,14 @@ const doctores = [
         nombre: "Dra. Carolina Domínguez",
         especialidad: "Otorrinolaringología / Cirugía de Cabeza y Cuello",
         consultorio: "103",
-        imagen: "/images/Doctores/Dra. Carolina Domínguez Meza.png"
+        imagen: "/images/Doctores/Dra-Carolina-Dominguez-Meza.webp"
     },
     {
         id: 14,
         nombre: "Dra. Fátima Cedillo",
         especialidad: "Oftalmología",
         consultorio: "140",
-        imagen: "/images/Doctores/Dra. Fátima Iranganí Cedillo Azuela.png"
+        imagen: "/images/Doctores/Dra-Fatima-Irangani-Cedillo-Azuela.webp"
     },
     {
         id: 15,
@@ -161,21 +161,21 @@ const doctores = [
         nombre: "Dr. Aldo Galván",
         especialidad: "Anatomopatología",
         consultorio: "141",
-        imagen: "/images/Doctores/DR. ALDO IVAN GALVAN LINARES.png"
+        imagen: "/images/Doctores/Dr-Aldo-Ivan-Galvan-Linares.webp"
     },
     {
         id: 24,
         nombre: "Dr. Augusto Ramírez",
         especialidad: "Cirugía Cardiovascular y Torácica / Angiología",
         consultorio: "102",
-        imagen: "/images/Doctores/DR. AUGUSTO RAMIREZ SOLIS.png"
+        imagen: "/images/Doctores/Dr-Augusto-Ramirez-Solis.webp"
     },
     {
         id: 25,
         nombre: "Dr. Benjamín Sánchez",
         especialidad: "Cirugía Maxilofacial",
         consultorio: "112",
-        imagen: "/images/Doctores/Dr. Benjamín Sánchez Trocino.png"
+        imagen: "/images/Doctores/Dr-Benjamin-Sanchez-Trocino.webp"
     },
     {
         id: 26,

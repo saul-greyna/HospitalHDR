@@ -44,7 +44,7 @@
                     </li>
                     <li>
                          <a href="https://www.instagram.com/hospitalhrraulhernandez/">
-                            <img src="{{ asset('icons/instagram.svg') }}" alt="Facebook del Hospital Dr. Raul Hernandez" class="w-8 h-8">
+                            <img src="{{ asset('icons/instagram.svg') }}" alt="Instagram del Hospital Dr. Raul Hernandez" class="w-8 h-8">
                         </a>    
                     </li>
                 </ul>
