@@ -1,7 +1,7 @@
 @push('scripts')
     @vite(['resources/js/home.js'])
 @endpush
-<x-main >
+<x-main>
     <section class="flex flex-col justify-center py-6 md:mb-24 md:mt-16">
         <header class="flex flex-col items-center">
             <p class="mb-4 text-sm font-medium tracking-wide text-quaternary">
@@ -23,25 +23,35 @@
                 sizes="(min-width: 1400px) 1280px, 93.7vw" type="image/webp">
         </picture>
         <ul
-            class="grid grid-cols-2 grid-rows-3 gap-5 mt-7 md:flex md:items-center md:justify-around md:my-16 place-items-center">
+            class="grid grid-cols-2 grid-rows-3 gap-5 mt-7 md:grid-cols-5 md:grid-rows-1 md:my-16 place-items-center">
             <li class="text-center">
-                <span class="text-5xl font-semibold" data-target-value="30">0</span>
+                <span class="inline-block text-5xl font-semibold tabular-nums min-w-[4ch]" data-target-value="30">
+                    0
+                </span>
                 <p class="font-medium">Años de experiencia</p>
             </li>
             <li class="text-center">
-                <span class="text-5xl font-semibold" data-target-value="60">0</span>
+                <span class="inline-block text-5xl font-semibold tabular-nums min-w-[4ch]" data-target-value="60">
+                    0
+                </span>
                 <p class="font-medium">Profesionales de la salud</p>
             </li>
             <li class="text-center">
-                <span class="text-5xl font-semibold" data-target-value="5">0</span>
+                <span class="inline-block text-5xl font-semibold tabular-nums min-w-[4ch]" data-target-value="5">
+                    0
+                </span>
                 <p class="font-medium">Áreas quirúrgicas</p>
             </li>
             <li class="text-center">
-                <span class="text-5xl font-semibold" data-target-value="3">0</span>
+                <span class="inline-block text-5xl font-semibold tabular-nums min-w-[4ch]" data-target-value="3">
+                    0
+                </span>
                 <p class="font-medium">Quirófanos disponibles</p>
             </li>
-            <li class="col-span-2 text-center">
-                <span class="text-5xl font-semibold" data-target-value="15">0</span>
+            <li class="col-span-2 text-center md:col-auto">
+                <span class="inline-block text-5xl font-semibold tabular-nums min-w-[4ch]" data-target-value="15">
+                    0
+                </span>
                 <p class="font-medium">Especialidades médicas</p>
             </li>
         </ul>

@@ -1,48 +1,35 @@
 function initializeCounters() {
     const counters = document.querySelectorAll('[data-target-value]');
-    const animatedCounters = new Set();
-
-    const animateCounter = (element) => {
-        if (animatedCounters.has(element)) return;
-        animatedCounters.add(element);
-
-        const targetValue = parseInt(element.getAttribute('data-target-value'), 10);
-        const duration = 1100;
-        const startTime = Date.now();
-        const startValue = 0;
-
-        const updateCounter = () => {
-            const elapsedTime = Date.now() - startTime;
-            const progress = Math.min(elapsedTime / duration, 1);
-
-            const easeOutQuad = 1 - Math.pow(1 - progress, 2);
-            const currentValue = Math.floor(startValue + (targetValue - startValue) * easeOutQuad);
-
-            element.textContent = currentValue + '+';
-
-            if (progress < 1) {
-                requestAnimationFrame(updateCounter);
-            }
-        };
-
-        updateCounter();
-    };
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-                animateCounter(entry.target);
-                observer.unobserve(entry.target);
-            }
+            if (!entry.isIntersecting) return;
+
+            const element = entry.target;
+            const target = Number(element.dataset.targetValue);
+
+            let current = 0;
+
+            const increment = Math.ceil(target / 30);
+
+            const timer = setInterval(() => {
+                current += increment;
+
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+
+                element.textContent = current + '+';
+            }, 16);
+
+            observer.unobserve(element);
         });
     }, {
-        threshold: 1
+        threshold: 0.1
     });
 
-    counters.forEach((counter) => {
-        observer.observe(counter);
-    });
+    counters.forEach(counter => observer.observe(counter));
 }
 
-// Inicializar cuando el DOM esté listo
 document.addEventListener('DOMContentLoaded', initializeCounters);

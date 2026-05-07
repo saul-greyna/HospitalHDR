@@ -43,9 +43,9 @@
                 </a>
             </li>
         </ul>
-        <button
+      {{--   <button
             class="hidden px-2 py-2 text-sm font-medium bg-gray-100 border-2 border-gray-300 cursor-pointer rounded-4xl md:block">
             Contáctanos
-        </button>
+        </button> --}}
     </nav>
 </header>
