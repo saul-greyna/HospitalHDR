@@ -126,10 +126,10 @@
             </li>
         </ul>
     </section>
-    <article class="flex flex-row items-center justify-center w-full py-6 md:flex-col">
+    <section class="flex flex-row items-center justify-center w-full py-6 md:flex-col">
         <div
             class="flex flex-col-reverse w-full overflow-hidden rounded-3xl bg-linear-to-t from-blue-300 to-gray-200 md:h-160 md:flex-row md:bg-linear-to-r">
-            <figure class="md:w-1/2">
+            <picture class="md:w-1/2">
                 <source sizes="(min-width: 768px) 50vw, 93vw"
                     srcset="{{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-380.webp') }} 380w,
                             {{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-480.webp') }} 480w,
@@ -139,7 +139,7 @@
                 <img src="{{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-380.webp') }}"
                     alt="Fachada del Hospital Dr. Raúl Hernández" width="380" height="285"
                     class="h-auto md:rounded-3xl md:w-full">
-            </figure>
+            </picture>
             <header class="flex flex-col justify-center p-10 md:pl-12 md:w-1/2 md:pr-40">
                 <p class="mb-3 text-sm font-medium tracking-wide text-tertiary">
                     Nuestra ubicación
@@ -165,7 +165,7 @@
                 </div>
             </header>
         </div>
-    </article>
+    </section>
     <section class="flex flex-col items-center justify-center w-full py-6 md:px-20">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
@@ -210,7 +210,7 @@
                 </div>
             </article>
             <figure class="md:w-1/2">
-                <img src="{{ asset('images/Home/MarcaGTO.svg') }}" alt="" width="366" height="253"
+                <img src="{{ asset('images/Home/MarcaGTO.svg') }}" alt="Logo del Distintivo Marca Guanajuato del Hospital Dr. Raúl Hernández" width="366" height="253"
                     class="w-full">
             </figure>
         </div>
