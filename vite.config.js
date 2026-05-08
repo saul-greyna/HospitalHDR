@@ -17,6 +17,9 @@ export default defineConfig({
         tailwindcss(),
         vue()
     ],
+    build: {
+        modulePreload: false,
+    },
     resolve: {
         alias: {
             vue: 'vue/dist/vue.esm-bundler.js'

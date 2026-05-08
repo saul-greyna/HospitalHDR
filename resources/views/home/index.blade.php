@@ -129,16 +129,18 @@
     <article class="flex flex-row items-center justify-center w-full py-6 md:flex-col">
         <div
             class="flex flex-col-reverse w-full overflow-hidden rounded-3xl bg-linear-to-t from-blue-300 to-gray-200 md:h-160 md:flex-row md:bg-linear-to-r">
-            <figure class="md:w-1/2j">
-                <img src="{{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-380.webp') }}"
+            <figure class="md:w-1/2">
+                <source sizes="(min-width: 768px) 50vw, 93vw"
                     srcset="{{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-380.webp') }} 380w,
                             {{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-480.webp') }} 480w,
                             {{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-760.webp') }} 760w,
-                            {{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-1140.webp') }} 1140w,"
-                    sizes="(min-width: 768px) 50vw, 93vw" alt="Fachada del Hospital Dr. Raúl Hernández" width="380"
-                    height="285" class="h-auto md:rounded-3xl md:w-full">
+                            {{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-1140.webp') }} 1140w"
+                    type="image/webp">
+                <img src="{{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-380.webp') }}"
+                    alt="Fachada del Hospital Dr. Raúl Hernández" width="380" height="285"
+                    class="h-auto md:rounded-3xl md:w-full">
             </figure>
-            <section class="flex flex-col justify-center p-10 md:pl-12 md:w-1/2 md:pr-40">
+            <header class="flex flex-col justify-center p-10 md:pl-12 md:w-1/2 md:pr-40">
                 <p class="mb-3 text-sm font-medium tracking-wide text-tertiary">
                     Nuestra ubicación
                 </p>
@@ -161,7 +163,7 @@
                         Ver en mapa
                     </a>
                 </div>
-            </section>
+            </header>
         </div>
     </article>
     <section class="flex flex-col items-center justify-center w-full py-6 md:px-20">
