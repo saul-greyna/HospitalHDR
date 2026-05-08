@@ -1,4 +1,4 @@
-<footer class="w-full h-auto px-4 md:px-20" role="contentinfo">
+<footer class="w-full h-auto px-4 md:px-20">
     <div class="flex flex-col items-center justify-center min-h-96 rounded-4xl md:flex-row">
         <picture class="w-full md:w-1/4">
             <img src="{{ asset('icons/HospitalDrRaulHernadez_vertical.svg') }}" width="366" height="366"

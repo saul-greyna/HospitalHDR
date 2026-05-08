@@ -27,13 +27,13 @@
     <meta name="twitter:title" content="{{ $title }}">
     <meta name="twitter:description" content="{{ $metaDescription }}">
     <meta name="twitter:image" content="{{ $image }}">
-    <link rel="canonical" href="{{ $url }}" />
-    <link rel="icon" type="image/png" href="{{ asset('icons/favicon-96x96.png') }}" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="{{ asset('icons/favicon.svg') }}" />
-    <link rel="shortcut icon" href="{{ asset('icons/favicon.ico') }}" />
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('icons/apple-touch-icon.png') }}" />
-    <meta name="apple-mobile-web-app-title" content="Hospital Dr. Raúl Hernández" />
-    <link rel="manifest" href="{{ asset('icons/site.webmanifest') }}" />
+    <link rel="canonical" href="{{ $url }}">
+    <link rel="icon" type="image/png" href="{{ asset('icons/favicon-96x96.png') }}" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="{{ asset('icons/favicon.svg') }}">
+    <link rel="shortcut icon" href="{{ asset('icons/favicon.ico') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('icons/apple-touch-icon.png') }}">
+    <meta name="apple-mobile-web-app-title" content="Hospital Dr. Raúl Hernández">
+    <link rel="manifest" href="{{ asset('icons/site.webmanifest') }}">
     <meta name="robots" content="all">
     <title>{{ $title }}</title>
     @vite(['resources/css/app.css', 'resources/js/menu.js'])
@@ -41,7 +41,7 @@
 
 <body class="font-aeonik">
     <x-header></x-header>
-    <main role="main" class="px-4 md:px-20">
+    <main class="px-4 md:px-20">
         {{ $slot }}
     </main>
     <x-footer></x-footer>

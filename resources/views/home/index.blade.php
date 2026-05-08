@@ -12,18 +12,18 @@
             </h1>
         </header>
         <picture class="relative flex items-center justify-center">
-            <img src="{{ asset('images/Home/Oms-Cada-Paciente-Es-Unico-382.webp') }}" alt="Profesional medico con receta"
-                class="w-full h-auto max-w-7xl rounded-2xl" fetchpriority="high" loading="eager" width="382"
-                height="141"
+            <source sizes="(min-width: 1400px) 1280px, 93.7vw"
                 srcset="{{ asset('images/Home/Oms-Cada-Paciente-Es-Unico-382.webp') }} 382w,
                         {{ asset('images/Home/Oms-Cada-Paciente-Es-Unico-984.webp') }} 984w,
                         {{ asset('images/Home/Oms-Cada-Paciente-Es-Unico-1280.webp') }} 1280w,
                         {{ asset('images/Home/Oms-Cada-Paciente-Es-Unico-1710.webp') }} 1710w,
                         {{ asset('images/Home/Oms-Cada-Paciente-Es-Unico-2048.webp') }} 2048w"
-                sizes="(min-width: 1400px) 1280px, 93.7vw" type="image/webp">
+                type="image/webp">
+            <img src="{{ asset('images/Home/Oms-Cada-Paciente-Es-Unico-382.webp') }}" alt="Profesional medico con receta"
+                class="w-full h-auto max-w-7xl rounded-2xl" fetchpriority="high" loading="eager" width="382"
+                height="141">
         </picture>
-        <ul
-            class="grid grid-cols-2 grid-rows-3 gap-5 mt-7 md:grid-cols-5 md:grid-rows-1 md:my-16 place-items-center">
+        <ul class="grid grid-cols-2 grid-rows-3 gap-5 mt-7 md:grid-cols-5 md:grid-rows-1 md:my-16 place-items-center">
             <li class="text-center">
                 <span class="inline-block text-5xl font-semibold tabular-nums min-w-[4ch]" data-target-value="30">
                     0
@@ -61,7 +61,7 @@
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Como podemos ayudarte
             </p>
-            <h2 class="pt-4 pb-8 text-3xl font-medium text-center md:w-2/3 text-quinary">
+            <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-gray-700 md:w-2/3 md:text-5xl">
                 Servicios hospitalarios y especialidades médicas en León
             </h2>
         </header>
@@ -81,7 +81,7 @@
                 <button
                     class="flex items-center justify-center gap-4 px-2 py-2 mt-16 text-base font-semibold cursor-pointer rounded-4xl">
                     Conoce más
-                    <img src="{{ asset('icons/arrow-right-short.svg') }}" alt="" width="24"height="24"
+                    <img src="{{ asset('icons/arrow-right-short.svg') }}" alt="" width="24" height="24"
                         class="w-6 bg-gray-300 rounded-full">
                 </button>
             </li>
@@ -100,7 +100,7 @@
                 <button
                     class="flex items-center justify-center gap-4 px-2 py-2 mt-16 text-base font-semibold cursor-pointer rounded-4xl">
                     Explorar servicios
-                    <img src="{{ asset('icons/arrow-right-short.svg') }}" alt="" width="24"height="24"
+                    <img src="{{ asset('icons/arrow-right-short.svg') }}" alt="" width="24" height="24"
                         class="w-6 bg-gray-300 rounded-full">
                 </button>
             </li>
@@ -126,10 +126,10 @@
             </li>
         </ul>
     </section>
-    <section class="flex flex-row items-center justify-center w-full py-6 md:flex-col">
+    <article class="flex flex-row items-center justify-center w-full py-6 md:flex-col">
         <div
             class="flex flex-col-reverse w-full overflow-hidden rounded-3xl bg-linear-to-t from-blue-300 to-gray-200 md:h-160 md:flex-row md:bg-linear-to-r">
-            <figure class="md:w-1/2">
+            <figure class="md:w-1/2j">
                 <img src="{{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-380.webp') }}"
                     srcset="{{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-380.webp') }} 380w,
                             {{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-480.webp') }} 480w,
@@ -138,11 +138,11 @@
                     sizes="(min-width: 768px) 50vw, 93vw" alt="Fachada del Hospital Dr. Raúl Hernández" width="380"
                     height="285" class="h-auto md:rounded-3xl md:w-full">
             </figure>
-            <article class="flex flex-col justify-center p-10 md:pl-12 md:w-1/2 md:pr-50">
+            <section class="flex flex-col justify-center p-10 md:pl-12 md:w-1/2 md:pr-40">
                 <p class="mb-3 text-sm font-medium tracking-wide text-tertiary">
                     Nuestra ubicación
                 </p>
-                <h2 class="mb-6 text-3xl font-semibold leading-tight text-left text-quinary md:text-4xl">
+                <h2 class="mb-6 text-3xl font-semibold leading-tight text-left text-gray-700 md:text-5xl">
                     Hospital en León, Guanajuato con ubicación en Zona Centro
                 </h2>
                 <p class="mb-8 text-base text-gray-700">
@@ -161,15 +161,15 @@
                         Ver en mapa
                     </a>
                 </div>
-            </article>
+            </section>
         </div>
-    </section>
+    </article>
     <section class="flex flex-col items-center justify-center w-full py-6 md:px-20">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Certificación
             </p>
-            <h2 class="pt-4 pb-8 text-3xl font-medium text-center md:w-2/3 text-quinary">
+            <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-gray-700 md:w-2/3 md:text-5xl">
                 Hospital certificado en Guanajuato con estándares de calidad médica
             </h2>
         </header>
@@ -218,7 +218,7 @@
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Campañas y recomendaciones para tu bienestar
             </p>
-            <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-quinary">
+            <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-gray-700 md:text-5xl">
                 Actualidad en salud
             </h2>
         </header>
@@ -246,7 +246,7 @@
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Nuestro equipo
             </p>
-            <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-quinary">
+            <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-gray-700 md:text-5xl">
                 Médicos especialistas en nuestro hospital
             </h2>
         </header>

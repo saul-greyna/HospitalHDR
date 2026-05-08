@@ -1,9 +1,9 @@
 <header class="relative flex justify-center">
-    <nav class="sticky flex items-center justify-between w-11/12 px-4 mx-4 my-2 bg-gray-200 rounded-full md:px-8" role="navigation"
+    <nav class="sticky flex items-center justify-between w-11/12 px-4 mx-4 my-2 bg-gray-200 rounded-full md:px-8"
         aria-label="Navegación principal">
         <a href="{{ route('inicio') }}" aria-label="Ir al inicio">
             <img src="{{ asset('icons/HospitalDrRaulHernadez_horizontal.svg') }}" alt="Cargatel Logo" width="350"
-                height="75" />
+                height="75">
         </a>
         <button id="toggle" aria-label="Abrir menú de navegación"
             class="p-2 focus:outline-none text-primary md:hidden">
@@ -43,7 +43,7 @@
                 </a>
             </li>
         </ul>
-      {{--   <button
+        {{--   <button
             class="hidden px-2 py-2 text-sm font-medium bg-gray-100 border-2 border-gray-300 cursor-pointer rounded-4xl md:block">
             Contáctanos
         </button> --}}
