@@ -19,6 +19,8 @@ export default defineConfig({
     ],
     build: {
         modulePreload: false,
+        cssCodeSplit: true,
+        manifest: 'manifest.json',
     },
     resolve: {
         alias: {

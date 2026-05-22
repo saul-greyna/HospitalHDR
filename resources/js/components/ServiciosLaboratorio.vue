@@ -6,7 +6,7 @@ const servicios = [
         id: 1,
         nombre: "Paquete Salud",
         precio: 355,
-        imagen: "/images/Servicios/salud.jpg",
+        imagen: "/images/Servicios/salud.webp",
         estudios: [
             "Biometría Hemática",
             "Química Sanguínea 6",
@@ -18,7 +18,7 @@ const servicios = [
         id: 2,
         nombre: "Paquete Salud Integral",
         precio: 538,
-        imagen: "/images/Servicios/salud_integral.jpg",
+        imagen: "/images/Servicios/salud_integral.webp",
         estudios: [
             "Biometría Hemática",
             "Química Sanguínea 6",
@@ -31,7 +31,7 @@ const servicios = [
         id: 3,
         nombre: "Paquete Salud Integral Plus",
         precio: 733,
-        imagen: "/images/Servicios/salud_integral_plus.jpg",
+        imagen: "/images/Servicios/salud_integral_plus.webp",
         estudios: [
             "Biometría",
             "Química Sanguínea 4",
@@ -45,7 +45,7 @@ const servicios = [
         id: 4,
         nombre: "Paquete Prequirúrgico",
         precio: 387,
-        imagen: "/images/Servicios/prequirurjico.jpeg",
+        imagen: "/images/Servicios/prequirurjico.webp",
         estudios: [
             "Biometría Hemática",
             "Química Sanguínea 3",
@@ -60,7 +60,7 @@ const servicios = [
         id: 5,
         nombre: "Prenatal",
         precio: 593,
-        imagen: "/images/Servicios/prenatal.jpeg",
+        imagen: "/images/Servicios/prenatal.webp",
         estudios: [
             "Biometría Hemática",
             "Química Sanguínea 3",
@@ -74,7 +74,7 @@ const servicios = [
         id: 6,
         nombre: "Perfil Vías Urinarias",
         precio: 511,
-        imagen: "/images/Servicios/perfil_vias_urinarias.jpeg",
+        imagen: "/images/Servicios/perfil_vias_urinarias.webp",
         estudios: [
             "Examen General de Orina",
             "Urocultivo"
@@ -85,7 +85,7 @@ const servicios = [
         id: 7,
         nombre: "Check Up General",
         precio: 799,
-        imagen: "/images/Servicios/check_up_general.jpg",
+        imagen: "/images/Servicios/check_up_general.webp",
         estudios: [
             "Biometría Hemática",
             "Química Sanguínea 30",
@@ -98,7 +98,7 @@ const servicios = [
         id: 8,
         nombre: "Control Diabetes",
         precio: 581,
-        imagen: "/images/Servicios/control_diabetes.jpg",
+        imagen: "/images/Servicios/control_diabetes.webp",
         estudios: [
             "Biometría Hemática",
             "Química Sanguínea 3",
@@ -110,43 +110,54 @@ const servicios = [
 ];
 
 const listaServicios = ref(servicios)
-const servicioActivo = ref(listaServicios.value[0])
+
+const servicioInicial = servicios[0]
+
+const servicioActivo = ref(servicioInicial)
+
+const imagenActual = computed(() => servicioActivo.value.imagen)
 
 const seleccionarServicio = (servicio) => {
     servicioActivo.value = servicio
 }
-
 </script>
 
 <template>
-    <aside class="flex w-full md:w-1/3">
-        <ul class="space-y-4">
-            <li v-for="servicio in listaServicios" :key="servicio.id" @click="seleccionarServicio(servicio)"
-                class="text-lg cursor-pointer"
-                :class="servicioActivo.id === servicio.id ? 'font-semibold text-quinary' : 'text-gray-300'">
-                {{ servicio.nombre }}
-            </li>
-        </ul>
-    </aside>
-    <div class="relative overflow-hidden md:w-2/3 bg-gray-50 rounded-3xl md:h-150 h-160">
-        <img :src="servicioActivo.imagen" :alt="servicioActivo.nombre" class="object-cover w-full h-full" />
-        <div class="absolute max-w-sm p-6 shadow-md top-8 left-8 bg-white/90 backdrop-blur-md rounded-2xl">
-            <h3 class="mb-4 text-3xl font-semibold text-quinary">
-                {{ servicioActivo.nombre }}
-            </h3>
-            <p class="mb-6 text-gray-600">
-                {{ servicioActivo.descripcion }}
-            </p>
-            <p class="text-2xl font-bold text-quinary">
-                ${{ servicioActivo.precio }}
-            </p>
-        </div>
-        <div class="absolute bottom-0 left-0 w-full p-8 bg-linear-to-t from-black/70 to-transparent">
-            <ul class="mb-6 space-y-2">
-                <li v-for="(estudio, index) in servicioActivo.estudios" :key="index" class="text-gray-200">
-                    • {{ estudio }}
+    <article class="flex flex-col w-full gap-4 md:flex-row md:items-center md:justify-center md:gap-0">
+        <nav class="w-1/3">
+            <ul class="space-y-4">
+                <li v-for="servicio in listaServicios" :key="servicio.id" class="cursor-pointer"
+                    @click="seleccionarServicio(servicio)"
+                    :class="servicioActivo.id === servicio.id ? ' text-quinary text-3xl font-semibold' : 'text-gray-500 text-base'">
+                    {{ servicio.nombre }}
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+        <figure class="relative w-2/3 overflow-hidden rounded-2xl aspect-1163/654">
+            <img :src="servicioActivo.imagen" :alt="servicioActivo.nombre" class="object-cover w-full h-full"
+                width="1163" height="654" fetchpriority="high" decoding="async" loading="eager">
+            <header
+                class="absolute top-0 max-w-sm p-6 shadow-md bg-white/90 backdrop-blur-md rounded-2xl md:top-8 md:left-8">
+                <h2 class="mb-4 text-3xl font-semibold text-quinary">
+                    {{ servicioActivo.nombre }}
+                </h2>
+                <p class="mb-6 text-gray-600">
+                    {{ servicioActivo.descripcion }}
+                </p>
+                <span class="text-2xl font-bold text-quinary">
+                    ${{ servicioActivo.precio }}
+                </span>
+            </header>
+            <footer class="absolute bottom-0 left-0 w-full p-8 bg-linear-to-t from-black/70 to-transparent">
+                <h3 class="sr-only">
+                    Estudios incluidos
+                </h3>
+                <ul class="space-y-2">
+                    <li v-for="(estudio, index) in servicioActivo.estudios" :key="index" class="text-gray-200">
+                        • {{ estudio }}
+                    </li>
+                </ul>
+            </footer>
+        </figure>
+    </article>
 </template>

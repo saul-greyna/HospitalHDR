@@ -15,31 +15,31 @@
                     class="object-cover rounded-3xl">
             </div>
             <div class="space-y-12">
-                <div class="p-10 bg-blue-300 shadow-md backdrop-blur-sm rounded-3xl">
-                    <h3 class="mb-4 text-3xl font-semibold text-quinary">
+                <div class="p-10 shadow-md bg-sextarian backdrop-blur-sm rounded-3xl">
+                    <h2 class="mb-4 text-3xl font-bold text-quinary">
                         Trayectoria
-                    </h3>
-                    <p class="leading-relaxed text-tertiary">
+                    </h2>
+                    <p class="leading-relaxed text-quinary">
                         El Hospital HR Raúl Hernández es una institución privada de salud ubicada en León, Guanajuato,
                         con más de 30 años de trayectoria. Inició sus actividades como C.M.Q. Raúl Hernández y, con el
                         paso del tiempo, evolucionó hasta consolidarse como un hospital con infraestructura,
                         especialidades y tecnología orientadas a brindar atención integral a la comunidad.
                     </p>
                 </div>
-                <div class="p-10 bg-blue-300 shadow-md backdrop-blur-sm rounded-3xl">
-                    <h3 class="mb-4 text-3xl font-semibold text-quinary">
+                <div class="p-10 shadow-md bg-sextarian backdrop-blur-sm rounded-3xl">
+                    <h2 class="mb-4 text-3xl font-semibold text-quinary">
                         Nuestra misión
-                    </h3>
-                    <p class="leading-relaxed text-tertiary">
+                    </h2>
+                    <p class="leading-relaxed text-quinary">
                         Contribuir a mejorar la calidad de vida mediante una atención médica completa, confiable y al
                         alcance de todos.
                     </p>
                 </div>
-                <div class="p-10 bg-blue-300 shadow-md rounded-3xl">
-                    <h3 class="mb-4 text-3xl font-semibold text-quinary">
+                <div class="p-10 shadow-md bg-sextarian rounded-3xl">
+                    <h2 class="mb-4 text-3xl font-semibold text-quinary">
                         Nuestra visión
-                    </h3>
-                    <p class="leading-relaxed text-quaternary">
+                    </h2>
+                    <p class="leading-relaxed text-quinary">
                         Ser un hospital que cuente con la más alta preparación y capacidad profesional en sinergía con
                         tecnología de vanguardia, brindando un servicio de excelencia.
                     </p>

@@ -2,7 +2,7 @@
     @vite(['resources/js/home.js'])
 @endpush
 <x-main>
-    <section class="flex flex-col justify-center py-6 md:mb-24 md:mt-16">
+    <section class="flex flex-col justify-center md:mb-24 md:mt-16">
         <header class="flex flex-col items-center">
             <p class="mb-4 text-sm font-medium tracking-wide text-quaternary">
                 Sobre nosotros
@@ -137,7 +137,7 @@
                             {{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-1140.webp') }} 1140w"
                     type="image/webp">
                 <img src="{{ asset('images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-380.webp') }}"
-                    alt="Fachada del Hospital Dr. Raúl Hernández" width="380" height="285"
+                    alt="Fachada del Hospital Dr. Raúl Hernández" width="380" height="285" loading="lazy"
                     class="h-auto md:rounded-3xl md:w-full">
             </picture>
             <header class="flex flex-col justify-center p-10 md:pl-12 md:w-1/2 md:pr-40">
@@ -166,7 +166,7 @@
             </header>
         </div>
     </section>
-    <section class="flex flex-col items-center justify-center w-full py-6 md:px-20">
+    <section class="flex flex-col items-center justify-center w-full py-6">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
                 Certificación
@@ -185,7 +185,7 @@
                     <h3 class="mb-3 text-2xl font-semibold text-quinary">
                         01. Distintivo oficial de calidad
                     </h3>
-                    <p class="pl-10 leading-relaxed text-gray-600">
+                    <p class="leading-relaxed text-gray-600 pl-9">
                         Ser parte de Marca GTO acredita al hospital como una institución que cumple
                         estándares reconocidos en el estado de Guanajuato.
                     </p>
@@ -194,7 +194,7 @@
                     <h3 class="mb-3 text-2xl font-semibold text-quinary">
                         02. Compromiso con la comunidad
                     </h3>
-                    <p class="pl-10 leading-relaxed text-gray-600">
+                    <p class="leading-relaxed text-gray-600 pl-9">
                         Generamos empleo especializado y fortalecemos la red de servicios médicos locales,
                         impulsando el desarrollo regional.
                     </p>
@@ -203,22 +203,23 @@
                     <h3 class="mb-3 text-2xl font-semibold text-quinary">
                         03. Responsabilidad social y crecimiento sostenible
                     </h3>
-                    <p class="pl-10 leading-relaxed text-gray-600">
+                    <p class="leading-relaxed text-gray-600 pl-9">
                         Nuestra pertenencia a Marca GTO refleja prácticas responsables, inclusión y mejora
                         continua en la atención médica.
                     </p>
                 </div>
             </article>
             <figure class="md:w-1/2">
-                <img src="{{ asset('images/Home/MarcaGTO.svg') }}" alt="Logo del Distintivo Marca Guanajuato del Hospital Dr. Raúl Hernández" width="366" height="253"
-                    class="w-full">
+                <img src="{{ asset('images/Home/MarcaGTO.svg') }}"
+                    alt="Logo del Distintivo Marca Guanajuato del Hospital Dr. Raúl Hernández" width="366"
+                    height="253" class="w-full" loading="lazy">
             </figure>
         </div>
     </section>
-    <section class="py-6 md:px-20">
+    <section class="py-6">
         <header class="text-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
-                Campañas y recomendaciones para tu bienestar
+                Campañas y recomendaciones
             </p>
             <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-gray-700 md:text-5xl">
                 Actualidad en salud
@@ -231,7 +232,7 @@
                             {{ asset('images/Home/7-Abril-Dia-Mundial-de-la-Salud-288.webp') }} 288w"
                     sizes="(max-width: 768px) 183px, 288px">
                 <img src="{{ asset('images/Home/7-Abril-Dia-Mundial-de-la-Salud-183.webp') }}" width="183"
-                    height="325" alt="Campaña del Día Mundial de la Salud" class="rounded-lg md:min-w-72">
+                    height="325" alt="Campaña del Día Mundial de la Salud" class="rounded-lg md:min-w-72" loading="lazy">
             </picture>
             <picture>
                 <source
@@ -239,7 +240,7 @@
                             {{ asset('images/Home/11-Abril-Dia-Mundial-del-Parkinson-288.webp') }} 288w"
                     sizes="(max-width: 768px) 183px, 288px">
                 <img src="{{ asset('images/Home/11-Abril-Dia-Mundial-del-Parkinson-183.webp') }}" width="183"
-                    height="325" alt="Campaña del Día Mundial del Parkinson" class="rounded-lg md:min-w-72">
+                    height="325" alt="Campaña del Día Mundial del Parkinson" class="rounded-lg md:min-w-72" loading="lazy">
             </picture>
         </div>
     </section>
@@ -255,9 +256,9 @@
         <ul class="flex flex-col w-full grid-cols-4 grid-rows-2 gap-5 md:grid place-items-center">
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
-                    <img src="{{ asset('images/Doctores/Dr-Santiago-Ignacio-Godinez-Hernandez.webp') }}"
+                    <img src="{{ asset('images/home/doctores/Dr-Santiago-Ignacio-Godinez-Hernandez.webp') }}"
                         width="174" height="174" alt="Icono de paquetes quirúrgicos"
-                        class="object-cover rounded-full aspect-square">
+                        class="object-cover rounded-full aspect-square" loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">
                     Dr. Santiago I.Godínez
@@ -268,9 +269,9 @@
             </li>
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
-                    <img src="{{ asset('images/Doctores/Dr-Alberto-Antonio-Gonzalez-Bravo.webp') }}" width="174"
+                    <img src="{{ asset('images/home/doctores/Dr-Alberto-Antonio-Gonzalez-Bravo.webp') }}" width="174"
                         alt="Icono de paquetes quirúrgicos" height="174"
-                        class="object-cover rounded-full aspect-square">
+                        class="object-cover rounded-full aspect-square" loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">
                     Dr. Alberto González
@@ -281,9 +282,9 @@
             </li>
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
-                    <img src="{{ asset('images/Doctores/Dr-Aldo-Ivan-Galvan-Linares.webp') }}" width="174"
+                    <img src="{{ asset('images/home/doctores/Dr-Aldo-Ivan-Galvan-Linares.webp') }}" width="174"
                         height="174" alt="Icono de paquetes quirúrgicos"
-                        class="object-cover rounded-full aspect-square">
+                        class="object-cover rounded-full aspect-square" loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">
                     Dr. Aldo Galvan
@@ -294,9 +295,9 @@
             </li>
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
-                    <img src="{{ asset('images/Doctores/Dr-Augusto-Ramirez-Solis.webp') }}" width="174"
+                    <img src="{{ asset('images/home/doctores/Dr-Augusto-Ramirez-Solis.webp') }}" width="174"
                         height="174" alt="Icono de paquetes quirúrgicos"
-                        class="object-cover rounded-full aspect-square">
+                        class="object-cover rounded-full aspect-square" loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">
                     Dr. Augusto Ramírez
@@ -307,9 +308,9 @@
             </li>
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
-                    <img src="{{ asset('images/Doctores/Dr-Benjamin-Sanchez-Trocino.webp') }}" width="174"
+                    <img src="{{ asset('images/home/doctores/Dr-Benjamin-Sanchez-Trocino.webp') }}" width="174"
                         height="174" alt="Icono de paquetes quirúrgicos"
-                        class="object-cover rounded-full aspect-square">
+                        class="object-cover rounded-full aspect-square" loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">
                     Dr. Benjamín Sánchez
@@ -320,9 +321,9 @@
             </li>
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
-                    <img src="{{ asset('images/Doctores/Dra-Carolina-Dominguez-Meza.webp') }}" width="174"
+                    <img src="{{ asset('images/home/doctores/Dra-Carolina-Dominguez-Meza.webp') }}" width="174"
                         height="174" alt="Icono de paquetes quirúrgicos"
-                        class="object-cover rounded-full aspect-square">
+                        class="object-cover rounded-full aspect-square" loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">
                     Dra. Carolina Domínguez
@@ -333,9 +334,9 @@
             </li>
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
-                    <img src="{{ asset('images/Doctores/Dra-Guadalupe-Alejandra-Uvina-Quintero.webp') }}"
+                    <img src="{{ asset('images/home/doctores/Dra-Guadalupe-Alejandra-Uvina-Quintero.webp') }}"
                         width="174" height="174" alt="Icono de paquetes quirúrgicos"
-                        class="object-cover rounded-full aspect-square">
+                        class="object-cover rounded-full aspect-square" loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">
                     Dra. Guadalupe Uviña
@@ -346,9 +347,9 @@
             </li>
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
-                    <img src="{{ asset('images/Doctores/Dra-Fatima-Irangani-Cedillo-Azuela.webp') }}" width="174"
+                    <img src="{{ asset('images/home/doctores/Dra-Fatima-Irangani-Cedillo-Azuela.webp') }}" width="174"
                         height="174" alt="Icono de paquetes quirúrgicos"
-                        class="object-cover rounded-full aspect-square">
+                        class="object-cover rounded-full aspect-square" loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">
                     Dra. Fátima Cedillo
