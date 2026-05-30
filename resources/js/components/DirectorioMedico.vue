@@ -9,7 +9,7 @@ const doctores = [
         especialidadCategoria: "Diagnóstico",
         consultorio: "120",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr-Santiago-Ignacio-Godinez-Hernandez.webp"
+        imagen: "/images/Doctores/dr-santiago-ignacio-godinez-hernandez.webp"
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ const doctores = [
         especialidadCategoria: "Clínicas",
         consultorio: "118",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr-Alberto-Antonio-Gonzalez-Bravo.webp"
+        imagen: "/images/Doctores/dr-alberto-antonio-gonzalez-bravo.webp"
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const doctores = [
         especialidadCategoria: "Clínicas",
         consultorio: "140",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Jaime Alonso Velazquez Fuentes.webp"
+        imagen: "/images/Doctores/dr-jaime-alonso-velazquez-fuentes.webp"
     },
     {
         id: 4,
@@ -36,16 +36,16 @@ const doctores = [
         especialidadCategoria: "Clínicas",
         consultorio: "131",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Juan Carlos Viveros.webp"
+        imagen: "/images/Doctores/dr-juan-carlos-viveros.webp"
     },
     {
         id: 5,
-        nombre: "Dr. Víctor Godínez",
+        nombre: "Dr. Victor Hugo Godínez Valdez",
         especialidad: "Cardiólogo y Médico Internista",
         especialidadCategoria: "Clínicas",
         consultorio: "111",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Victor Hugo Godinez Valdez.webp"
+        imagen: "/images/Doctores/dr-victor-hugo-godinez-valdez.webp"
     },
     {
         id: 6,
@@ -54,7 +54,7 @@ const doctores = [
         especialidadCategoria: "Clínicas",
         consultorio: "141",
         profesion: "Doctora",
-        imagen: "/images/Doctores/Dra-Guadalupe-Alejandra-Uvina-Quintero.webp"
+        imagen: "/images/Doctores/dra-guadalupe-alejandra-uvina-quintero.webp"
     },
     {
         id: 7,
@@ -63,7 +63,7 @@ const doctores = [
         especialidadCategoria: "Clínicas",
         consultorio: "113",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Luis Arturo Castaldi Bermudez.webp"
+        imagen: "/images/Doctores/dr-luis-arturo-castaldi-bermudez.webp"
     },
     {
         id: 8,
@@ -81,16 +81,16 @@ const doctores = [
         especialidadCategoria: "Clínicas",
         consultorio: "106",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Jorge Arturo Gutiérrez Vargas.webp"
+        imagen: "/images/Doctores/dr-jorge-arturo-gutierrez-vargas.webp"
     },
     {
         id: 10,
-        nombre: "Dr. José Cruz",
+        nombre: "Dr. José Luis Cruz Sánchez",
         especialidad: "Pediatría",
         especialidadCategoria: "Clínicas",
         consultorio: "135",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. José Luis Cruz Sánchez.webp"
+        imagen: "/images/Doctores/dr-jose-luis-cruz-sanchez.webp"
     },
     {
         id: 11,
@@ -99,7 +99,7 @@ const doctores = [
         especialidadCategoria: "Clínicas",
         consultorio: "137",
         profesion: "Doctora",
-        imagen: "/images/Doctores/Dra. Palmira Hernández Aguirre.webp"
+        imagen: "/images/Doctores/dra-palmira-hernandez-aguirre.webp"
     },
     {
         id: 12,
@@ -108,7 +108,7 @@ const doctores = [
         especialidadCategoria: "Clínicas",
         consultorio: "139",
         profesion: "Doctor",
-        imagen: "/images/Doctores/DR. JAIME IVAN BUSTAMENTE GARCIA.webp"
+        imagen: "/images/Doctores/dr-jaime-ivan-bustamente-garcia.webp"
     },
     {
         id: 13,
@@ -117,7 +117,7 @@ const doctores = [
         especialidadCategoria: "Quirúrgicas",
         consultorio: "103",
         profesion: "Doctora",
-        imagen: "/images/Doctores/Dra-Carolina-Dominguez-Meza.webp"
+        imagen: "/images/Doctores/dra-carolina-dominguez-meza.webp"
     },
     {
         id: 14,
@@ -126,7 +126,7 @@ const doctores = [
         especialidadCategoria: "Clínicas",
         consultorio: "140",
         profesion: "Doctora",
-        imagen: "/images/Doctores/Dra-Fatima-Irangani-Cedillo-Azuela.webp"
+        imagen: "/images/Doctores/dra-fatima-irangani-cedillo-azuela.webp"
     },
     {
         id: 15,
@@ -144,7 +144,7 @@ const doctores = [
         especialidadCategoria: "Quirúrgicas",
         consultorio: "110",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Raúl Hernández Centeno.webp"
+        imagen: "/images/Doctores/dr-raul-hernandez-centeno.webp"
     },
     {
         id: 17,
@@ -153,7 +153,7 @@ const doctores = [
         especialidadCategoria: "Quirúrgicas",
         consultorio: "141",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Ernesto Rodríguez Alvarado.webp"
+        imagen: "/images/Doctores/dr-ernesto-rodriguez-alvarado.webp"
     },
     {
         id: 18,
@@ -162,7 +162,7 @@ const doctores = [
         especialidadCategoria: "Quirúrgicas",
         consultorio: "140",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Fernando Chico Carpizo.webp"
+        imagen: "/images/Doctores/dr-fernando-chico-carpizo.webp"
     },
     {
         id: 19,
@@ -171,7 +171,7 @@ const doctores = [
         especialidadCategoria: "Quirúrgicas",
         consultorio: "134",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Francisco Cabrales García.webp"
+        imagen: "/images/Doctores/dr-francisco-cabrales-garcia.webp"
     },
     {
         id: 20,
@@ -180,7 +180,7 @@ const doctores = [
         especialidadCategoria: "Quirúrgicas",
         consultorio: "139",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Gerardo Bautista Díaz.webp"
+        imagen: "/images/Doctores/dr-gerardo-bautista-diaz.webp"
     },
     {
         id: 21,
@@ -189,7 +189,7 @@ const doctores = [
         especialidadCategoria: "Quirúrgicas",
         consultorio: "107",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Ramón Rodríguez Padilla.webp"
+        imagen: "/images/Doctores/dr-ramon-rodriguez-padilla.webp"
     },
     {
         id: 22,
@@ -198,7 +198,7 @@ const doctores = [
         especialidadCategoria: "Quirúrgicas",
         consultorio: "134",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Valente Romero Rodriguez.webp"
+        imagen: "/images/Doctores/dr-valente-romero-rodriguez.webp"
     },
     {
         id: 23,
@@ -207,16 +207,16 @@ const doctores = [
         especialidadCategoria: "Diagnóstico",
         consultorio: "141",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr-Aldo-Ivan-Galvan-Linares.webp"
+        imagen: "/images/Doctores/dr-aldo-ivan-galvan-linares.webp"
     },
     {
         id: 24,
-        nombre: "Dr. Augusto Ramírez",
+        nombre: "Dr. Augusto Ramírez Solis",
         especialidad: "Cirugía Cardiovascular y Torácica / Angiología",
         especialidadCategoria: "Quirúrgicas",
         consultorio: "102",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr-Augusto-Ramirez-Solis.webp"
+        imagen: "/images/Doctores/dr-augusto-ramirez-solis.webp"
     },
     {
         id: 25,
@@ -225,7 +225,7 @@ const doctores = [
         especialidadCategoria: "Odontológicas",
         consultorio: "112",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr-Benjamin-Sanchez-Trocino.webp"
+        imagen: "/images/Doctores/dr-benjamin-sanchez-trocino.webp"
     },
     {
         id: 26,
@@ -234,7 +234,7 @@ const doctores = [
         especialidadCategoria: "Odontológicas",
         consultorio: "112",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Jacinto Armando Díaz Acevedo.webp"
+        imagen: "/images/Doctores/dr-jacinto-armando-diaz-acevedo.webp"
     },
     {
         id: 27,
@@ -243,7 +243,7 @@ const doctores = [
         especialidadCategoria: "Otra",
         consultorio: "133",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. José Alejandro Quintana.webp"
+        imagen: "/images/Doctores/dr-jose-alejandro-quintana.webp"
     },
     {
         id: 28,
@@ -252,7 +252,7 @@ const doctores = [
         especialidadCategoria: "Quirúrgicas",
         consultorio: "142",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Julio Torres Escamilla.webp"
+        imagen: "/images/Doctores/dr-julio-torres-escamilla.webp"
     },
     {
         id: 29,
@@ -261,7 +261,7 @@ const doctores = [
         especialidadCategoria: "Odontológicas",
         consultorio: "112",
         profesion: "Doctora",
-        imagen: "/images/Doctores/DRA. NEREIDA CORTEZ LOPEZ.webp"
+        imagen: "/images/Doctores/dra-nereida-cortez-lopez.webp"
     },
     {
         id: 30,
@@ -270,7 +270,7 @@ const doctores = [
         especialidadCategoria: "Diagnóstico",
         consultorio: "108",
         profesion: "Doctora",
-        imagen: "/images/Doctores/DRA. PAULINA MONTAÑO ASCENCIO.webp"
+        imagen: "/images/Doctores/dra-paulina-montano-ascencio.webp"
     },
     {
         id: 31,
@@ -279,7 +279,7 @@ const doctores = [
         especialidadCategoria: "Clínicas",
         consultorio: "142",
         profesion: "Doctor",
-        imagen: "/images/Doctores/DR. FRANCISCO JOSE CASTREJON AIVAR.webp"
+        imagen: "/images/Doctores/dr-francisco-jose-castrejon-aivar.webp"
     },
     {
         id: 32,
@@ -288,7 +288,7 @@ const doctores = [
         especialidadCategoria: "Diagnóstico",
         consultorio: "109",
         profesion: "Doctor",
-        imagen: "/images/Doctores/DR. FRANCISCO VILCHES DURAN.webp"
+        imagen: "/images/Doctores/dr-francisco-vilches-duran.webp"
     },
     {
         id: 33,
@@ -297,7 +297,7 @@ const doctores = [
         especialidadCategoria: "Clínicas",
         consultorio: "103",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Francisco Javier Mendoza Espinoza.webp"
+        imagen: "/images/Doctores/dr-francisco-javier-mendoza-espinoza.webp"
     },
     {
         id: 34,
@@ -306,7 +306,7 @@ const doctores = [
         especialidadCategoria: "Quirúrgicas",
         consultorio: "137",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Francisco Javier Orta Montejano.webp"
+        imagen: "/images/Doctores/dr-francisco-javier-orta-montejano.webp"
     },
     {
         id: 35,
@@ -315,7 +315,7 @@ const doctores = [
         especialidadCategoria: "Rehabilitación",
         consultorio: "143",
         profesion: "Licenciatura",
-        imagen: "/images/Doctores/Lic. Edna Hernandez Sanchez.webp"
+        imagen: "/images/Doctores/lic-edna-hernandez-sanchez.webp"
     },
     {
         id: 36,
@@ -324,7 +324,7 @@ const doctores = [
         especialidadCategoria: "Rehabilitación",
         consultorio: "143",
         profesion: "Licenciatura",
-        imagen: "/images/Doctores/Lic. Fatima Teresa de la O Garcia.webp"
+        imagen: "/images/Doctores/lic-fatima-teresa-de-la-o-garcia.webp"
     },
     {
         id: 37,
@@ -333,7 +333,7 @@ const doctores = [
         especialidadCategoria: "Rehabilitación",
         consultorio: "143",
         profesion: "Licenciatura",
-        imagen: "/images/Doctores/Lic. Israel Renteria Troncoso.webp"
+        imagen: "/images/Doctores/lic-israel-renteria-troncoso.webp"
     },
     {
         id: 38,
@@ -342,7 +342,7 @@ const doctores = [
         especialidadCategoria: "Rehabilitación",
         consultorio: "133",
         profesion: "Licenciatura",
-        imagen: "/images/Doctores/Lic. Patricia Maldonado Valadez.webp"
+        imagen: "/images/Doctores/lic-patricia-maldonado-valadez.webp"
     },
     {
         id: 39,
@@ -351,7 +351,7 @@ const doctores = [
         especialidadCategoria: "Rehabilitación",
         consultorio: "131",
         profesion: "Doctora",
-        imagen: "/images/Doctores/174x224.webp"
+        imagen: "/images/Doctores/dra-claudia-carolina-castellanos-cervantes.webp"
     },
     {
         id: 40,
@@ -405,7 +405,7 @@ const doctores = [
         especialidadCategoria: "Clínicas",
         consultorio: "114",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Asael Palafoz Cázarez.webp"
+        imagen: "/images/Doctores/dr-asael-palafoz-cazarez.webp"
     },
     {
         id: 46,
@@ -414,7 +414,7 @@ const doctores = [
         especialidadCategoria: "Rehabilitación",
         consultorio: "143",
         profesion: "Licenciatura",
-        imagen: "/images/Doctores/Lic. Maria Fernanda Guerrero Monjaraz.webp"
+        imagen: "/images/Doctores/lic-maria-fernanda-guerrero-monjaraz.webp"
     },
     {
         id: 47,
@@ -423,7 +423,7 @@ const doctores = [
         especialidadCategoria: "Clínicas",
         consultorio: "131",
         profesion: "Doctor",
-        imagen: "/images/Doctores/Dr. Juan Ángel Cibrián Delgado.webp"
+        imagen: "/images/Doctores/dr-juan-angel-cibrian-delgado.webp"
     },
     {
         id: 48,
@@ -575,8 +575,9 @@ const doctoresFiltrados = computed(() => {
 
     <ul class="grid grid-cols-1 gap-4 md:py-8 md:grid-cols-4 place-items-center">
         <li v-for="doctor in doctoresFiltrados" :key="doctor.id" class="text-left">
-            <figure class="place-items-center">
-                <img :src="doctor.imagen" :alt="doctor.nombre" class="rounded-2xl" width="288" height="370"
+            <figure v-if="doctor.imagen && !doctor.imagen.endsWith('/')" class="place-items-center">
+                <img :src="doctor.imagen" :alt="doctor.nombre"
+                    class="rounded-2xl" width="288" height="370"
                     fetchpriority="high" decoding="async" loading="eager">
             </figure>
             <div class="pl-4">
