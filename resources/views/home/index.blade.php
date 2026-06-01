@@ -7,8 +7,8 @@
             <p class="mb-4 text-sm font-medium tracking-wide text-quaternary">
                 Sobre nosotros
             </p>
-            <h1 class="w-2/3 pb-4 text-5xl font-medium text-center md:text-8xl md:pb-12">
-                Atención que inspira confianza
+            <h1 class="w-2/3 pb-4 text-5xl font-medium text-center md:text-8xl md:pb-12 md:w-3/4">
+                Hospital con atención médica especializada
             </h1>
         </header>
         <picture class="relative flex items-center justify-center">
@@ -219,10 +219,10 @@
     <section class="py-6">
         <header class="text-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">
-                Campañas y recomendaciones
+                Actualidad médica
             </p>
             <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-gray-700 md:text-5xl">
-                Actualidad en salud
+                Campañas de salud del hospital
             </h2>
         </header>
         <div class="grid grid-cols-2 gap-1 md:flex md:justify-center md:gap-8">

@@ -4,21 +4,21 @@ import { ref, computed, watch } from 'vue'
 const doctores = [
     {
         id: 1,
-        nombre: "Dr. Santiago I. Godínez",
-        especialidad: "Genética Médica",
-        especialidadCategoria: "Diagnóstico",
-        consultorio: "120",
+        nombre: "Dr. Victor Hugo Godínez",
+        especialidad: "Cardiólogo y Médico Internista",
+        especialidadCategoria: "Clínicas",
+        consultorio: "111",
         profesion: "Doctor",
-        imagen: "/images/Doctores/dr-santiago-ignacio-godinez-hernandez.webp"
+        imagen: "/images/Doctores/dr-victor-hugo-godinez-valdez.webp"
     },
     {
         id: 2,
-        nombre: "Dr. Alberto González",
-        especialidad: "Urología",
-        especialidadCategoria: "Clínicas",
-        consultorio: "118",
+        nombre: "Dr. Augusto Ramírez Solis",
+        especialidad: "Cirugía Cardiovascular y Torácica / Angiología",
+        especialidadCategoria: "Quirúrgicas",
+        consultorio: "102",
         profesion: "Doctor",
-        imagen: "/images/Doctores/dr-alberto-antonio-gonzalez-bravo.webp"
+        imagen: "/images/Doctores/dr-augusto-ramirez-solis.webp"
     },
     {
         id: 3,
@@ -31,21 +31,21 @@ const doctores = [
     },
     {
         id: 4,
-        nombre: "Dr. Juan Viveros",
-        especialidad: "Medicina Interna y Geriatría",
+        nombre: "Dr. José Luis Cruz Sánchez",
+        especialidad: "Pediatría",
         especialidadCategoria: "Clínicas",
-        consultorio: "131",
+        consultorio: "135",
         profesion: "Doctor",
-        imagen: "/images/Doctores/dr-juan-carlos-viveros.webp"
+        imagen: "/images/Doctores/dr-jose-luis-cruz-sanchez.webp"
     },
     {
         id: 5,
-        nombre: "Dr. Victor Hugo Godínez Valdez",
-        especialidad: "Cardiólogo y Médico Internista",
-        especialidadCategoria: "Clínicas",
-        consultorio: "111",
+        nombre: "Dr. Santiago I. Godínez",
+        especialidad: "Genética Médica",
+        especialidadCategoria: "Diagnóstico",
+        consultorio: "120",
         profesion: "Doctor",
-        imagen: "/images/Doctores/dr-victor-hugo-godinez-valdez.webp"
+        imagen: "/images/Doctores/dr-santiago-ignacio-godinez-hernandez.webp"
     },
     {
         id: 6,
@@ -76,21 +76,21 @@ const doctores = [
     },
     {
         id: 9,
+        nombre: "Dr. Juan Viveros",
+        especialidad: "Medicina Interna y Geriatría",
+        especialidadCategoria: "Clínicas",
+        consultorio: "131",
+        profesion: "Doctor",
+        imagen: "/images/Doctores/dr-juan-carlos-viveros.webp"
+    },
+    {
+        id: 10,
         nombre: "Dr. Jorge Gutiérrez",
         especialidad: "Pediatría",
         especialidadCategoria: "Clínicas",
         consultorio: "106",
         profesion: "Doctor",
         imagen: "/images/Doctores/dr-jorge-arturo-gutierrez-vargas.webp"
-    },
-    {
-        id: 10,
-        nombre: "Dr. José Luis Cruz Sánchez",
-        especialidad: "Pediatría",
-        especialidadCategoria: "Clínicas",
-        consultorio: "135",
-        profesion: "Doctor",
-        imagen: "/images/Doctores/dr-jose-luis-cruz-sanchez.webp"
     },
     {
         id: 11,
@@ -211,12 +211,12 @@ const doctores = [
     },
     {
         id: 24,
-        nombre: "Dr. Augusto Ramírez Solis",
-        especialidad: "Cirugía Cardiovascular y Torácica / Angiología",
-        especialidadCategoria: "Quirúrgicas",
-        consultorio: "102",
+        nombre: "Dr. Alberto González",
+        especialidad: "Urología",
+        especialidadCategoria: "Clínicas",
+        consultorio: "118",
         profesion: "Doctor",
-        imagen: "/images/Doctores/dr-augusto-ramirez-solis.webp"
+        imagen: "/images/Doctores/dr-alberto-antonio-gonzalez-bravo.webp"
     },
     {
         id: 25,
@@ -337,12 +337,12 @@ const doctores = [
     },
     {
         id: 38,
-        nombre: "Lic. Patricia Maldonado",
-        especialidad: "Nutrición Clínica",
-        especialidadCategoria: "Rehabilitación",
-        consultorio: "133",
-        profesion: "Licenciatura",
-        imagen: "/images/Doctores/lic-patricia-maldonado-valadez.webp"
+        nombre: "Dr. Jesús Estrada Hernández",
+        especialidad: "Endoscopia Gastrointestinal",
+        especialidadCategoria: "Diagnóstico",
+        consultorio: "110",
+        profesion: "Doctor",
+        imagen: "/images/Doctores/174x224.webp"
     },
     {
         id: 39,
@@ -436,12 +436,12 @@ const doctores = [
     },
     {
         id: 49,
-        nombre: "Dr. Jesús Estrada Hernández",
-        especialidad: "Endoscopia Gastrointestinal",
-        especialidadCategoria: "Diagnóstico",
-        consultorio: "110",
-        profesion: "Doctor",
-        imagen: "/images/Doctores/174x224.webp"
+        nombre: "Lic. Patricia Maldonado",
+        especialidad: "Nutrición Clínica",
+        especialidadCategoria: "Rehabilitación",
+        consultorio: "133",
+        profesion: "Licenciatura",
+        imagen: "/images/Doctores/lic-patricia-maldonado-valadez.webp"
     }
 ];
 
@@ -472,6 +472,14 @@ const buscarPorNombre = () => {
             filtros.value.nombre = ''
         }
     })
+}
+
+const limpiarFiltros = () => {
+    filtros.value.profesion = ''
+    filtros.value.especialidad = ''
+    filtros.value.consultorio = ''
+    filtros.value.nombre = ''
+    nombreBusqueda.value = ''
 }
 
 const doctoresFiltrados = computed(() => {
@@ -572,12 +580,20 @@ const doctoresFiltrados = computed(() => {
             Buscar
         </button>
     </form>
-
-    <ul class="grid grid-cols-1 gap-4 md:py-8 md:grid-cols-4 place-items-center">
+    <div class="flex items-center justify-between gap-4 mx-2">
+        <span class="text-base font-semibold md:mx-17 text-quinary">
+            Medicos disponibles {{ doctoresFiltrados.length }}<span v-if="hayFiltrosActivos"> de {{ doctores.length
+            }}</span>
+        </span>
+        <button v-if="hayFiltrosActivos" @click="limpiarFiltros"
+            class="text-base font-semibold transition-all duration-200 cursor-pointer hover:underline md:mx-17 text-secondary">
+            Limpiar filtros
+        </button>
+    </div>
+    <ul class="grid grid-cols-1 gap-4 py-3 md:py-8 md:grid-cols-4 place-items-center">
         <li v-for="doctor in doctoresFiltrados" :key="doctor.id" class="text-left">
             <figure v-if="doctor.imagen && !doctor.imagen.endsWith('/')" class="place-items-center">
-                <img :src="doctor.imagen" :alt="doctor.nombre"
-                    class="rounded-2xl" width="288" height="370"
+                <img :src="doctor.imagen" :alt="doctor.nombre" class="rounded-2xl" width="288" height="370"
                     fetchpriority="high" decoding="async" loading="eager">
             </figure>
             <div class="pl-4">

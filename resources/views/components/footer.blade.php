@@ -2,7 +2,7 @@
     <div class="flex flex-col items-center justify-center rounded-4xl md:flex-row">
         <picture class="w-full md:w-1/4">
             <img src="{{ asset('icons/HospitalDrRaulHernadez_vertical.svg') }}" width="366" height="366"
-                alt="Logo pie pagina">
+                fetchpriority="high" decoding="async" loading="eager" alt="Logo pie pagina">
         </picture>
         <nav aria-label="Footer Navigation" class="flex flex-col justify-around w-3/4 gap-8 py-4 md:flex-row">
             <div>
@@ -34,18 +34,20 @@
                     </li>
                 </ul>
             </div>
-             <div>
+            <div>
                 <h3 class="mb-3 text-xl font-semibold">Siguenos</h3>
                 <ul class="flex gap-4 space-y-2">
                     <li>
                         <a href="https://www.facebook.com/hospital.hdr.leon/">
-                            <img src="{{ asset('icons/facebook.svg') }}" alt="Facebook del Hospital Dr. Raul Hernandez" class="w-8 h-8">
+                            <img src="{{ asset('icons/facebook.svg') }}" alt="Facebook del Hospital Dr. Raul Hernandez"
+                                width="32" height="32">
                         </a>
                     </li>
                     <li>
-                         <a href="https://www.instagram.com/hospitalhrraulhernandez/">
-                            <img src="{{ asset('icons/instagram.svg') }}" alt="Instagram del Hospital Dr. Raul Hernandez" class="w-8 h-8">
-                        </a>    
+                        <a href="https://www.instagram.com/hospitalhrraulhernandez/">
+                            <img src="{{ asset('icons/instagram.svg') }}"
+                                alt="Instagram del Hospital Dr. Raul Hernandez" width="32" height="32">
+                        </a>
                     </li>
                 </ul>
             </div>

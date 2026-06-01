@@ -29,7 +29,7 @@
     <meta name="twitter:description" content="{{ $metaDescription }}">
     <meta name="twitter:image" content="{{ $image }}">
     <meta name="apple-mobile-web-app-title" content="Hospital Dr. Raúl Hernández">
-    <link rel="canonical" href="{{ $url }}">
+    <link rel="canonical" href="{{ config('app.url') . request()->getRequestUri() }}">
     <link rel="icon" type="image/png" href="{{ asset('icons/favicon-96x96.png') }}" sizes="96x96">
     <link rel="icon" type="image/svg+xml" href="{{ asset('icons/favicon.svg') }}">
     <link rel="shortcut icon" href="{{ asset('icons/favicon.ico') }}">
