@@ -9,13 +9,17 @@ export default defineConfig({
             input: [
                 'resources/css/app.css',
                 'resources/js/app.js',
-                'resources/js/menu.js',
-                'resources/js/home.js'
             ],
             refresh: true,
         }),
         tailwindcss(),
-        vue()
+        vue({
+            template: {
+                // false desactiva completamente la transformación de asset URLs
+                // Todos los src/srcset apuntando a /public/ se dejan como strings literales
+                transformAssetUrls: false
+            }
+        })
     ],
     build: {
         modulePreload: false,

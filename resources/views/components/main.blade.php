@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ $title }}">
     <meta property="og:description" content="{{ $metaDescription }}">
-    <meta property="og:image" content="{{ $image }}" >
+    <meta property="og:image" content="{{ $image }}">
     <meta property="og:url" content="{{ $url }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ $title }}">
@@ -36,18 +36,11 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('icons/apple-touch-icon.png') }}">
     <link rel="manifest" href="{{ asset('icons/site.webmanifest') }}">
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-        @vite(['resources/css/app.css', 'resources/js/menu.js'])
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     @endif
     <title>{{ $title }}</title>
 </head>
 
-<body class="font-aeonik">
-    <x-header></x-header>
-    <main class="px-5 md:px-20">
-        {{ $slot }}
-    </main>
-    <x-footer></x-footer>
-    @stack('scripts')
+<body class="font-aeonik" id="app">  
 </body>
-
 </html>

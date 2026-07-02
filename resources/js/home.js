@@ -11,7 +11,6 @@ function initializeCounters() {
             let current = 0;
 
             const increment = Math.ceil(target / 30);
-
             const timer = setInterval(() => {
                 current += increment;
 

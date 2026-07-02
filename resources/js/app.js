@@ -1,16 +1,7 @@
 import { createApp } from 'vue'
-import ServiciosLaboratorio from './components/ServiciosLaboratorio.vue'
-import DirectorioMedico from './components/DirectorioMedico.vue'
-import './menu'
-import './home'
+import App from './App.vue'
+import router from './router/index.js'
 
-const appElement = document.getElementById('app')
-
-if (appElement) {
-    createApp({
-        components: {
-            ServiciosLaboratorio,
-            DirectorioMedico
-        }
-    }).mount('#app')
-}
+createApp(App)
+    .use(router)
+    .mount('#app')

@@ -2,38 +2,55 @@ services:
   app:
     build: .
     container_name: laravel_app
+
+    working_dir: /var/www
+
     ports:
       - "8000:8000"
       - "5173:5173"
+
     volumes:
       - .:/var/www
+      - node_modules:/var/www/node_modules
+
     depends_on:
       - mysql
+
+    stdin_open: true
+    tty: true
 
   mysql:
     image: mysql:8.0
     container_name: mysql_db
     restart: always
+
     environment:
-      MYSQL_DATABASE: hospitaldr
+      MYSQL_DATABASE: u932571146_HospitalDR
       MYSQL_ROOT_PASSWORD: root
+
     ports:
       - "3306:3306"
+
     volumes:
       - dbdata:/var/lib/mysql
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     container_name: phpmyadmin
+
     restart: unless-stopped
+
     environment:
       PMA_HOST: mysql
       PMA_PORT: 3306
       MYSQL_ROOT_PASSWORD: root
+
     ports:
       - "8080:80"
+
     depends_on:
       - mysql
 
 volumes:
   dbdata:
+  node_modules:

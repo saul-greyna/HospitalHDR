@@ -2,18 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+// Todas las rutas devuelven la misma vista; Vue Router maneja la navegación en el cliente
+Route::get('/{any?}', function () {
     return view('home.index');
-})->name('inicio');
-
-Route::get('/directorio-medico', function () {
-    return view('directorio.index');
-})->name('directorio.medico');
-
-Route::get('/servicios', function () {
-    return view('servicios.index');
-})->name('servicios');
-
-Route::get('/quienes-somos', function () {
-    return view('nosotros.index');
-})->name('quienes.somos');
+})->where('any', '.*');
