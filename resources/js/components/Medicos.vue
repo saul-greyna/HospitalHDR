@@ -40,12 +40,11 @@ function volver() {
 </script>
 
 <template>
-    <div v-if="doctorActual"
-        class="grid grid-cols-1 grid-rows-2 gap-4 md:grid-cols-2 md:grid-rows-1 place-content-center place-items-center">
+    <div v-if="doctorActual">
         <aside class="absolute z-20 p-4 -translate-y-1/2 bg-white rounded-full shadow-xl top-1/2 md:left-49">
             <div class="flex flex-col gap-5">
                 <button @click="irAnterior" :disabled="!anterior"
-                    class="flex items-center justify-center w-16 h-16 text-white transition bg-black rounded-full hover:scale-105 disabled:opacity-30"
+                    class="flex items-center justify-center text-white transition bg-black rounded-full md:h-16 md:w-16 hover:scale-105 disabled:opacity-30"
                     aria-label="Médico anterior">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
@@ -53,7 +52,7 @@ function volver() {
                     </svg>
                 </button>
                 <button @click="volver"
-                    class="flex items-center justify-center w-16 h-16 text-black transition rounded-full bg-cyan-300 hover:scale-105"
+                    class="flex items-center justify-center text-black transition rounded-full md:h-16 md:w-16 bg-cyan-300 hover:scale-105"
                     aria-label="Volver al listado">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
@@ -62,7 +61,7 @@ function volver() {
                     </svg>
                 </button>
                 <button @click="irSiguiente" :disabled="!siguiente"
-                    class="flex items-center justify-center w-16 h-16 text-white transition bg-black rounded-full hover:scale-105 disabled:opacity-30"
+                    class="flex items-center justify-center text-white transition bg-black rounded-full md:h-16 md:w-16 hover:scale-105 disabled:opacity-30"
                     aria-label="Médico siguiente">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
@@ -72,10 +71,10 @@ function volver() {
             </div>
         </aside>
         <figure
-            class="relative my-4 overflow-hidden md:h-201 bg-linear-to-r from-cyan-300 via-cyan-400 to-cyan-300 rounded-4xl md:w-134">
+            class="relative my-4 overflow-hidden md:h-201 rounded-4xl md:w-134 max-w-97.5 h-auto">
             <img :src="doctorActual.imagen"
                 :alt="`${doctorActual.gradoPrefijo} ${doctorActual.nombre} ${doctorActual.apellido}`"
-                class="object-cover object-center w-full h-full md:w-134 md:h-201" width="430" height="704"
+                class="object-cover object-center w-full h-full md:w-134 md:h-201" width="390" height="585"
                 fetchpriority="high">
         </figure>
         <article class="flex flex-col items-start justify-center py-4 space-y-4">
@@ -139,7 +138,7 @@ function volver() {
                 </div>
             </div>
             <a href="tel:4777141973"
-                class="grid w-full h-20 cursor-pointer hover:border-2 hover:border-cyan-500 rounded-3xl place-content-center bg-linear-to-t from-white via-cyan-300 to-cyan-400">
+                class="grid w-full h-20 cursor-pointer hover:border-2 hover:border-cyan-500 rounded-3xl place-content-center md:bg-linear-to-t md:from-white md:via-cyan-300 md:to-cyan-400 bg-linear-to-r from-cyan-300 via-cyan-400 to-cyan-300">
                 <span class="text-xl font-medium text-center text-zinc-500">Agenda una cita</span>
             </a>
         </article>
