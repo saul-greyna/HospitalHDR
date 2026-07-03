@@ -17,9 +17,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Hospital Dr. Raúl Hernández">
-    <meta name="robots" content="all">
+    <meta name="robots" content="index, follow">
     <meta name="description" content="{{ $metaDescription }}">
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ $title }}">
+    <meta property="og:locale" content="es_MX">
     <meta property="og:title" content="{{ $title }}">
     <meta property="og:description" content="{{ $metaDescription }}">
     <meta property="og:image" content="{{ $image }}">
@@ -41,6 +43,7 @@
     <title>{{ $title }}</title>
 </head>
 
-<body class="font-aeonik" id="app">  
+<body class="font-aeonik" id="app">
 </body>
+
 </html>
