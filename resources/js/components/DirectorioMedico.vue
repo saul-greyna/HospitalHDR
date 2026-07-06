@@ -84,14 +84,14 @@ watch(doctoresFiltrados, (lista) => {
         <form class="grid grid-cols-2 grid-rows-3 gap-3 mx-2 my-4 rounded-lg md:mx-17 md:grid-cols-6 md:grid-rows-1"
             @submit.prevent="buscarPorNombre">
             <select v-model="filtros.grado" aria-label="Seleciona la profesión" name="grado"
-                class="md:min-w-50 transition-[background] duration-1000 ease-in-out open:bg-sexto text-tertiary text-base font-medium bg-white px-4 py-2 rounded-2xl text-center flex items-center justify-center">
+                class="md:min-w-50 transition-[background] duration-1000 ease-in-out open:bg-sexto text-tertiary md:text-base font-medium bg-white px-4 py-2 rounded-2xl text-center flex items-center justify-center text-sm">
                 <option value="">Profesión</option>
                 <option value="Doctor">Doctor</option>
                 <option value="Doctora">Doctora</option>
                 <option value="Licenciatura">Licenciatura</option>
             </select>
             <select v-model="filtros.especialidad" aria-label="Seleciona la especialidad" name="especialidad"
-                class="md:min-w-50 transition-[background] duration-1000 ease-in-out open:bg-sexto text-tertiary text-base font-medium bg-white px-4 py-2 rounded-2xl text-center flex items-center justify-center">
+                class="md:min-w-50 transition-[background] duration-1000 ease-in-out open:bg-sexto text-tertiary md:text-base font-medium bg-white px-4 py-2 rounded-2xl text-center flex items-center justify-center text-sm">
                 <option value="">Especialidades</option>
                 <option value="Clínicas">Clínicas</option>
                 <option value="Quirúrgicas">Quirúrgicas</option>
@@ -100,7 +100,7 @@ watch(doctoresFiltrados, (lista) => {
                 <option value="Odontológicas">Odontológicas</option>
             </select>
             <select v-model="filtros.consultorio" aria-label="Seleciona el consultorio" name="consultorio"
-                class="md:min-w-50 transition-[background] duration-1000 ease-in-out open:bg-sexto text-tertiary text-base font-medium bg-white px-4 py-2 rounded-2xl text-center flex items-center justify-center">
+                class="md:min-w-50 transition-[background] duration-1000 ease-in-out open:bg-sexto text-tertiary md:text-base font-medium bg-white px-4 py-2 rounded-2xl text-center flex items-center justify-center text-sm">
                 <option value="">Consultorio</option>
                 <optgroup label="100 - 110">
                     <option value="102">102</option>
@@ -138,19 +138,19 @@ watch(doctoresFiltrados, (lista) => {
             </select>
             <input v-model="nombreBusqueda" type="search" placeholder="Ingresa el nombre" aria-label="Buscar por Nombre"
                 name="nombre"
-                class="md:min-w-50 transition-[background] duration-1000 ease-in-out open:bg-sextarian text-tertiary text-base font-medium bg-white px-4 py-2 rounded-2xl text-center flex items-center justify-center md:col-span-2">
+                class="md:min-w-50 transition-[background] duration-1000 ease-in-out open:bg-sextarian text-tertiary md:text-base font-medium bg-white px-4 py-2 rounded-2xl text-center flex items-center justify-center md:col-span-2 text-sm">
             <button type="submit"
-                class="col-span-2 px-6 py-3 font-bold transition-all duration-500 ease-in-out transform bg-sextarian rounded-2xl hover:animate-pulse md:col-start-6">
+                class="col-span-2 px-6 py-3 text-sm font-bold transition-all duration-500 ease-in-out transform bg-sextarian rounded-2xl hover:animate-pulse md:col-start-6 md:text-base">
                 Buscar
             </button>
         </form>
         <div class="flex items-center justify-between gap-4 mx-2">
-            <span class="text-base font-semibold md:mx-17 text-quinary">
+            <span class="text-sm font-semibold md:mx-17 text-quinary">
                 Medicos disponibles {{ doctoresFiltrados.length }}
                 <span v-if="hayFiltrosActivos"> de {{ doctores.length }}</span>
             </span>
             <button v-if="hayFiltrosActivos" @click="limpiarFiltros"
-                class="text-base font-semibold transition-all duration-200 cursor-pointer hover:underline md:mx-17 text-secondary">
+                class="font-semibold transition-all duration-200 cursor-pointer hover:underline md:mx-17 text-secondary md:text-base">
                 Limpiar filtros
             </button>
         </div>
@@ -163,12 +163,16 @@ watch(doctoresFiltrados, (lista) => {
                             fetchpriority="high" decoding="async" loading="eager">
                     </figure>
                 </RouterLink>
-                <div class="pl-4">
-                    <h2 class="my-2 text-2xl font-semibold">
+                <div class="max-w-72 md:w-full">
+                    <h2 class="my-2 text-xl font-semibold md:text-2xl">
                         {{ doctor.gradoPrefijo }} {{ doctor.alias }}
                     </h2>
-                    <p class="text-base">{{ doctor.especialidad }}</p>
-                    <span>Consultorio {{ doctor.consultorio }}</span>
+                    <p class="text-sm md:text-base">
+                        {{ doctor.especialidad }}
+                    </p>
+                    <span>
+                        Consultorio {{ doctor.consultorio }}
+                    </span>
                 </div>
             </li>
         </ul>

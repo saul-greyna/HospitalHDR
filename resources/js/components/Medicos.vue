@@ -41,7 +41,7 @@ function volver() {
 
 <template>
     <section v-if="doctorActual"
-        class="grid grid-cols-1 gap-4 md:grid-cols-2 md:grid-rows-1 md:place-content-center md:place-items-center">
+        class="grid grid-cols-1 gap-4 md:grid-cols-2 md:grid-rows-1 md:place-content-center md:place-items-center md:my-8">
         <aside class="absolute z-20 p-2 -translate-y-1/2 bg-white rounded-full shadow-xl md:p-4 top-1/2 md:left-49">
             <div class="flex flex-col gap-3 md:gap-6">
                 <button @click="irAnterior" :disabled="!anterior"
