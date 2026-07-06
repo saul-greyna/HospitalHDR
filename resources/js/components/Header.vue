@@ -13,8 +13,8 @@ function cerrarMenu() {
 </script>
 
 <template>
-    <header class="px-5 md:px-20">
-        <nav class="sticky flex items-center justify-between px-4 my-2 bg-gray-200 rounded-4xl"
+    <header class="sticky z-10 px-5 top-2 md:px-20">
+        <nav class="flex items-center justify-between px-4 my-2 bg-gray-200 rounded-4xl"
             aria-label="Navegación principal">
             <RouterLink to="/" aria-label="Ir al inicio" @click="cerrarMenu">
                 <img src="/icons/HospitalDrRaulHernadez_horizontal.svg" alt="Logo del Hospital Dr. Raul Hernandez"
@@ -28,7 +28,7 @@ function cerrarMenu() {
                         d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                 </svg>
             </button>
-            <ul :class="[menuAbierto ? 'flex' : 'hidden', 'absolute left-0 top-full mt-4 w-92 flex-col items-center gap-6 rounded-4xl bg-gray-200 py-6 font-medium md:static md:flex md:w-auto md:flex-row md:gap-8 md:mt-0 md:bg-gray-100 md:px-4 md:py-3']"
+            <ul :class="[menuAbierto ? 'flex' : 'hidden', 'absolute left-4 top-full mt-4 w-[335px] flex-col items-center gap-6 rounded-4xl bg-gray-200 py-6 font-medium md:static md:flex md:w-auto md:flex-row md:gap-8 md:mt-0 md:bg-gray-100 md:px-4 md:py-3']"
                 aria-label="Menú de navegación">
                 <li>
                     <RouterLink to="/servicios" class="text-sm text-tertiary"

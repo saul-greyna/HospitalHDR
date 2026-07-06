@@ -15,8 +15,6 @@ export default defineConfig({
         tailwindcss(),
         vue({
             template: {
-                // false desactiva completamente la transformación de asset URLs
-                // Todos los src/srcset apuntando a /public/ se dejan como strings literales
                 transformAssetUrls: false
             }
         })

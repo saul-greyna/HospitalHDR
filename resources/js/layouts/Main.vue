@@ -1,10 +1,10 @@
 <script setup>
 import Footer from '../components/Footer.vue';
-import Navbar from '../components/Navbar.vue'
+import Header from '../components/Header.vue';
 </script>
 
 <template>
-    <Navbar />
+    <Header />
     <main class="px-5 md:px-20">
         <RouterView />
     </main>

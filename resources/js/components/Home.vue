@@ -33,49 +33,51 @@ onMounted(() => {
 <template>
     <section class="flex flex-col justify-center md:mb-24 md:mt-16">
         <header class="flex flex-col items-center">
-            <p class="mb-4 text-sm font-medium tracking-wide text-quaternary">
+            <p class="mb-4 text-xs font-medium tracking-wide md:text-sm text-quaternary">
                 Sobre nosotros
             </p>
-            <h1 class="w-2/3 pb-4 text-5xl font-medium text-center md:text-8xl md:pb-12 md:w-3/4">
+            <h1 class="w-2/3 pb-4 text-3xl font-medium text-center md:text-8xl md:pb-12 md:w-3/4">
                 Hospital con atención médica especializada
             </h1>
         </header>
         <picture class="relative flex items-center justify-center">
-            <source sizes="(min-width: 1400px) 1280px, 93.7vw"
-                srcset="/images/Home/Oms-Cada-Paciente-Es-Unico-382.webp 382w,
+            <source sizes="(min-width: 1400px) 1280px, 93.7vw" srcset="/images/Home/Oms-Cada-Paciente-Es-Unico-382.webp 382w,
                         /images/Home/Oms-Cada-Paciente-Es-Unico-984.webp 984w,
                         /images/Home/Oms-Cada-Paciente-Es-Unico-1280.webp 1280w,
                         /images/Home/Oms-Cada-Paciente-Es-Unico-1710.webp 1710w,
-                        /images/Home/Oms-Cada-Paciente-Es-Unico-2048.webp 2048w"
-                type="image/webp">
+                        /images/Home/Oms-Cada-Paciente-Es-Unico-2048.webp 2048w" type="image/webp">
             <img src="/images/Home/Oms-Cada-Paciente-Es-Unico-382.webp" alt="Profesional medico con receta"
-                class="w-full h-auto max-w-7xl rounded-2xl" fetchpriority="high" loading="eager" width="382"
-                height="141">
+                class="w-full h-auto max-w-7xl rounded-2xl" fetchpriority="high" loading="eager" width="335"
+                height="124">
         </picture>
         <ul class="grid grid-cols-2 grid-rows-3 gap-5 mt-7 md:grid-cols-5 md:grid-rows-1 md:my-16 place-items-center">
             <li class="text-center">
-                <span class="inline-block text-5xl font-semibold tabular-nums min-w-[4ch]" data-target-value="30">0</span>
+                <span class="inline-block md:text-5xl font-semibold tabular-nums min-w-[4ch] text-4xl"
+                    data-target-value="30">0</span>
                 <p class="font-medium">Años de experiencia</p>
             </li>
             <li class="text-center">
-                <span class="inline-block text-5xl font-semibold tabular-nums min-w-[4ch]" data-target-value="60">0</span>
+                <span class="inline-block md:text-5xl font-semibold tabular-nums min-w-[4ch] text-4xl"
+                    data-target-value="60">0</span>
                 <p class="font-medium">Profesionales de la salud</p>
             </li>
             <li class="text-center">
-                <span class="inline-block text-5xl font-semibold tabular-nums min-w-[4ch]" data-target-value="5">0</span>
+                <span class="inline-block md:text-5xl font-semibold tabular-nums min-w-[4ch] text-4xl"
+                    data-target-value="5">0</span>
                 <p class="font-medium">Áreas quirúrgicas</p>
             </li>
             <li class="text-center">
-                <span class="inline-block text-5xl font-semibold tabular-nums min-w-[4ch]" data-target-value="3">0</span>
+                <span class="inline-block md:text-5xl font-semibold tabular-nums min-w-[4ch] text-4xl"
+                    data-target-value="3">0</span>
                 <p class="font-medium">Quirófanos disponibles</p>
             </li>
             <li class="col-span-2 text-center md:col-auto">
-                <span class="inline-block text-5xl font-semibold tabular-nums min-w-[4ch]" data-target-value="15">0</span>
+                <span class="inline-block md:text-5xl font-semibold tabular-nums min-w-[4ch] text-4xl"
+                    data-target-value="15">0</span>
                 <p class="font-medium">Especialidades médicas</p>
             </li>
         </ul>
     </section>
-
     <section class="flex flex-col items-center justify-center w-full py-6">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">Como podemos ayudarte</p>
@@ -94,9 +96,11 @@ onMounted(() => {
                     consultas generales hasta diagnósticos y tratamientos complejos, ofreciendo atención profesional
                     respaldada por experiencia clínica y tecnología médica adecuada.
                 </p>
-                <button class="flex items-center justify-center gap-4 px-2 py-2 mt-16 text-base font-semibold cursor-pointer rounded-4xl">
+                <button
+                    class="flex items-center justify-center gap-4 px-2 py-2 mt-16 text-base font-semibold cursor-pointer rounded-4xl">
                     Conoce más
-                    <img src="/icons/arrow-right-short.svg" alt="" width="24" height="24" class="w-6 bg-gray-300 rounded-full">
+                    <img src="/icons/arrow-right-short.svg" alt="" width="24" height="24"
+                        class="w-6 bg-gray-300 rounded-full">
                 </button>
             </li>
             <li class="px-8 py-12 text-left border-2 border-gray-300 md:w-1/3 bg-gray-50 rounded-4xl">
@@ -109,9 +113,11 @@ onMounted(() => {
                     cobertura completa en cada etapa del tratamiento, asegurando continuidad médica y seguimiento
                     adecuado para cada paciente.
                 </p>
-                <button class="flex items-center justify-center gap-4 px-2 py-2 mt-16 text-base font-semibold cursor-pointer rounded-4xl">
+                <button
+                    class="flex items-center justify-center gap-4 px-2 py-2 mt-16 text-base font-semibold cursor-pointer rounded-4xl">
                     Explorar servicios
-                    <img src="/icons/arrow-right-short.svg" alt="" width="24" height="24" class="w-6 bg-gray-300 rounded-full">
+                    <img src="/icons/arrow-right-short.svg" alt="" width="24" height="24"
+                        class="w-6 bg-gray-300 rounded-full">
                 </button>
             </li>
             <li class="px-8 py-12 text-left border-2 border-gray-300 md:w-1/3 bg-gray-50 rounded-4xl">
@@ -124,29 +130,29 @@ onMounted(() => {
                     procedimientos y acompañamiento médico antes, durante y después de la intervención, facilitando una
                     experiencia hospitalaria organizada y confiable.
                 </p>
-                <button class="flex items-center justify-center gap-4 px-2 py-2 mt-16 text-base font-semibold cursor-pointer rounded-4xl">
+                <button
+                    class="flex items-center justify-center gap-4 px-2 py-2 mt-16 text-base font-semibold cursor-pointer rounded-4xl">
                     Conoce más
-                    <img src="/icons/arrow-right-short.svg" alt="" width="24" height="24" class="w-6 bg-gray-300 rounded-full">
+                    <img src="/icons/arrow-right-short.svg" alt="" width="24" height="24"
+                        class="w-6 bg-gray-300 rounded-full">
                 </button>
             </li>
         </ul>
     </section>
-
     <section class="flex flex-row items-center justify-center w-full py-6 md:flex-col">
-        <div class="flex flex-col-reverse w-full overflow-hidden rounded-3xl bg-linear-to-t from-blue-300 to-gray-200 md:h-160 md:flex-row md:bg-linear-to-r">
+        <div
+            class="flex flex-col-reverse w-full overflow-hidden rounded-3xl bg-linear-to-t from-blue-300 to-gray-200 md:h-160 md:flex-row md:bg-linear-to-r">
             <picture class="md:w-1/2">
-                <source sizes="(min-width: 768px) 50vw, 93vw"
-                    srcset="/images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-380.webp 380w,
+                <source sizes="(min-width: 768px) 50vw, 93vw" srcset="/images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-380.webp 380w,
                             /images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-480.webp 480w,
                             /images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-760.webp 760w,
-                            /images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-1140.webp 1140w"
-                    type="image/webp">
+                            /images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-1140.webp 1140w" type="image/webp">
                 <img src="/images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-380.webp"
                     alt="Fachada del Hospital Dr. Raúl Hernández" width="380" height="285" loading="lazy"
                     class="h-auto md:rounded-3xl md:w-full">
             </picture>
-            <header class="flex flex-col justify-center p-10 md:pl-12 md:w-1/2 md:pr-40">
-                <p class="mb-3 text-sm font-medium tracking-wide text-tertiary">Nuestra ubicación</p>
+            <header class="flex flex-col justify-center p-6 md:p-10 md:pl-12 md:w-1/2 md:pr-40">
+                <span class="mb-3 text-sm font-medium tracking-wide text-tertiary">Nuestra ubicación</span>
                 <h2 class="mb-6 text-3xl font-semibold leading-tight text-left text-gray-700 md:text-5xl">
                     Hospital en León, Guanajuato con ubicación en Zona Centro
                 </h2>
@@ -156,18 +162,19 @@ onMounted(() => {
                 </p>
                 <div class="flex gap-4">
                     <a href="https://www.google.com/maps/dir//Hospital+HR+Ra%C3%BAl+Hern%C3%A1ndez,+5+de+Febrero+724,+Centro,+37000+Le%C3%B3n+de+los+Aldama,+Gto./@21.1187282,-101.6784173,17z/data=!3m1!5s0x842bbf09b5c238b7:0x65fbaf69bf9210!4m17!1m7!3m6!1s0x842bbf09b45b9033:0x179d54bf60000b1c!2sHospital+HR+Ra%C3%BAl+Hern%C3%A1ndez!8m2!3d21.1187232!4d-101.6758424!16s%2Fg%2F11bxc5gfrr!4m8!1m0!1m5!1m1!1s0x842bbf09b45b9033:0x179d54bf60000b1c!2m2!1d-101.6758424!2d21.1187232!3e3?authuser=0&entry=ttu&g_ep=EgoyMDI2MDIyNC4wIKXMDSoASAFQAw%3D%3D"
-                        class="px-6 py-3 text-sm text-white bg-black rounded-full md:font-medium" target="_blank" rel="noopener noreferrer">
+                        class="px-6 py-3 text-sm text-white bg-black rounded-full md:font-medium" target="_blank"
+                        rel="noopener noreferrer">
                         Cómo llegar
                     </a>
                     <a href="https://maps.app.goo.gl/S6CBuMScnpvabART9"
-                        class="px-6 py-3 text-sm bg-white rounded-full md:font-medium" target="_blank" rel="noopener noreferrer">
+                        class="px-6 py-3 text-sm bg-white rounded-full md:font-medium" target="_blank"
+                        rel="noopener noreferrer">
                         Ver en mapa
                     </a>
                 </div>
             </header>
         </div>
     </section>
-
     <section class="flex flex-col items-center justify-center w-full py-6">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">Certificación</p>
@@ -196,7 +203,8 @@ onMounted(() => {
                     </p>
                 </div>
                 <div>
-                    <h3 class="mb-3 text-2xl font-semibold text-quinary">03. Responsabilidad social y crecimiento sostenible</h3>
+                    <h3 class="mb-3 text-2xl font-semibold text-quinary">03. Responsabilidad social y crecimiento
+                        sostenible</h3>
                     <p class="leading-relaxed text-gray-600 pl-9">
                         Nuestra pertenencia a Marca GTO refleja prácticas responsables, inclusión y mejora
                         continua en la atención médica.
@@ -205,12 +213,11 @@ onMounted(() => {
             </article>
             <figure class="md:w-1/2">
                 <img src="/images/Home/MarcaGTO.svg"
-                    alt="Logo del Distintivo Marca Guanajuato del Hospital Dr. Raúl Hernández"
-                    width="366" height="253" class="w-full" loading="lazy">
+                    alt="Logo del Distintivo Marca Guanajuato del Hospital Dr. Raúl Hernández" width="366" height="253"
+                    class="w-full" loading="lazy">
             </figure>
         </div>
     </section>
-
     <section class="py-6">
         <header class="text-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">Actualidad médica</p>
@@ -235,7 +242,6 @@ onMounted(() => {
             </picture>
         </div>
     </section>
-
     <section class="flex flex-col items-center justify-center w-full py-6">
         <header class="flex flex-col items-center">
             <p class="my-4 text-sm font-medium tracking-wide text-quaternary">Nuestro equipo</p>
@@ -247,7 +253,8 @@ onMounted(() => {
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
                     <img src="/images/Home/doctores/Dr-Santiago-Ignacio-Godinez-Hernandez.webp" width="174" height="174"
-                        alt="Dr. Santiago Ignacio Godínez Hernández" class="object-cover rounded-full aspect-square" loading="lazy">
+                        alt="Dr. Santiago Ignacio Godínez Hernández" class="object-cover rounded-full aspect-square"
+                        loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">Dr. Santiago I. Godínez</h3>
                 <p class="text-base">Especialidad en genética médica</p>
@@ -255,7 +262,8 @@ onMounted(() => {
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
                     <img src="/images/Home/doctores/Dr-Alberto-Antonio-Gonzalez-Bravo.webp" width="174" height="174"
-                        alt="Dr. Alberto Antonio González Bravo" class="object-cover rounded-full aspect-square" loading="lazy">
+                        alt="Dr. Alberto Antonio González Bravo" class="object-cover rounded-full aspect-square"
+                        loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">Dr. Alberto González</h3>
                 <p class="text-base">Especialista en urología</p>
@@ -263,7 +271,8 @@ onMounted(() => {
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
                     <img src="/images/Home/doctores/Dr-Aldo-Ivan-Galvan-Linares.webp" width="174" height="174"
-                        alt="Dr. Aldo Iván Galván Linares" class="object-cover rounded-full aspect-square" loading="lazy">
+                        alt="Dr. Aldo Iván Galván Linares" class="object-cover rounded-full aspect-square"
+                        loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">Dr. Aldo Galvan</h3>
                 <p class="text-base">Anatomopatóloga</p>
@@ -279,7 +288,8 @@ onMounted(() => {
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
                     <img src="/images/Home/doctores/Dr-Benjamin-Sanchez-Trocino.webp" width="174" height="174"
-                        alt="Dr. Benjamín Sánchez Trocino" class="object-cover rounded-full aspect-square" loading="lazy">
+                        alt="Dr. Benjamín Sánchez Trocino" class="object-cover rounded-full aspect-square"
+                        loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">Dr. Benjamín Sánchez</h3>
                 <p class="text-base">Maxilofacial</p>
@@ -287,15 +297,17 @@ onMounted(() => {
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
                     <img src="/images/Home/doctores/Dra-Carolina-Dominguez-Meza.webp" width="174" height="174"
-                        alt="Dra. Carolina Domínguez Meza" class="object-cover rounded-full aspect-square" loading="lazy">
+                        alt="Dra. Carolina Domínguez Meza" class="object-cover rounded-full aspect-square"
+                        loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">Dra. Carolina Domínguez</h3>
                 <p class="text-base">Otorrinolaringología</p>
             </li>
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
-                    <img src="/images/Home/doctores/Dra-Guadalupe-Alejandra-Uvina-Quintero.webp" width="174" height="174"
-                        alt="Dra. Guadalupe Alejandra Uviña Quintero" class="object-cover rounded-full aspect-square" loading="lazy">
+                    <img src="/images/Home/doctores/Dra-Guadalupe-Alejandra-Uvina-Quintero.webp" width="174"
+                        height="174" alt="Dra. Guadalupe Alejandra Uviña Quintero"
+                        class="object-cover rounded-full aspect-square" loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">Dra. Guadalupe Uviña</h3>
                 <p class="text-base">Ginecología</p>
@@ -303,7 +315,8 @@ onMounted(() => {
             <li class="text-center border-2 border-gray-300 bg-gray-50 rounded-4xl w-80 h-80">
                 <figure class="flex items-center justify-center m-4">
                     <img src="/images/Home/doctores/Dra-Fatima-Irangani-Cedillo-Azuela.webp" width="174" height="174"
-                        alt="Dra. Fátima Irangani Cedillo Azuela" class="object-cover rounded-full aspect-square" loading="lazy">
+                        alt="Dra. Fátima Irangani Cedillo Azuela" class="object-cover rounded-full aspect-square"
+                        loading="lazy">
                 </figure>
                 <h3 class="mb-4 text-2xl font-semibold">Dra. Fátima Cedillo</h3>
                 <p class="text-base">Oftalmología</p>
