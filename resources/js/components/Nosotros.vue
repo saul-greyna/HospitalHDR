@@ -8,7 +8,7 @@
                 Hospital Dr. Raúl Hernández
             </h1>
         </header>
-        <div class="grid items-center gap-20 mx-auto md:mt-20 md:w-5/6 lg:grid-cols-2">
+        <article class="grid items-center gap-20 mx-auto md:mt-20 md:w-5/6 lg:grid-cols-2">
             <div class="relative">
                 <div class="absolute inset-0 rounded-3xl bg-tertiary/20"></div>
                 <img src="/images/Nosotros/portada.jpg" alt="Equipo médico del hospital"
@@ -39,7 +39,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </article>
         <div class="w-full p-12 my-16 bg-gray-100 rounded-3xl">
             <div class="mb-12 text-center">
                 <h3 class="text-4xl font-semibold text-quinary">Nuestros valores</h3>

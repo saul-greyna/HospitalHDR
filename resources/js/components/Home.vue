@@ -96,29 +96,29 @@ onMounted(() => {
                     consultas generales hasta diagnósticos y tratamientos complejos, ofreciendo atención profesional
                     respaldada por experiencia clínica y tecnología médica adecuada.
                 </p>
-                <button
-                    class="flex items-center justify-center gap-4 px-2 py-2 mt-16 text-base font-semibold cursor-pointer rounded-4xl">
+                <RouterLink to="/directorio-medico"
+                    class="flex items-start gap-4 px-2 py-2 mt-16 text-base font-semibold cursor-pointer rounded-4xl">
                     Conoce más
                     <img src="/icons/arrow-right-short.svg" alt="" width="24" height="24"
                         class="w-6 bg-gray-300 rounded-full">
-                </button>
+                </RouterLink>
             </li>
             <li class="px-8 py-12 text-left border-2 border-gray-300 md:w-1/3 bg-gray-50 rounded-4xl">
                 <figure class="flex items-center justify-center w-16 h-16 mb-16 bg-gray-100 rounded-full">
                     <img src="/icons/hospital.svg" alt="Icono de servicios integrales" class="w-11 h-11">
                 </figure>
-                <h3 class="pb-2 text-4xl font-semibold">Servicios</h3>
+                <h3 class="pb-2 text-4xl font-semibold">Servicios Medicos</h3>
                 <p class="pt-2 pr-10 text-base md:pr-18">
                     Ofrece servicios de apoyo diagnóstico, hospitalización y atención especializada que permiten una
                     cobertura completa en cada etapa del tratamiento, asegurando continuidad médica y seguimiento
                     adecuado para cada paciente.
                 </p>
-                <button
-                    class="flex items-center justify-center gap-4 px-2 py-2 mt-16 text-base font-semibold cursor-pointer rounded-4xl">
+                <RouterLink to="/servicios"
+                    class="flex items-start gap-4 px-2 py-2 mt-16 text-base font-semibold cursor-pointer rounded-4xl">
                     Explorar servicios
                     <img src="/icons/arrow-right-short.svg" alt="" width="24" height="24"
                         class="w-6 bg-gray-300 rounded-full">
-                </button>
+                </RouterLink>
             </li>
             <li class="px-8 py-12 text-left border-2 border-gray-300 md:w-1/3 bg-gray-50 rounded-4xl">
                 <figure class="flex items-center justify-center w-16 h-16 mb-16 bg-red-100 rounded-full">
@@ -149,7 +149,7 @@ onMounted(() => {
                             /images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-1140.webp 1140w" type="image/webp">
                 <img src="/images/Home/Fachada-Del-Hospital-Dr-Raul-Hernadez-380.webp"
                     alt="Fachada del Hospital Dr. Raúl Hernández" width="380" height="285" loading="lazy"
-                    class="h-auto md:rounded-3xl md:w-full">
+                    class="w-full h-auto md:rounded-3xl">
             </picture>
             <header class="flex flex-col justify-center p-6 md:p-10 md:pl-12 md:w-1/2 md:pr-40">
                 <span class="mb-3 text-sm font-medium tracking-wide text-tertiary">Nuestra ubicación</span>

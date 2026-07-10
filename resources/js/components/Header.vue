@@ -14,7 +14,8 @@ function cerrarMenu() {
 
 <template>
     <header class="sticky z-50 px-5 top-2 md:px-20">
-        <nav class="flex items-center justify-between px-4 my-2 bg-gray-200 rounded-4xl" aria-label="Navegación principal">
+        <nav class="flex items-center justify-between px-4 my-2 bg-gray-200 rounded-4xl"
+            aria-label="Navegación principal">
             <RouterLink to="/" aria-label="Ir al inicio" @click="cerrarMenu">
                 <img src="/icons/HospitalDrRaulHernadez_horizontal.svg" alt="Logo del Hospital Dr. Raul Hernandez"
                     width="350" height="75">
