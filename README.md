@@ -333,7 +333,7 @@ npm run dev
 ### 6. Generar el sitemap
 
 ```bash
-php artisan sitemap:generate --url=https://tu-dominio.com
+php artisan sitemap:generate --url=https://hospitalhdr.com/
 ```
 
 ## Uso con Docker
@@ -400,12 +400,3 @@ Archivos `.env` relevantes:
 - La tipografía institucional es **Aeonik** (versión TRIAL), cargada en múltiples pesos como WOFF2 tanto en `resources/fonts/` (fuente original) como en `public/build/assets/` (hasheada por Vite tras el build).
 - Vite está configurado con `usePolling: true` para el watcher de archivos, lo cual es necesario en entornos donde el sistema de archivos no emite eventos nativos de forma confiable (por ejemplo, Docker Desktop en Windows/macOS).
 - El repositorio de la API tiene una inconsistencia de nombre de archivo: `repositories/ategoria.repository.js` (falta la "c" de "categoria"); tenerlo en cuenta al importarlo.
-
-## Roadmap / pendientes sugeridos
-
-- [ ] Montar `categoria.routes.js` en `api/src/app.js` (actualmente definida pero no registrada).
-- [ ] Corregir el nombre de archivo `ategoria.repository.js` → `categoria.repository.js`.
-- [ ] Automatizar la sincronización entre `resources/js/data/doctores.js` y el arreglo `$slugsDoctores` de `GenerateSitemap.php` (por ejemplo, generando este último desde una fuente única de datos o vía un endpoint de la API).
-- [ ] Documentar el contrato de la API (endpoints, payloads, códigos de respuesta) — posiblemente con una colección de Postman o especificación OpenAPI.
-- [ ] Añadir `.env.example` a la raíz y a `api/` si aún no existen, para facilitar el onboarding.
-- [ ] Ampliar la cobertura de tests (`tests/Feature` y `tests/Unit` actualmente solo contienen los ejemplos por defecto de Laravel).
