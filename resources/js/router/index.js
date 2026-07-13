@@ -5,6 +5,7 @@ import Nosotros from '../components/Nosotros.vue'
 import DirectorioMedico from '../components/DirectorioMedico.vue'
 import Medicos from '../components/Medicos.vue'
 import ServiciosLaboratorio from '../components/ServiciosLaboratorio.vue'
+import Farmacia from '../components/Farmacia.vue'
 
 export default createRouter({
     history: createWebHistory(),
@@ -33,15 +34,18 @@ export default createRouter({
             path: '/directorio-medico/:slug',
             name: 'detalle',
             component: Medicos
+        },
+        {
+            path: '/farmacia',
+            name: 'farmacia',
+            component: Farmacia
         }
     ],
     scrollBehavior(to, from) {
-        // Volver al listado (detalle -> lista) conserva la posición de scroll
         if (to.name === 'lista' && from.name === 'detalle') {
             return false
         }
 
-        // Cualquier otra navegación (cambio de doctor, ir a otra sección) sube al top
         return { top: 0 }
     }
 })

@@ -43,9 +43,9 @@
             </div>
         </article>
     </section>
-    <section class="px-4 py-2 my-16 bg-gray-100 md:p-12 rounded-3xl">
-        <header class="mx-4 ">
-            <h2 class="text-4xl font-semibold text-center text-quinary">
+    <section class="px-4 py-4 my-16 bg-gray-100 md:p-12 rounded-3xl">
+        <header class="">
+            <h2 class="my-4 text-2xl font-semibold text-center md:text-4xl text-quinary">
                 Nuestros valores en el Hospital Dr. Raúl Hernández
             </h2>
         </header>

@@ -43,6 +43,12 @@ function cerrarMenu() {
                     </RouterLink>
                 </li>
                 <li>
+                    <RouterLink to="/farmacia" class="text-sm text-tertiary"
+                        title="Farmacia Lucia del Hospital Dr. Raul Hernandez" @click="cerrarMenu">
+                        Farmacia Lucia
+                    </RouterLink>
+                </li>
+                <li>
                     <RouterLink to="/quienes-somos" class="text-sm text-tertiary"
                         title="Quiénes somos en el Hospital Dr. Raul Hernandez" @click="cerrarMenu">
                         Quiénes somos
