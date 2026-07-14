@@ -1,76 +1,3 @@
-<script setup>
-import { ref, computed, watch } from 'vue'
-import { doctores } from '../data/doctores.js'
-import { setSlugsFiltrados } from '../data/directorioState.js'
-
-const hayFiltrosActivos = computed(() => {
-    return (
-        filtros.value.grado ||
-        filtros.value.especialidad ||
-        filtros.value.consultorio ||
-        filtros.value.nombre
-    )
-})
-
-const nombreBusqueda = ref('')
-
-const filtros = ref({
-    grado: '',
-    especialidad: '',
-    consultorio: '',
-    nombre: ''
-})
-
-const buscarPorNombre = () => {
-    filtros.value.nombre = nombreBusqueda.value.trim()
-}
-
-watch(nombreBusqueda, (valor) => {
-    if (!valor.trim()) {
-        filtros.value.nombre = ''
-    }
-})
-
-const limpiarFiltros = () => {
-    filtros.value.grado = ''
-    filtros.value.especialidad = ''
-    filtros.value.consultorio = ''
-    filtros.value.nombre = ''
-    nombreBusqueda.value = ''
-}
-
-const doctoresFiltrados = computed(() => {
-    return doctores.filter(doctor => {
-        const grado =
-            !filtros.value.grado ||
-            doctor.grado === filtros.value.grado
-
-        const especialidad =
-            !filtros.value.especialidad ||
-            doctor.especialidadCategoria === filtros.value.especialidad
-
-        const consultorio =
-            !filtros.value.consultorio ||
-            doctor.consultorio === filtros.value.consultorio
-
-        const nombre =
-            !filtros.value.nombre ||
-            `${doctor.gradoPrefijo} ${doctor.nombre} ${doctor.apellido}`
-                .toLowerCase()
-                .includes(filtros.value.nombre.toLowerCase()) ||
-            doctor.alias
-                .toLowerCase()
-                .includes(filtros.value.nombre.toLowerCase())
-
-        return grado && especialidad && consultorio && nombre
-    })
-})
-
-watch(doctoresFiltrados, (lista) => {
-    setSlugsFiltrados(lista)
-}, { immediate: true })
-</script>
-
 <template>
     <section class="bg-gray-200 md:my-14 rounded-2xl">
         <header class="flex flex-col items-center md:py-11">
@@ -178,3 +105,76 @@ watch(doctoresFiltrados, (lista) => {
         </ul>
     </section>
 </template>
+
+<script setup>
+import { ref, computed, watch } from 'vue'
+import { doctores } from '../data/doctores.js'
+import { setSlugsFiltrados } from '../data/directorioState.js'
+
+const hayFiltrosActivos = computed(() => {
+    return (
+        filtros.value.grado ||
+        filtros.value.especialidad ||
+        filtros.value.consultorio ||
+        filtros.value.nombre
+    )
+})
+
+const nombreBusqueda = ref('')
+
+const filtros = ref({
+    grado: '',
+    especialidad: '',
+    consultorio: '',
+    nombre: ''
+})
+
+const buscarPorNombre = () => {
+    filtros.value.nombre = nombreBusqueda.value.trim()
+}
+
+watch(nombreBusqueda, (valor) => {
+    if (!valor.trim()) {
+        filtros.value.nombre = ''
+    }
+})
+
+const limpiarFiltros = () => {
+    filtros.value.grado = ''
+    filtros.value.especialidad = ''
+    filtros.value.consultorio = ''
+    filtros.value.nombre = ''
+    nombreBusqueda.value = ''
+}
+
+const doctoresFiltrados = computed(() => {
+    return doctores.filter(doctor => {
+        const grado =
+            !filtros.value.grado ||
+            doctor.grado === filtros.value.grado
+
+        const especialidad =
+            !filtros.value.especialidad ||
+            doctor.especialidadCategoria === filtros.value.especialidad
+
+        const consultorio =
+            !filtros.value.consultorio ||
+            doctor.consultorio === filtros.value.consultorio
+
+        const nombre =
+            !filtros.value.nombre ||
+            `${doctor.gradoPrefijo} ${doctor.nombre} ${doctor.apellido}`
+                .toLowerCase()
+                .includes(filtros.value.nombre.toLowerCase()) ||
+            doctor.alias
+                .toLowerCase()
+                .includes(filtros.value.nombre.toLowerCase())
+
+        return grado && especialidad && consultorio && nombre
+    })
+})
+
+watch(doctoresFiltrados, (lista) => {
+    setSlugsFiltrados(lista)
+}, { immediate: true })
+</script>

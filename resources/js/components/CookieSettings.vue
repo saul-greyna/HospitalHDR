@@ -1,6 +1,5 @@
 <template>
   <div class="p-6 bg-white border border-gray-200 rounded-lg">
-    <!-- Encabezado -->
     <div class="mb-6">
       <h1 class="text-2xl font-bold text-gray-900">Configuración de Cookies</h1>
       <p class="mt-2 text-gray-600">
@@ -8,8 +7,6 @@
         ya que son necesarias para el funcionamiento del sitio.
       </p>
     </div>
-
-    <!-- Estado actual del consentimiento -->
     <div v-if="consentStatus" class="p-4 mb-6 border border-blue-200 rounded-lg bg-blue-50">
       <p class="text-sm text-blue-900">
         <strong>Consentimiento registrado el:</strong> {{ formatDate(consentStatus.timestamp) }}
@@ -19,12 +16,9 @@
         {{ consentStatus.clientInfo.timezone }}
       </p>
     </div>
-
-    <!-- Sección de cookies -->
     <div class="space-y-6">
       <div v-for="cookieType in cookieTypes" :key="cookieType.id"
         class="p-5 transition-all border border-gray-200 rounded-lg hover:shadow-md">
-        <!-- Encabezado del tipo de cookie -->
         <div class="flex items-start justify-between mb-4">
           <div class="flex-1">
             <div class="flex items-center gap-2">
@@ -43,7 +37,6 @@
             <p class="mt-2 text-sm text-gray-600">{{ cookieType.description }}</p>
           </div>
 
-          <!-- Toggle switch -->
           <div class="flex items-center ml-4">
             <label :class="{
               'opacity-50 cursor-not-allowed': cookieType.required,
@@ -58,8 +51,6 @@
             </label>
           </div>
         </div>
-
-        <!-- Cookies individuales -->
         <div v-if="cookieType.cookies && cookieType.cookies.length > 0" class="space-y-2">
           <button @click="toggleExpanded(cookieType.id)"
             class="flex items-center gap-1 text-xs font-medium text-blue-600 hover:text-blue-800">
@@ -87,8 +78,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Botones de acción -->
     <div class="flex flex-wrap gap-3 pt-6 mt-8 border-t border-gray-200">
       <button @click="handleSave"
         class="px-6 py-2 font-medium text-white transition-colors bg-blue-600 rounded-lg hover:bg-blue-700">
@@ -107,8 +96,6 @@
         Resetear
       </button>
     </div>
-
-    <!-- Información de privacidad -->
     <div class="p-4 mt-8 border border-gray-200 rounded-lg bg-gray-50">
       <h4 class="font-semibold text-gray-900">Más información</h4>
       <ul class="mt-3 space-y-2 text-sm text-gray-700">
