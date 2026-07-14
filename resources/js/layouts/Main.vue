@@ -1,6 +1,7 @@
 <script setup>
 import Footer from '../components/Footer.vue';
 import Header from '../components/Header.vue';
+import CookieBanner from '../components/CookieBanner.vue'
 </script>
 
 <template>
@@ -9,4 +10,5 @@ import Header from '../components/Header.vue';
         <RouterView />
     </main>
     <Footer />
+    <CookieBanner />
 </template>
