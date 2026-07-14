@@ -1,10 +1,10 @@
 <template>
-    <section class="bg-gray-200 md:my-14 rounded-2xl">
+    <section class="py-3 bg-gray-200 md:py-0 md:my-14 rounded-2xl">
         <header class="flex flex-col items-center md:py-11">
-            <p class="mt-2 text-xs font-medium tracking-wide md:text-sm text-quaternary">
-                Directorio medico
-            </p>
-            <h1 class="mt-4 text-3xl font-medium text-center md:text-6xl text-quinary">
+            <span class="text-xs font-medium tracking-wide md:text-sm text-plata-600">
+                Directorio del Hospital
+            </span>
+            <h1 class="py-4 text-2xl font-medium text-center md:text-6xl text-azul-600">
                 Directorio de médicos
             </h1>
         </header>

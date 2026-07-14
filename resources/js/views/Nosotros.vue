@@ -1,10 +1,10 @@
 <template>
-    <section>
+    <section class="py-3">
         <header class="flex flex-col items-center">
-            <span class="my-4 text-sm font-medium tracking-wide text-quaternary">
+            <span class="text-xs font-medium tracking-wide md:text-sm text-plata-600">
                 Comprometidos con tu bienestar
             </span>
-            <h1 class="pb-8 text-4xl font-medium text-center md:text-6xl md:w-2/3 text-quinary">
+            <h1 class="py-4 text-2xl font-medium text-center md:text-6xl text-azul-600">
                 Dr. Raúl Hernández
             </h1>
         </header>
@@ -44,8 +44,8 @@
         </article>
     </section>
     <section class="px-4 py-4 my-16 bg-gray-100 md:p-12 rounded-3xl">
-        <header class="">
-            <h2 class="my-4 text-2xl font-semibold text-center md:text-4xl text-quinary">
+        <header class="text-center">
+            <h2 class="my-4 text-2xl font-semibold md:text-4xl text-quinary">
                 Nuestros valores en el Hospital Dr. Raúl Hernández
             </h2>
         </header>

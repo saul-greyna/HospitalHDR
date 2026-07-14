@@ -120,12 +120,12 @@ const seleccionarServicio = (servicio) => {
 </script>
 
 <template>
-    <section class="flex flex-col items-center py-6">
+    <section class="flex flex-col items-center py-3">
         <header class="flex flex-col items-center justify-center md:w-5xl w-80">
-            <p class="text-sm font-medium tracking-wide text-quaternary">
+            <span class="text-xs font-medium tracking-wide md:text-sm text-plata-600">
                 Nuestros servicios
-            </p>
-            <h1 class="py-6 text-2xl font-medium text-center md:text-6xl text-quinary">
+            </span>
+            <h1 class="py-4 text-2xl font-medium text-center md:text-6xl text-azul-600">
                 Servicios médicos y promociones
             </h1>
         </header>
@@ -134,7 +134,7 @@ const seleccionarServicio = (servicio) => {
                 <ul class="space-y-4">
                     <li v-for="servicio in listaServicios" :key="servicio.id" class="cursor-pointer"
                         @click="seleccionarServicio(servicio)"
-                        :class="servicioActivo.id === servicio.id ? ' text-quinary text-3xl font-semibold' : 'text-gray-500 text-base'">
+                        :class="servicioActivo.id === servicio.id ? 'text-3xl font-semibold' : 'text-gray-500 text-base'">
                         {{ servicio.nombre }}
                     </li>
                 </ul>
@@ -144,13 +144,13 @@ const seleccionarServicio = (servicio) => {
                     width="335" height="188" fetchpriority="high" decoding="async" loading="eager">
                 <header
                     class="absolute top-0 w-full p-2 md:shadow-md md:p-8 md:max-w-sm md:bg-white/90 md:backdrop-blur-md rounded-2xl md:top-8 md:left-8">
-                    <h2 class="mb-4 font-semibold text-black md:text-3xl md:text-quinary">
+                    <h2 class="mb-4 font-semibold text-black md:text-3xl">
                         {{ servicioActivo.nombre }}
                     </h2>
                     <p class="hidden mb-6 text-gray-600 md:block">
                         {{ servicioActivo.descripcion }}
                     </p>
-                    <span class="text-lg font-bold text-black md:text-xl md:text-quinary">
+                    <span class="text-lg font-bold text-black md:text-xl">
                         ${{ servicioActivo.precio }}
                     </span>
                 </header>

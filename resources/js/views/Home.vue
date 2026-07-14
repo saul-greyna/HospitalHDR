@@ -33,10 +33,10 @@ onMounted(() => {
 <template>
     <section class="grid grid-cols-2 md:mb-24 md:mt-16 place-content-center">
         <header class="col-span-2 text-center place-items-center place-content-center">
-            <p class="mb-4 text-xs font-medium tracking-wide md:text-sm text-quaternary">
+            <span class="mb-4 text-xs font-medium tracking-wide md:text-sm text-plata-600">
                 Sobre nosotros
-            </p>
-            <h1 class="w-2/3 pb-4 text-3xl font-medium md:text-8xl md:pb-12 md:w-11/12">
+            </span>
+            <h1 class="w-2/3 pb-4 text-2xl font-medium md:text-8xl md:pb-12 md:w-11/12 text-azul-600">
                 Hospital con atención médica especializada
             </h1>
         </header>
@@ -81,7 +81,7 @@ onMounted(() => {
     </section>
     <section class="flex flex-col items-center justify-center w-full py-6">
         <header class="flex flex-col items-center">
-            <p class="my-4 text-sm font-medium tracking-wide text-quaternary">Como podemos ayudarte</p>
+            <p class="my-4 text-sm font-medium tracking-wide text-">Como podemos ayudarte</p>
             <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-gray-700 md:w-2/3 md:text-5xl">
                 Servicios hospitalarios y especialidades médicas en León
             </h2>
@@ -178,7 +178,7 @@ onMounted(() => {
     </section>
     <section class="flex flex-col items-center justify-center w-full py-6">
         <header class="flex flex-col items-center">
-            <p class="my-4 text-sm font-medium tracking-wide text-quaternary">Certificación</p>
+            <p class="my-4 text-sm font-medium tracking-wide">Certificación</p>
             <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-gray-700 md:w-2/3 md:text-5xl">
                 Hospital certificado en Guanajuato con estándares de calidad médica
             </h2>
@@ -214,14 +214,14 @@ onMounted(() => {
             </article>
             <figure class="md:w-1/2">
                 <img src="/images/Home/MarcaGTO.svg"
-                    alt="Logo del Distintivo Marca Guanajuato del Hospital Dr. Raúl Hernández" width="366" height="253"
-                    class="w-full" loading="lazy">
+                    alt="Logo del Distintivo Marca Guanajuato del Hospital Dr. Raúl Hernández" class="w-full"
+                    loading="lazy" width="366" height="253">
             </figure>
         </div>
     </section>
     <section class="py-6">
         <header class="text-center">
-            <p class="my-4 text-sm font-medium tracking-wide text-quaternary">Actualidad médica</p>
+            <p class="my-4 text-sm font-medium tracking-wide">Actualidad médica</p>
             <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-gray-700 md:text-5xl">
                 Campañas de salud del hospital
             </h2>
@@ -245,7 +245,7 @@ onMounted(() => {
     </section>
     <section class="flex flex-col items-center justify-center w-full py-6">
         <header class="flex flex-col items-center">
-            <p class="my-4 text-sm font-medium tracking-wide text-quaternary">Nuestro equipo</p>
+            <p class="my-4 text-sm font-medium tracking-wide">Nuestro equipo</p>
             <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-gray-700 md:text-5xl">
                 Médicos especialistas en nuestro hospital
             </h2>

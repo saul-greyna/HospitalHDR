@@ -61,25 +61,24 @@
   --color-plata-100: #f5f5f5;
   --color-plata-200: #e6e6e6;
   --color-plata-300: #d3d3d3;
-  --color-plata-400: #adadad;
-  --color-plata-500: #727272;
+  --color-plata-400: #adadad;  /* Color Base Gris */
+  --color-plata-500: #727272; 
   --color-plata-600: #535353;
   --color-plata-700: #404040;
   --color-plata-800: #272727;
   --color-plata-900: #1a1a1a;
   --color-plata-950: #0b0b0b;
-  
   --color-azul-50: #eff9ff;
-  --color-azul-100: #def4ff;
-  --color-azul-200: #b6eaff;
-  --color-azul-300: #75daff;
-  --color-azul-400: #2cc9ff;
-  --color-azul-500: #00bbfc;
-  --color-azul-600: #0097d4;
-  --color-azul-700: #0077ab;
-  --color-azul-800: #00638d;
-  --color-azul-900: #065174;
-  --color-azul-950: #04344d;
+  --color-azul-100: #dff4ff;
+  --color-azul-200: #b8eaff;
+  --color-azul-300: #78daff;
+  --color-azul-400: #2cc9ff;  /* Color Base Azul */
+  --color-azul-500: #06b4f1;
+  --color-azul-600: #0093ce;
+  --color-azul-700: #0074a7;
+  --color-azul-800: #02618a;
+  --color-azul-900: #085172;
+  --color-azul-950: #06334b;
   --font-aeonik: "Aeonik", sans-serif;
 }
 

@@ -1,10 +1,14 @@
 <template>
-    <section class="grid grid-cols-1 py-4 md:grid-cols-2 md:h-[85vh]">
+    <section class="grid grid-cols-1 py-3 md:grid-cols-2 md:h-[85vh] md:py-0">
         <header class="text-center md:col-span-2">
-            <span class="py-2 text-lg md:text-xl text-plata-400">Lucía del Hospital Dr. Raúl Hernández</span>
-            <h1 class="py-2 text-2xl font-semibold md:text-6xl text-plata-500">Farmacia Lucía</h1>
+            <span class="text-xs font-medium tracking-wide md:text-sm text-plata-600">
+                Lucía del Hospital Dr. Raúl Hernández
+            </span>
+            <h1 class="py-4 text-2xl font-medium text-center md:text-6xl text-azul-600">
+                Farmacia Lucía
+            </h1>
         </header>
-        <article class="py-2 md:row-start-2">
+        <article class="pb-2 md:row-start-2">
             <p class="text-base md:text-lg text-plata-900">
                 La <strong>Farmacia Lucía del Hospital Dr. Raúl Hernández</strong> forma parte de los servicios que
                 integran la atención médica del hospital, con el propósito de facilitar a pacientes y familiares el
