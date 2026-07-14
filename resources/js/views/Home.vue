@@ -31,16 +31,16 @@ onMounted(() => {
 </script>
 
 <template>
-    <section class="flex flex-col justify-center md:mb-24 md:mt-16">
-        <header class="flex flex-col items-center">
+    <section class="grid grid-cols-2 md:mb-24 md:mt-16 place-content-center">
+        <header class="col-span-2 text-center place-items-center place-content-center">
             <p class="mb-4 text-xs font-medium tracking-wide md:text-sm text-quaternary">
                 Sobre nosotros
             </p>
-            <h1 class="w-2/3 pb-4 text-3xl font-medium text-center md:text-8xl md:pb-12 md:w-3/4">
+            <h1 class="w-2/3 pb-4 text-3xl font-medium md:text-8xl md:pb-12 md:w-11/12">
                 Hospital con atención médica especializada
             </h1>
         </header>
-        <picture class="relative flex items-center justify-center">
+        <picture class="col-span-2 row-start-2 place-content-center place-items-center">
             <source sizes="(min-width: 1400px) 1280px, 93.7vw" srcset="/images/Home/Oms-Cada-Paciente-Es-Unico-382.webp 382w,
                         /images/Home/Oms-Cada-Paciente-Es-Unico-984.webp 984w,
                         /images/Home/Oms-Cada-Paciente-Es-Unico-1280.webp 1280w,
@@ -50,7 +50,8 @@ onMounted(() => {
                 class="w-full h-auto max-w-7xl rounded-2xl" fetchpriority="high" loading="eager" width="335"
                 height="124">
         </picture>
-        <ul class="grid grid-cols-2 grid-rows-3 gap-5 mt-7 md:grid-cols-5 md:grid-rows-1 md:my-16 place-items-center">
+        <ul
+            class="grid grid-cols-2 col-span-2 grid-rows-3 row-start-3 gap-y-8 gap-x-5 mt-7 md:grid-cols-5 md:grid-rows-1 md:my-16 place-items-center">
             <li class="text-center">
                 <span class="inline-block md:text-5xl font-semibold tabular-nums min-w-[4ch] text-4xl"
                     data-target-value="30">0</span>
@@ -61,17 +62,17 @@ onMounted(() => {
                     data-target-value="60">0</span>
                 <p class="font-medium">Profesionales de la salud</p>
             </li>
-            <li class="text-center">
+            <li class="row-start-2 text-center md:row-start-auto">
                 <span class="inline-block md:text-5xl font-semibold tabular-nums min-w-[4ch] text-4xl"
                     data-target-value="5">0</span>
                 <p class="font-medium">Áreas quirúrgicas</p>
             </li>
-            <li class="text-center">
+            <li class="row-start-2 text-center md:row-start-auto">
                 <span class="inline-block md:text-5xl font-semibold tabular-nums min-w-[4ch] text-4xl"
                     data-target-value="3">0</span>
                 <p class="font-medium">Quirófanos disponibles</p>
             </li>
-            <li class="col-span-2 text-center md:col-auto">
+            <li class="col-span-2 row-start-3 text-center md:col-auto md:row-start-auto">
                 <span class="inline-block md:text-5xl font-semibold tabular-nums min-w-[4ch] text-4xl"
                     data-target-value="15">0</span>
                 <p class="font-medium">Especialidades médicas</p>

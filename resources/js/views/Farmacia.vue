@@ -1,11 +1,11 @@
 <template>
-    <section class="flex flex-col w-full gap-8 py-4 md:flex-row md:items-center md:justify-center md:h-[90vh]">
-        <article class="py-2 md:py-8 md:w-1/2">
-            <header class="text-center">
-                <span class="py-2 text-lg md:text-xl text-plata-400">Lucía del Hospital Dr. Raúl Hernández</span>
-                <h1 class="py-2 text-2xl md:text-5xl text-plata-500">Farmacia Lucía</h1>
-            </header>
-            <p class="text-base md:text-lg text-plata-950">
+    <section class="grid grid-cols-1 py-4 md:grid-cols-2 md:h-[85vh]">
+        <header class="text-center md:col-span-2">
+            <span class="py-2 text-lg md:text-xl text-plata-400">Lucía del Hospital Dr. Raúl Hernández</span>
+            <h1 class="py-2 text-2xl font-semibold md:text-6xl text-plata-500">Farmacia Lucía</h1>
+        </header>
+        <article class="py-2 md:row-start-2">
+            <p class="text-base md:text-lg text-plata-900">
                 La <strong>Farmacia Lucía del Hospital Dr. Raúl Hernández</strong> forma parte de los servicios que
                 integran la atención médica del hospital, con el propósito de facilitar a pacientes y familiares el
                 acceso oportuno a los medicamentos e insumos requeridos durante su tratamiento. Su operación se
@@ -13,7 +13,7 @@
                 estándares establecidos para establecimientos farmacéuticos en el estado de Guanajuato.
             </p>
             <br>
-            <p class="text-base md:text-lg text-plata-950">
+            <p class="text-base md:text-lg text-plata-900">
                 De acuerdo con el <strong>Padrón Oficial de Farmacias de la Secretaría de Salud de Guanajuato,
                 </strong> la Farmacia Lucía cuenta con licencia sanitaria vigente y está autorizada
                 para la dispensación y manejo de medicamentos sujetos a regulación especial, incluyendo
@@ -22,14 +22,14 @@
                 cumplimiento de los requisitos sanitarios aplicables para la operación de una farmacia hospitalaria.
             </p>
             <br>
-            <p class="text-base md:text-lg text-plata-950">
+            <p class="text-base md:text-lg text-plata-900">
                 Como parte del Hospital Dr. Raúl Hernández, la farmacia contribuye a brindar continuidad en la
                 atención médica, permitiendo que los pacientes puedan obtener los medicamentos prescritos dentro del
                 mismo entorno hospitalario. Su integración con los servicios del hospital favorece una atención más
                 eficiente y segura, respaldada por las disposiciones de las autoridades sanitarias competentes.
             </p>
         </article>
-        <figure class="md:w-1/2">
+        <figure class="md:row-start-2">
             <img src="/images/farmacia/farmacia-lucia-del-hospital-raul-hernadez.png" alt="" class=" rounded-2xl"
                 fetchpriority="high" decoding="async" loading="eager">
         </figure>
