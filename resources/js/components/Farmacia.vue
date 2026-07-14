@@ -1,6 +1,6 @@
 <template>
     <section class="flex flex-col w-full gap-8 py-4 md:flex-row md:items-center md:justify-center md:h-[90vh]">
-        <article class="py-8 md:w-1/2">
+        <article class="py-2 md:py-8 md:w-1/2">
             <header class="text-center">
                 <span class="py-2 md:text-xl text-plata-300">Lucía del Hospital Dr. Raúl Hernández</span>
                 <h1 class="py-2 md:text-5xl text-plata-400">Farmacia Lucía</h1>
@@ -34,11 +34,11 @@
                 fetchpriority="high" decoding="async" loading="eager">
         </figure>
     </section>
-    <section class="py-16">
+    <section class="py-4 md:py-16">
         <article
-            class="grid self-start grid-cols-2 grid-rows-4 gap-0 md:grid-cols-3 md:grid-rows-3 md:place-content-center md:place-items-center">
+            class="grid self-start grid-cols-2 md:grid-cols-3 md:grid-rows-3 md:place-content-center md:place-items-center">
             <figure class="col-span-2 md:pr-4 md:col-span-1 md:row-span-3">
-                <header class="text-center mb-14">
+                <header class="text-center md:mb-14">
                     <span class="text-sm font-semibold tracking-wide text-azul-800">
                         Medicamentos y promociones de la Farmacia Lucía
                     </span>
@@ -47,37 +47,37 @@
                     </h2>
                 </header>
                 <img src="/images/farmacia/medicamentos/promocion-medicamentos.jpeg" alt=""
-                    class="object-center rounded-2xl">
+                    class="object-center my-4 rounded-2xl">
             </figure>
             <figure
                 class="items-start self-start w-full row-start-2 bg-gray-200 auto-rows-min md:row-start-auto rounded-tl-2xl place-content-center md:place-items-center">
                 <img src="/images/farmacia/medicamentos/etral-etoricoxib-caja-90-mg.jpeg" alt=""
-                    class="object-center w-full p-2 rounded-2xl min-w-42">
+                    class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
             <figure
                 class="items-start self-start w-full row-start-2 bg-gray-200 auto-rows-min md:row-start-auto rounded-tr-2xl place-content-center md:place-items-center">
                 <img src="/images/farmacia/medicamentos/etral-etoricoxib-caja-120-mg.jpeg" alt=""
-                    class="object-center w-full p-2 rounded-2xl min-w-42">
+                    class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
             <figure
                 class="items-start self-start w-full bg-gray-200 auto-rows-min md:col-start-2 place-content-center md:place-items-center">
                 <img src="/images/farmacia/medicamentos/dorsal-carisoprodol-meloxicam.jpeg" alt=""
-                    class="object-center w-full p-2 rounded-2xl min-w-42">
+                    class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
             <figure
                 class="items-start self-start w-full row-start-3 bg-gray-200 auto-rows-min md:row-start-auto md:col-start-3 place-content-center md:place-items-center">
                 <img src="/images/farmacia/medicamentos/keral-dexketoprofeno.jpeg" alt=""
-                    class="object-center w-full p-2 rounded-2xl min-w-42">
+                    class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
             <figure
                 class="items-start self-start w-full bg-gray-200 auto-rows-min md:col-start-2 md:row-start-3 rounded-bl-2xl place-content-center md:place-items-center">
                 <img src="/images/farmacia/medicamentos/velian-dexketoprofeno.jpeg" alt=""
-                    class="object-center w-full p-2 rounded-2xl min-w-42">
+                    class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
             <figure
                 class="items-start self-start w-full row-start-4 bg-gray-200 auto-rows-min md:row-start-3 md:col-start-3 rounded-br-2xl place-content-center md:place-items-center">
                 <img src="/images/farmacia/medicamentos/dalexiadol.jpeg" alt=""
-                    class="object-center w-full p-2 rounded-2xl min-w-42">
+                    class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
         </article>
     </section>

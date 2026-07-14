@@ -78,7 +78,7 @@ watch(doctoresFiltrados, (lista) => {
                 Directorio medico
             </p>
             <h1 class="mt-4 text-3xl font-medium text-center md:text-6xl text-quinary">
-                Encuentra a nuestros médicos
+                Directorio de médicos
             </h1>
         </header>
         <form class="grid grid-cols-2 grid-rows-3 gap-3 mx-2 my-4 rounded-lg md:mx-17 md:grid-cols-6 md:grid-rows-1"
