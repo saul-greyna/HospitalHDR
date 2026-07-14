@@ -12,7 +12,8 @@ export const doctores = [
         consultorio: "111",
         cedula: "1234567",
         horario: "Lun – Vie: 9:00 – 14:00",
-        imagen: "/images/Doctores/dr-victor-hugo-godinez-valdez.webp"
+        imagen: "/images/directorio/dr-victor-hugo-godinez-valdez.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-victor-hugo-godinez-valdez.webp"
     },
     {
         id: 2,
@@ -27,7 +28,8 @@ export const doctores = [
         consultorio: "102",
         cedula: "2345678",
         horario: "Lun – Vie: 10:00 – 15:00",
-        imagen: "/images/Doctores/dr-augusto-ramirez-solis.webp"
+        imagen: "/images/directorio/dr-augusto-ramirez-solis.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-augusto-ramirez-solis.webp"
     },
     {
         id: 3,
@@ -42,7 +44,8 @@ export const doctores = [
         consultorio: "140",
         cedula: "3456789",
         horario: "Mar – Sáb: 9:00 – 13:00",
-        imagen: "/images/Doctores/dr-jaime-alonso-velazquez-fuentes.webp"
+        imagen: "/images/directorio/dr-jaime-alonso-velazquez-fuentes.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-jaime-alonso-velazquez-fuentes.webp"
     },
     {
         id: 4,
@@ -57,7 +60,8 @@ export const doctores = [
         consultorio: "135",
         cedula: "4567890",
         horario: "Lun – Vie: 8:00 – 14:00",
-        imagen: "/images/Doctores/dr-jose-luis-cruz-sanchez.webp"
+        imagen: "/images/directorio/dr-jose-luis-cruz-sanchez.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-jose-luis-cruz-sanchez.webp"
     },
     {
         id: 5,
@@ -72,7 +76,8 @@ export const doctores = [
         consultorio: "120",
         cedula: "5678901",
         horario: "Lun – Jue: 10:00 – 16:00",
-        imagen: "/images/Doctores/dr-santiago-ignacio-godinez-hernandez.webp"
+        imagen: "/images/directorio/dr-santiago-ignacio-godinez-hernandez.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-santiago-ignacio-godinez-hernandez.webp"
     },
     {
         id: 6,
@@ -87,7 +92,8 @@ export const doctores = [
         consultorio: "141",
         cedula: "6789012",
         horario: "Lun – Vie: 9:00 – 15:00",
-        imagen: "/images/Doctores/dra-guadalupe-alejandra-uvina-quintero.webp"
+        imagen: "/images/directorio/dra-guadalupe-alejandra-uvina-quintero.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dra-guadalupe-alejandra-uvina-quintero.webp"
     },
     {
         id: 7,
@@ -102,7 +108,8 @@ export const doctores = [
         consultorio: "113",
         cedula: "7890123",
         horario: "Mar – Sáb: 10:00 – 15:00",
-        imagen: "/images/Doctores/dr-luis-arturo-castaldi-bermudez.webp"
+        imagen: "/images/directorio/dr-luis-arturo-castaldi-bermudez.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-luis-arturo-castaldi-bermudez.webp"
     },
     {
         id: 8,
@@ -117,7 +124,8 @@ export const doctores = [
         consultorio: "113",
         cedula: "8901234",
         horario: "Lun – Vie: 8:00 – 13:00",
-        imagen: "/images/Doctores/174x224.webp"
+        imagen: "/images/directorio/174x224.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-174x224.webp"
     },
     {
         id: 9,
@@ -132,7 +140,8 @@ export const doctores = [
         consultorio: "131",
         cedula: "9012345",
         horario: "Lun – Vie: 9:00 – 14:00",
-        imagen: "/images/Doctores/dr-juan-carlos-viveros.webp"
+        imagen: "/images/directorio/dr-juan-carlos-viveros.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-juan-carlos-viveros.webp"
     },
     {
         id: 10,
@@ -147,7 +156,8 @@ export const doctores = [
         consultorio: "106",
         cedula: "0123456",
         horario: "Mar – Sáb: 9:00 – 14:00",
-        imagen: "/images/Doctores/dr-jorge-arturo-gutierrez-vargas.webp"
+        imagen: "/images/directorio/dr-jorge-arturo-gutierrez-vargas.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-jorge-arturo-gutierrez-vargas.webp"
     },
     {
         id: 11,
@@ -162,7 +172,8 @@ export const doctores = [
         consultorio: "137",
         cedula: "1122334",
         horario: "Lun – Vie: 10:00 – 15:00",
-        imagen: "/images/Doctores/dra-palmira-hernandez-aguirre.webp"
+        imagen: "/images/directorio/dra-palmira-hernandez-aguirre.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dra-palmira-hernandez-aguirre.webp"
     },
     {
         id: 12,
@@ -177,7 +188,8 @@ export const doctores = [
         consultorio: "139",
         cedula: "2233445",
         horario: "Lun – Vie: 9:00 – 14:00",
-        imagen: "/images/Doctores/dr-jaime-ivan-bustamente-garcia.webp"
+        imagen: "/images/directorio/dr-jaime-ivan-bustamente-garcia.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-jaime-ivan-bustamente-garcia.webp"
     },
     {
         id: 13,
@@ -192,7 +204,8 @@ export const doctores = [
         consultorio: "103",
         cedula: "3344556",
         horario: "Mar – Sáb: 10:00 – 16:00",
-        imagen: "/images/Doctores/dra-carolina-dominguez-meza.webp"
+        imagen: "/images/directorio/dra-carolina-dominguez-meza.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dra-carolina-dominguez-meza.webp"
     },
     {
         id: 14,
@@ -207,7 +220,8 @@ export const doctores = [
         consultorio: "140",
         cedula: "4455667",
         horario: "Lun – Vie: 8:00 – 13:00",
-        imagen: "/images/Doctores/dra-fatima-irangani-cedillo-azuela.webp"
+        imagen: "/images/directorio/dra-fatima-irangani-cedillo-azuela.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dra-fatima-irangani-cedillo-azuela.webp"
     },
     {
         id: 15,
@@ -222,7 +236,8 @@ export const doctores = [
         consultorio: "110",
         cedula: "5566778",
         horario: "Lun – Vie: 10:00 – 15:00",
-        imagen: "/images/Doctores/174x224.webp"
+        imagen: "/images/directorio/174x224.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-174x224.webp"
     },
     {
         id: 16,
@@ -237,7 +252,8 @@ export const doctores = [
         consultorio: "110",
         cedula: "6677889",
         horario: "Lun – Vie: 9:00 – 14:00",
-        imagen: "/images/Doctores/dr-raul-hernandez-centeno.webp"
+        imagen: "/images/directorio/dr-raul-hernandez-centeno.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-raul-hernandez-centeno.webp"
     },
     {
         id: 17,
@@ -252,7 +268,8 @@ export const doctores = [
         consultorio: "141",
         cedula: "7788990",
         horario: "Mar – Sáb: 9:00 – 14:00",
-        imagen: "/images/Doctores/dr-ernesto-rodriguez-alvarado.webp"
+        imagen: "/images/directorio/dr-ernesto-rodriguez-alvarado.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-ernesto-rodriguez-alvarado.webp"
     },
     {
         id: 18,
@@ -267,7 +284,8 @@ export const doctores = [
         consultorio: "140",
         cedula: "8899001",
         horario: "Lun – Vie: 8:00 – 14:00",
-        imagen: "/images/Doctores/dr-fernando-chico-carpizo.webp"
+        imagen: "/images/directorio/dr-fernando-chico-carpizo.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-fernando-chico-carpizo.webp"
     },
     {
         id: 19,
@@ -282,7 +300,8 @@ export const doctores = [
         consultorio: "134",
         cedula: "9900112",
         horario: "Lun – Vie: 10:00 – 16:00",
-        imagen: "/images/Doctores/dr-francisco-cabrales-garcia.webp"
+        imagen: "/images/directorio/dr-francisco-cabrales-garcia.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-francisco-cabrales-garcia.webp"
     },
     {
         id: 20,
@@ -297,7 +316,8 @@ export const doctores = [
         consultorio: "139",
         cedula: "1011123",
         horario: "Mar – Sáb: 9:00 – 15:00",
-        imagen: "/images/Doctores/dr-gerardo-bautista-diaz.webp"
+        imagen: "/images/directorio/dr-gerardo-bautista-diaz.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-gerardo-bautista-diaz.webp"
     },
     {
         id: 21,
@@ -312,7 +332,8 @@ export const doctores = [
         consultorio: "107",
         cedula: "1112234",
         horario: "Lun – Vie: 9:00 – 14:00",
-        imagen: "/images/Doctores/dr-ramon-rodriguez-padilla.webp"
+        imagen: "/images/directorio/dr-ramon-rodriguez-padilla.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-ramon-rodriguez-padilla.webp"
     },
     {
         id: 22,
@@ -327,7 +348,8 @@ export const doctores = [
         consultorio: "134",
         cedula: "1213345",
         horario: "Lun – Vie: 10:00 – 15:00",
-        imagen: "/images/Doctores/dr-valente-romero-rodriguez.webp"
+        imagen: "/images/directorio/dr-valente-romero-rodriguez.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-valente-romero-rodriguez.webp"
     },
     {
         id: 23,
@@ -342,7 +364,8 @@ export const doctores = [
         consultorio: "141",
         cedula: "1314456",
         horario: "Lun – Vie: 8:00 – 14:00",
-        imagen: "/images/Doctores/dr-aldo-ivan-galvan-linares.webp"
+        imagen: "/images/directorio/dr-aldo-ivan-galvan-linares.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-aldo-ivan-galvan-linares.webp"
     },
     {
         id: 24,
@@ -357,7 +380,8 @@ export const doctores = [
         consultorio: "118",
         cedula: "1415567",
         horario: "Mar – Sáb: 9:00 – 14:00",
-        imagen: "/images/Doctores/dr-alberto-antonio-gonzalez-bravo.webp"
+        imagen: "/images/directorio/dr-alberto-antonio-gonzalez-bravo.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-alberto-antonio-gonzalez-bravo.webp"
     },
     {
         id: 25,
@@ -372,7 +396,8 @@ export const doctores = [
         consultorio: "112",
         cedula: "1516678",
         horario: "Lun – Vie: 10:00 – 16:00",
-        imagen: "/images/Doctores/dr-benjamin-sanchez-trocino.webp"
+        imagen: "/images/directorio/dr-benjamin-sanchez-trocino.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-benjamin-sanchez-trocino.webp"
     },
     {
         id: 26,
@@ -387,7 +412,8 @@ export const doctores = [
         consultorio: "112",
         cedula: "1617789",
         horario: "Mar – Sáb: 8:00 – 13:00",
-        imagen: "/images/Doctores/dr-jacinto-armando-diaz-acevedo.webp"
+        imagen: "/images/directorio/dr-jacinto-armando-diaz-acevedo.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-jacinto-armando-diaz-acevedo.webp"
     },
     {
         id: 27,
@@ -402,7 +428,8 @@ export const doctores = [
         consultorio: "133",
         cedula: "1718890",
         horario: "Lun – Vie: 9:00 – 15:00",
-        imagen: "/images/Doctores/dr-jose-alejandro-quintana.webp"
+        imagen: "/images/directorio/dr-jose-alejandro-quintana.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-jose-alejandro-quintana.webp"
     },
     {
         id: 28,
@@ -417,7 +444,8 @@ export const doctores = [
         consultorio: "142",
         cedula: "1819901",
         horario: "Lun – Vie: 8:00 – 14:00",
-        imagen: "/images/Doctores/dr-julio-torres-escamilla.webp"
+        imagen: "/images/directorio/dr-julio-torres-escamilla.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-julio-torres-escamilla.webp"
     },
     {
         id: 29,
@@ -432,7 +460,8 @@ export const doctores = [
         consultorio: "112",
         cedula: "1920012",
         horario: "Mar – Sáb: 10:00 – 15:00",
-        imagen: "/images/Doctores/dra-nereida-cortez-lopez.webp"
+        imagen: "/images/directorio/dra-nereida-cortez-lopez.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dra-nereida-cortez-lopez.webp"
     },
     {
         id: 30,
@@ -447,7 +476,8 @@ export const doctores = [
         consultorio: "108",
         cedula: "2021123",
         horario: "Lun – Vie: 9:00 – 14:00",
-        imagen: "/images/Doctores/dra-paulina-montano-ascencio.webp"
+        imagen: "/images/directorio/dra-paulina-montano-ascencio.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dra-paulina-montano-ascencio.webp"
     },
     {
         id: 31,
@@ -462,7 +492,8 @@ export const doctores = [
         consultorio: "142",
         cedula: "2122234",
         horario: "Lun – Vie: 10:00 – 16:00",
-        imagen: "/images/Doctores/dr-francisco-jose-castrejon-aivar.webp"
+        imagen: "/images/directorio/dr-francisco-jose-castrejon-aivar.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-francisco-jose-castrejon-aivar.webp"
     },
     {
         id: 32,
@@ -477,7 +508,8 @@ export const doctores = [
         consultorio: "109",
         cedula: "2223345",
         horario: "Lun – Vie: 8:00 – 13:00",
-        imagen: "/images/Doctores/dr-francisco-vilches-duran.webp"
+        imagen: "/images/directorio/dr-francisco-vilches-duran.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-francisco-vilches-duran.webp"
     },
     {
         id: 33,
@@ -492,7 +524,8 @@ export const doctores = [
         consultorio: "103",
         cedula: "2324456",
         horario: "Mar – Sáb: 9:00 – 15:00",
-        imagen: "/images/Doctores/dr-francisco-javier-mendoza-espinoza.webp"
+        imagen: "/images/directorio/dr-francisco-javier-mendoza-espinoza.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-francisco-javier-mendoza-espinoza.webp"
     },
     {
         id: 34,
@@ -507,7 +540,8 @@ export const doctores = [
         consultorio: "137",
         cedula: "2425567",
         horario: "Lun – Vie: 9:00 – 14:00",
-        imagen: "/images/Doctores/dr-francisco-javier-orta-montejano.webp"
+        imagen: "/images/directorio/dr-francisco-javier-orta-montejano.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-francisco-javier-orta-montejano.webp"
     },
     {
         id: 35,
@@ -522,7 +556,8 @@ export const doctores = [
         consultorio: "143",
         cedula: "2526678",
         horario: "Lun – Vie: 8:00 – 14:00",
-        imagen: "/images/Doctores/lic-edna-hernandez-sanchez.webp"
+        imagen: "/images/directorio/lic-edna-hernandez-sanchez.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-lic-edna-hernandez-sanchez.webp"
     },
     {
         id: 36,
@@ -537,7 +572,8 @@ export const doctores = [
         consultorio: "143",
         cedula: "2627789",
         horario: "Mar – Sáb: 9:00 – 14:00",
-        imagen: "/images/Doctores/lic-fatima-teresa-de-la-o-garcia.webp"
+        imagen: "/images/directorio/lic-fatima-teresa-de-la-o-garcia.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-lic-fatima-teresa-de-la-o-garcia.webp"
     },
     {
         id: 37,
@@ -552,7 +588,8 @@ export const doctores = [
         consultorio: "143",
         cedula: "2728890",
         horario: "Lun – Vie: 10:00 – 15:00",
-        imagen: "/images/Doctores/lic-israel-renteria-troncoso.webp"
+        imagen: "/images/directorio/lic-israel-renteria-troncoso.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-lic-israel-renteria-troncoso.webp"
     },
     {
         id: 38,
@@ -567,7 +604,8 @@ export const doctores = [
         consultorio: "110",
         cedula: "2829901",
         horario: "Lun – Vie: 9:00 – 14:00",
-        imagen: "/images/Doctores/174x224.webp"
+        imagen: "/images/directorio/174x224.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-174x224.webp"
     },
     {
         id: 39,
@@ -582,7 +620,8 @@ export const doctores = [
         consultorio: "131",
         cedula: "2930012",
         horario: "Mar – Sáb: 8:00 – 13:00",
-        imagen: "/images/Doctores/dra-claudia-carolina-castellanos-cervantes.webp"
+        imagen: "/images/directorio/dra-claudia-carolina-castellanos-cervantes.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dra-claudia-carolina-castellanos-cervantes.webp"
     },
     {
         id: 40,
@@ -597,7 +636,8 @@ export const doctores = [
         consultorio: "132",
         cedula: "3031123",
         horario: "Lun – Vie: 8:00 – 20:00",
-        imagen: "/images/Doctores/174x224.webp"
+        imagen: "/images/directorio/174x224.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-174x224.webp"
     },
     {
         id: 41,
@@ -612,7 +652,8 @@ export const doctores = [
         consultorio: "120",
         cedula: "3132234",
         horario: "Lun – Vie: 10:00 – 15:00",
-        imagen: "/images/Doctores/174x224.webp"
+        imagen: "/images/directorio/174x224.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-174x224.webp"
     },
     {
         id: 42,
@@ -627,7 +668,8 @@ export const doctores = [
         consultorio: "A - Ext. 113",
         cedula: "3233345",
         horario: "Lun – Vie: 9:00 – 14:00",
-        imagen: "/images/Doctores/174x224.webp"
+        imagen: "/images/directorio/174x224.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-174x224.webp"
     },
     {
         id: 43,
@@ -642,7 +684,8 @@ export const doctores = [
         consultorio: "133",
         cedula: "3334456",
         horario: "Mar – Sáb: 10:00 – 16:00",
-        imagen: "/images/Doctores/174x224.webp"
+        imagen: "/images/directorio/174x224.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-174x224.webp"
     },
     {
         id: 44,
@@ -657,7 +700,8 @@ export const doctores = [
         consultorio: "104",
         cedula: "3435567",
         horario: "Lun – Vie: 8:00 – 20:00",
-        imagen: "/images/Doctores/174x224.webp"
+        imagen: "/images/directorio/174x224.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-174x224.webp"
     },
     {
         id: 45,
@@ -672,7 +716,8 @@ export const doctores = [
         consultorio: "114",
         cedula: "3536678",
         horario: "Lun – Vie: 9:00 – 15:00",
-        imagen: "/images/Doctores/dr-asael-palafoz-cazarez.webp"
+        imagen: "/images/directorio/dr-asael-palafoz-cazarez.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-asael-palafoz-cazarez.webp"
     },
     {
         id: 46,
@@ -687,7 +732,8 @@ export const doctores = [
         consultorio: "143",
         cedula: "3637789",
         horario: "Lun – Vie: 8:00 – 14:00",
-        imagen: "/images/Doctores/lic-maria-fernanda-guerrero-monjaraz.webp"
+        imagen: "/images/directorio/lic-maria-fernanda-guerrero-monjaraz.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-lic-maria-fernanda-guerrero-monjaraz.webp"
     },
     {
         id: 47,
@@ -702,7 +748,8 @@ export const doctores = [
         consultorio: "131",
         cedula: "3738890",
         horario: "Lun – Vie: 10:00 – 16:00",
-        imagen: "/images/Doctores/dr-juan-angel-cibrian-delgado.webp"
+        imagen: "/images/directorio/dr-juan-angel-cibrian-delgado.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-dr-juan-angel-cibrian-delgado.webp"
     },
     {
         id: 48,
@@ -717,7 +764,8 @@ export const doctores = [
         consultorio: "102",
         cedula: "3839901",
         horario: "Mar – Sáb: 9:00 – 14:00",
-        imagen: "/images/Doctores/174x224.webp"
+        imagen: "/images/directorio/174x224.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-174x224.webp"
     },
     {
         id: 49,
@@ -732,6 +780,7 @@ export const doctores = [
         consultorio: "133",
         cedula: "3940012",
         horario: "Lun – Vie: 9:00 – 14:00",
-        imagen: "/images/Doctores/lic-patricia-maldonado-valadez.webp"
+        imagen: "/images/directorio/lic-patricia-maldonado-valadez.webp",
+        imagenPerfil: "/images/directorio/perfil/perfil-lic-patricia-maldonado-valadez.webp"
     }
 ]

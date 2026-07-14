@@ -73,7 +73,7 @@ function volver() {
         </aside>
         <figure
             class="relative w-full overflow-hidden min-w-83.75 aspect-335/502 rounded-4xl md:max-w-134 md:aspect-536/804">
-            <img :src="doctorActual.imagen"
+            <img :src="doctorActual.imagenPerfil"
                 :alt="`Fotografia de ${doctorActual.gradoPrefijo} ${doctorActual.nombre} ${doctorActual.apellido}`"
                 class="object-cover object-center w-full h-full" width="335" height="502" fetchpriority="high">
         </figure>
