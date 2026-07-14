@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Home from '../components/Home.vue'
-import Nosotros from '../components/Nosotros.vue'
-import DirectorioMedico from '../components/DirectorioMedico.vue'
-import Medicos from '../components/Medicos.vue'
-import ServiciosLaboratorio from '../components/ServiciosLaboratorio.vue'
-import Farmacia from '../components/Farmacia.vue'
+import Home from '../views/Home.vue'
+import ServiciosLaboratorio from '../views/ServiciosLaboratorio.vue'
+import DirectorioMedico from '../views/DirectorioMedico.vue'
+import Medicos from '../views/Medicos.vue'
+import Farmacia from '../views/Farmacia.vue'
+import Nosotros from '../views/Nosotros.vue'
 
 export default createRouter({
     history: createWebHistory(),

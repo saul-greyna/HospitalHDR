@@ -2,8 +2,8 @@
     <section class="flex flex-col w-full gap-8 py-4 md:flex-row md:items-center md:justify-center md:h-[90vh]">
         <article class="py-2 md:py-8 md:w-1/2">
             <header class="text-center">
-                <span class="py-2 md:text-xl text-plata-300">Lucía del Hospital Dr. Raúl Hernández</span>
-                <h1 class="py-2 md:text-5xl text-plata-400">Farmacia Lucía</h1>
+                <span class="py-2 text-lg md:text-xl text-plata-400">Lucía del Hospital Dr. Raúl Hernández</span>
+                <h1 class="py-2 text-2xl md:text-5xl text-plata-500">Farmacia Lucía</h1>
             </header>
             <p class="text-base md:text-lg text-plata-950">
                 La <strong>Farmacia Lucía del Hospital Dr. Raúl Hernández</strong> forma parte de los servicios que
@@ -70,12 +70,12 @@
                     class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
             <figure
-                class="items-start self-start w-full bg-gray-200 auto-rows-min md:col-start-2 md:row-start-3 rounded-bl-2xl place-content-center md:place-items-center">
+                class="items-start self-start w-full bg-gray-200 auto-rows-min md:col-start-2 md:row-start-3 rounded-br-2xl md:rounded-bl-2xl place-content-center md:place-items-center">
                 <img src="/images/farmacia/medicamentos/velian-dexketoprofeno.jpeg" alt=""
                     class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
             <figure
-                class="items-start self-start w-full row-start-4 bg-gray-200 auto-rows-min md:row-start-3 md:col-start-3 rounded-br-2xl place-content-center md:place-items-center">
+                class="items-start self-start w-full row-start-4 bg-gray-200 auto-rows-min md:row-start-3 md:col-start-3 md:rounded-br-2xl rounded-bl-2xl place-content-center md:place-items-center">
                 <img src="/images/farmacia/medicamentos/dalexiadol.jpeg" alt=""
                     class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
