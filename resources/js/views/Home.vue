@@ -79,10 +79,10 @@ onMounted(() => {
             </li>
         </ul>
     </section>
-    <section class="flex flex-col items-center justify-center w-full py-6">
+    <section class="flex flex-col items-center justify-center py-6">
         <header class="flex flex-col items-center">
-            <p class="my-4 text-sm font-medium tracking-wide text-">Como podemos ayudarte</p>
-            <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-gray-700 md:w-2/3 md:text-5xl">
+            <span class="my-2 text-xs font-medium tracking-wide text-plata-700 md:text-sm">Como podemos ayudarte</span>
+            <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-azul-700 md:w-2/3 md:text-5xl">
                 Servicios hospitalarios y especialidades médicas en León
             </h2>
         </header>
@@ -153,8 +153,8 @@ onMounted(() => {
                     class="w-full h-auto md:rounded-3xl">
             </picture>
             <header class="flex flex-col justify-center p-6 md:p-10 md:pl-12 md:w-1/2 md:pr-40">
-                <span class="mb-3 text-sm font-medium tracking-wide text-tertiary">Nuestra ubicación</span>
-                <h2 class="mb-6 text-3xl font-semibold leading-tight text-left text-gray-700 md:text-5xl">
+                <span class="mb-3 text-sm font-medium tracking-wide text-plata-700">Nuestra ubicación</span>
+                <h2 class="mb-6 text-3xl font-semibold leading-tight text-left text-azul-700 md:text-5xl">
                     Hospital en León, Guanajuato con ubicación en Zona Centro
                 </h2>
                 <p class="mb-8 text-base text-gray-700">
@@ -178,8 +178,8 @@ onMounted(() => {
     </section>
     <section class="flex flex-col items-center justify-center w-full py-6">
         <header class="flex flex-col items-center">
-            <p class="my-4 text-sm font-medium tracking-wide">Certificación</p>
-            <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-gray-700 md:w-2/3 md:text-5xl">
+            <p class="my-4 text-sm font-medium tracking-wide text-plata-700">Certificación</p>
+            <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-azul-700 md:w-2/3 md:text-5xl">
                 Hospital certificado en Guanajuato con estándares de calidad médica
             </h2>
         </header>
@@ -221,8 +221,8 @@ onMounted(() => {
     </section>
     <section class="py-6">
         <header class="text-center">
-            <p class="my-4 text-sm font-medium tracking-wide">Actualidad médica</p>
-            <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-gray-700 md:text-5xl">
+            <p class="my-4 text-sm font-medium tracking-wide text-plata-700">Actualidad médica</p>
+            <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-azul-700 md:text-5xl">
                 Campañas de salud del hospital
             </h2>
         </header>
@@ -245,8 +245,8 @@ onMounted(() => {
     </section>
     <section class="flex flex-col items-center justify-center w-full py-6">
         <header class="flex flex-col items-center">
-            <p class="my-4 text-sm font-medium tracking-wide">Nuestro equipo</p>
-            <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-gray-700 md:text-5xl">
+            <p class="my-4 text-sm font-medium tracking-wide text-plata-700">Nuestro equipo</p>
+            <h2 class="pt-4 pb-8 text-3xl font-medium text-center text-azul-700 md:text-5xl">
                 Médicos especialistas en nuestro hospital
             </h2>
         </header>

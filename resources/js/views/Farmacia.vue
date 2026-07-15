@@ -43,10 +43,10 @@
             class="grid self-start grid-cols-2 md:grid-cols-3 md:grid-rows-3 md:place-content-center md:place-items-center">
             <figure class="col-span-2 md:pr-4 md:col-span-1 md:row-span-3">
                 <header class="text-center md:mb-14">
-                    <span class="text-sm font-semibold tracking-wide text-azul-800">
+                    <span class="text-xs font-medium tracking-wide md:text-sm text-plata-700">
                         Medicamentos y promociones de la Farmacia Lucía
                     </span>
-                    <h2 class="mt-5 text-2xl font-bold tracking-tight md:text-3xl text-plata-900">
+                    <h2 class="mt-5 text-3xl font-medium text-center text-azul-700 md:text-5xl">
                         Medicamentos disponibles en Farmacia Lucía del Hospital Dr. Raúl Hernández
                     </h2>
                 </header>

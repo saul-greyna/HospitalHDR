@@ -45,7 +45,8 @@
     </section>
     <section class="px-4 py-4 my-16 bg-gray-100 md:p-12 rounded-3xl">
         <header class="text-center">
-            <h2 class="my-4 text-2xl font-semibold md:text-4xl text-quinary">
+            <span class="text-xs font-medium tracking-wide text-plata-700 md:text-sm">Valores</span>
+            <h2 class="my-4 text-3xl font-medium text-center text-azul-700 md:text-5xl">
                 Nuestros valores en el Hospital Dr. Raúl Hernández
             </h2>
         </header>
@@ -77,6 +78,12 @@
         </article>
     </section>
     <section>
+        <header class="text-center">
+            <span class="text-xs font-medium tracking-wide text-plata-700 md:text-sm">Video institucional</span>
+            <h2 class="my-4 text-3xl font-medium text-center text-azul-700 md:text-5xl">
+                Institucionalidad del Hospital Dr. Raúl Hernández
+            </h2>
+        </header>
         <figure>
             <video controls playsinline preload="metadata" poster="/images/Nosotros/portadaVideo.jpeg"
                 class="rounded-3xl">
