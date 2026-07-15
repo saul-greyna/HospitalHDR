@@ -54,32 +54,31 @@
                     class="object-center my-4 rounded-2xl">
             </figure>
             <figure
-                class="items-start self-start w-full row-start-2 bg-gray-200 auto-rows-min md:row-start-auto rounded-tl-2xl place-content-center md:place-items-center">
+                class="w-full row-start-2 bg-gray-200 auto-rows-min md:row-start-auto rounded-tl-2xl place-content-center md:place-items-center">
                 <img src="/images/farmacia/medicamentos/etral-etoricoxib-caja-90-mg.jpeg" alt=""
                     class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
             <figure
-                class="items-start self-start w-full row-start-2 bg-gray-200 auto-rows-min md:row-start-auto rounded-tr-2xl place-content-center md:place-items-center">
+                class="w-full row-start-2 bg-gray-200 auto-rows-min md:row-start-auto rounded-tr-2xl place-content-center md:place-items-center">
                 <img src="/images/farmacia/medicamentos/etral-etoricoxib-caja-120-mg.jpeg" alt=""
                     class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
-            <figure
-                class="items-start self-start w-full bg-gray-200 auto-rows-min md:col-start-2 place-content-center md:place-items-center">
+            <figure class="w-full bg-gray-200 auto-rows-min md:col-start-2 place-content-center md:place-items-center">
                 <img src="/images/farmacia/medicamentos/dorsal-carisoprodol-meloxicam.jpeg" alt=""
                     class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
             <figure
-                class="items-start self-start w-full row-start-3 bg-gray-200 auto-rows-min md:row-start-auto md:col-start-3 place-content-center md:place-items-center">
+                class="w-full row-start-3 bg-gray-200 auto-rows-min md:row-start-auto md:col-start-3 place-content-center md:place-items-center">
                 <img src="/images/farmacia/medicamentos/keral-dexketoprofeno.jpeg" alt=""
                     class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
-            <figure
-                class="items-start self-start w-full bg-gray-200 auto-rows-min md:col-start-2 md:row-start-3 rounded-br-2xl md:rounded-bl-2xl place-content-center md:place-items-center">
+            <figure 
+                class="w-full bg-gray-200 md:rounded-br-none auto-rows-min md:col-start-2 md:row-start-3 rounded-br-2xl md:rounded-bl-2xl place-content-center md:place-items-center">
                 <img src="/images/farmacia/medicamentos/velian-dexketoprofeno.jpeg" alt=""
                     class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
             <figure
-                class="items-start self-start w-full row-start-4 bg-gray-200 auto-rows-min md:row-start-3 md:col-start-3 md:rounded-br-2xl rounded-bl-2xl place-content-center md:place-items-center">
+                class="w-full row-start-4 bg-gray-200 md:rounded-bl-none auto-rows-min md:row-start-3 md:col-start-3 md:rounded-br-2xl rounded-bl-2xl place-content-center md:place-items-center">
                 <img src="/images/farmacia/medicamentos/dalexiadol.jpeg" alt=""
                     class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
