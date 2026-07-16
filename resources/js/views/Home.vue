@@ -36,7 +36,7 @@ onMounted(() => {
             <span class="mb-4 text-xs font-medium tracking-wide md:text-sm text-plata-600">
                 Sobre nosotros
             </span>
-            <h1 class="w-2/3 pb-4 text-2xl font-medium md:text-8xl md:pb-12 md:w-11/12 text-azul-600">
+            <h1 class="w-2/3 pb-4 text-2xl font-medium text-center md:text-8xl md:pb-12 md:w-11/12 text-azul-600">
                 Hospital con atención médica especializada
             </h1>
         </header>

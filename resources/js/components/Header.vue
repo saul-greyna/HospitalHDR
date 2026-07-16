@@ -31,25 +31,25 @@ function cerrarMenu() {
             <ul :class="[menuAbierto ? 'flex' : 'hidden', 'mx-5 absolute top-full mt-2 min-w-85 flex-col items-center gap-6 rounded-2xl bg-gray-200 py-6 font-medium md:static md:flex md:flex-row md:gap-8 md:mt-0 md:bg-gray-100 md:px-4 md:py-3 inset-x-0']"
                 aria-label="Menú de navegación">
                 <li>
-                    <RouterLink to="/servicios" class="text-sm text-tertiary"
+                    <RouterLink to="/servicios" class="text-sm text-plata-600"
                         title="Servicios del Hospital Dr. Raul Hernandez" @click="cerrarMenu">
                         Servicios
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/directorio-medico" class="text-sm text-tertiary"
+                    <RouterLink to="/directorio-medico" class="text-sm text-plata-600"
                         title="Directorio médico del Hospital Dr. Raul Hernandez" @click="cerrarMenu">
                         Directorio Médico
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/farmacia" class="text-sm text-tertiary"
+                    <RouterLink to="/farmacia" class="text-sm text-plata-600"
                         title="Farmacia Lucia del Hospital Dr. Raul Hernandez" @click="cerrarMenu">
                         Farmacia Lucia
                     </RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/quienes-somos" class="text-sm text-tertiary"
+                    <RouterLink to="/quienes-somos" class="text-sm text-plata-600"
                         title="Quiénes somos en el Hospital Dr. Raul Hernandez" @click="cerrarMenu">
                         Quiénes somos
                     </RouterLink>

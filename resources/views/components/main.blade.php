@@ -11,7 +11,7 @@
 @endphp
 
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scrollbar-thumb-sextarian scrollbar-track-white">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scrollbar-thumb-azul-600 scrollbar-track-white">
 
 <head>
     <meta charset="utf-8">
