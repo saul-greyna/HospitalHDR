@@ -34,13 +34,12 @@
             </p>
         </article>
         <figure class="md:py-24 md:row-start-2 place-content-center place-items-center">
-            <img src="/images/farmacia/farmacia-lucia-del-hospital-raul-hernadez.webp" alt="" class="rounded-2xl"
-                fetchpriority="high" decoding="async" loading="eager">
+            <img src="/images/farmacia/farmacia-lucia-del-hospital-raul-hernadez.webp" alt="" class="w-full rounded-2xl"
+                width="335" heigth="222" fetchpriority="high" decoding="async" loading="eager">
         </figure>
     </section>
     <section class="py-4 md:py-18">
-        <article
-            class="grid grid-cols-2 md:grid-cols-3 md:grid-rows-3">
+        <article class="grid grid-cols-2 md:grid-cols-3 md:grid-rows-3">
             <figure class="col-span-2 md:pr-4 md:col-span-1 md:row-span-3">
                 <header class="text-center md:mb-14">
                     <span class="text-xs font-medium tracking-wide md:text-sm text-plata-700">
@@ -50,37 +49,37 @@
                         Medicamentos disponibles en Farmacia Lucía del Hospital Dr. Raúl Hernández
                     </h2>
                 </header>
-                <img src="/images/farmacia/medicamentos/promocion-medicamentos.jpeg" alt=""
+                <img src="/images/farmacia/medicamentos/promocion-medicamentos.jpeg" alt="" width="335" heigth="222"
                     class="object-center my-4 rounded-2xl">
             </figure>
             <figure
                 class="w-full row-start-2 bg-gray-200 auto-rows-min md:row-start-auto rounded-tl-2xl place-content-end place-items-end md:max-w-120">
-                <img src="/images/farmacia/medicamentos/etral-etoricoxib-caja-90-mg.jpeg" alt=""
-                    class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
+                <img src="/images/farmacia/medicamentos/etral-etoricoxib-caja-90-mg.jpeg" alt="" width="168"
+                    heigth="117" class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
             <figure
                 class="w-full row-start-2 bg-gray-200 auto-rows-min md:row-start-auto rounded-tr-2xl place-items-start place-content-start md:max-w-120">
-                <img src="/images/farmacia/medicamentos/etral-etoricoxib-caja-120-mg.jpeg" alt=""
-                    class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
+                <img src="/images/farmacia/medicamentos/etral-etoricoxib-caja-120-mg.jpeg" alt="" width="168"
+                    heigth="117" class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100 h-">
             </figure>
             <figure
                 class="w-full bg-gray-200 auto-rows-min md:col-start-2 place-content-end place-items-end md:max-w-120">
-                <img src="/images/farmacia/medicamentos/dorsal-carisoprodol-meloxicam.jpeg" alt=""
-                    class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
+                <img src="/images/farmacia/medicamentos/dorsal-carisoprodol-meloxicam.jpeg" alt="" width="168"
+                    heigth="117" class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
             <figure
                 class="w-full row-start-3 bg-gray-200 auto-rows-min md:row-start-auto md:col-start-3 place-items-start place-content-start md:max-w-120">
-                <img src="/images/farmacia/medicamentos/keral-dexketoprofeno.jpeg" alt=""
+                <img src="/images/farmacia/medicamentos/keral-dexketoprofeno.jpeg" alt="" width="168" heigth="117"
                     class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
             <figure
                 class="w-full bg-gray-200 md:max-w-120 md:rounded-br-none auto-rows-min md:col-start-2 md:row-start-3 rounded-br-2xl md:rounded-bl-2xl place-content-end place-items-end">
-                <img src="/images/farmacia/medicamentos/velian-dexketoprofeno.jpeg" alt=""
+                <img src="/images/farmacia/medicamentos/velian-dexketoprofeno.jpeg" alt="" width="168" heigth="117"
                     class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
             <figure
                 class="w-full row-start-4 bg-gray-200 md:rounded-bl-none auto-rows-min md:row-start-3 md:col-start-3 md:rounded-br-2xl rounded-bl-2xl place-items-start place-content-start md:max-w-120">
-                <img src="/images/farmacia/medicamentos/dalexiadol.jpeg" alt=""
+                <img src="/images/farmacia/medicamentos/dalexiadol.jpeg" alt="" width="168" heigth="117"
                     class="object-center w-full p-2 rounded-2xl min-w-42 md:max-w-100">
             </figure>
         </article>
