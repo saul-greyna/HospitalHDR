@@ -65,9 +65,9 @@
             </select>
             <input v-model="nombreBusqueda" type="search" placeholder="Ingresa el nombre" aria-label="Buscar por Nombre"
                 name="nombre"
-                class="md:min-w-50 transition-[background] duration-1000 ease-in-out open:bg-sextarian text-tertiary md:text-base font-medium bg-white px-4 py-2 rounded-2xl text-center flex items-center justify-center md:col-span-2 text-sm">
+                class="md:min-w-50 transition-[background] duration-1000 ease-in-out open:bg-azul-500  text-tertiary md:text-base font-medium bg-white px-4 py-2 rounded-2xl text-center flex items-center justify-center md:col-span-2 text-sm">
             <button type="submit"
-                class="col-span-2 px-6 py-3 text-sm font-bold transition-all duration-500 ease-in-out transform bg-sextarian rounded-2xl hover:animate-pulse md:col-start-6 md:text-base">
+                class="col-span-2 px-6 py-3 text-sm font-bold transition-all duration-500 ease-in-out transform bg-azul-500 rounded-2xl hover:animate-pulse md:col-start-6 md:text-base">
                 Buscar
             </button>
         </form>

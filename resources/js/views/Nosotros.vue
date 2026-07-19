@@ -14,9 +14,11 @@
                     class="object-cover rounded-3xl">
             </figure>
             <div class="space-y-12">
-                <div class="p-10 shadow-md bg-sextarian backdrop-blur-sm rounded-3xl">
-                    <h2 class="mb-4 text-3xl font-bold text-quinary">Trayectoria del Hospital Dr. Raúl Hernández</h2>
-                    <p class="leading-relaxed text-quinary">
+                <div class="p-10 border shadow-md backdrop-blur-sm rounded-3xl bg-azul-200 border-azul-300">
+                    <h2 class="mb-4 text-3xl font-semibold text-azul-950">
+                        Trayectoria del Hospital Dr. Raúl Hernández
+                    </h2>
+                    <p class="leading-relaxed text-azul-900">
                         El Hospital <strong>HR Raúl Hernández</strong> es una institución privada de salud ubicada en
                         León, Guanajuato, con más de 30 años de trayectoria. Inició sus actividades como C.M.Q. Raúl
                         Hernández y, con el paso del tiempo, evolucionó hasta consolidarse como un hospital con
@@ -24,18 +26,20 @@
                         comunidad.
                     </p>
                 </div>
-                <div class="p-10 shadow-md bg-sextarian backdrop-blur-sm rounded-3xl">
-                    <h2 class="mb-4 text-3xl font-semibold text-quinary">Nuestra misión en el Hospital Dr. Raúl
-                        Hernández</h2>
-                    <p class="leading-relaxed text-quinary">
+                <div class="p-10 border shadow-md backdrop-blur-sm rounded-3xl bg-azul-200 border-azul-300">
+                    <h2 class="mb-4 text-3xl font-semibold text-azul-950">
+                        Nuestra misión en el Hospital Dr. Raúl Hernández
+                    </h2>
+                    <p class="leading-relaxed text-azul-900">
                         Contribuir a mejorar la calidad de vida mediante una atención médica completa, confiable y al
                         alcance de todos.
                     </p>
                 </div>
-                <div class="p-10 shadow-md bg-sextarian rounded-3xl">
-                    <h2 class="mb-4 text-3xl font-semibold text-quinary">Nuestra visión en el Hospital Dr. Raúl
-                        Hernández</h2>
-                    <p class="leading-relaxed text-quinary">
+                <div class="p-10 border shadow-md backdrop-blur-sm rounded-3xl bg-azul-200 border-azul-300">
+                    <h2 class="mb-4 text-3xl font-semibold text-azul-950">
+                        Nuestra visión en el Hospital Dr. Raúl Hernández
+                    </h2>
+                    <p class="leading-relaxed text-azul-900">
                         Ser un hospital que cuente con la más alta preparación y capacidad profesional en sinergía con
                         tecnología de vanguardia, brindando un servicio de excelencia.
                     </p>
@@ -51,29 +55,29 @@
             </h2>
         </header>
         <article class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <div class="p-8 transition bg-white shadow-md rounded-3xl hover:shadow-xl">
-                <h3 class="mb-2 text-xl font-semibold text-quinary">Honestidad</h3>
-                <p class="text-tertiary">Actuamos con transparencia y ética profesional.</p>
+            <div class="p-8 transition border shadow-md rounded-3xl hover:shadow-xl bg-azul-300 border-azul-400">
+                <h3 class="mb-2 text-xl font-semibold text-azul-950">Honestidad</h3>
+                <p class="text-azul-900">Actuamos con transparencia y ética profesional.</p>
             </div>
-            <div class="p-8 transition shadow-md bg-secondary/30 rounded-3xl hover:shadow-xl">
-                <h3 class="mb-2 text-xl font-semibold text-quinary">Disciplina</h3>
-                <p class="text-tertiary">Trabajamos con orden, constancia y compromiso.</p>
+            <div class="p-8 transition border shadow-md rounded-3xl hover:shadow-xl bg-azul-300 border-azul-400">
+                <h3 class="mb-2 text-xl font-semibold text-azul-950">Disciplina</h3>
+                <p class="text-azul-900">Trabajamos con orden, constancia y compromiso.</p>
             </div>
-            <div class="p-8 transition bg-white shadow-md rounded-3xl hover:shadow-xl">
-                <h3 class="mb-2 text-xl font-semibold text-quinary">Proactividad</h3>
-                <p class="text-tertiary">Nos anticipamos a las necesidades del paciente.</p>
+            <div class="p-8 transition border shadow-md rounded-3xl hover:shadow-xl bg-azul-300 border-azul-400">
+                <h3 class="mb-2 text-xl font-semibold text-azul-950">Proactividad</h3>
+                <p class="text-azul-900">Nos anticipamos a las necesidades del paciente.</p>
             </div>
-            <div class="p-8 transition shadow-md bg-secondary/30 rounded-3xl hover:shadow-xl">
-                <h3 class="mb-2 text-xl font-semibold text-quinary">Perseverancia</h3>
-                <p class="text-tertiary">Buscamos soluciones hasta lograr resultados.</p>
+            <div class="p-8 transition border shadow-md rounded-3xl hover:shadow-xl bg-azul-300 border-azul-400">
+                <h3 class="mb-2 text-xl font-semibold text-azul-950">Perseverancia</h3>
+                <p class="text-azul-900">Buscamos soluciones hasta lograr resultados.</p>
             </div>
-            <div class="p-8 transition bg-white shadow-md rounded-3xl hover:shadow-xl">
-                <h3 class="mb-2 text-xl font-semibold text-quinary">Adaptabilidad</h3>
-                <p class="text-tertiary">Evolucionamos junto a la tecnología médica.</p>
+            <div class="p-8 transition border shadow-md rounded-3xl hover:shadow-xl bg-azul-300 border-azul-400">
+                <h3 class="mb-2 text-xl font-semibold text-azul-950">Adaptabilidad</h3>
+                <p class="text-azul-900">Evolucionamos junto a la tecnología médica.</p>
             </div>
-            <div class="p-8 transition shadow-md bg-secondary/30 rounded-3xl hover:shadow-xl">
-                <h3 class="mb-2 text-xl font-semibold text-quinary">Responsabilidad</h3>
-                <p class="text-tertiary">Asumimos cada caso con compromiso total.</p>
+            <div class="p-8 transition border shadow-md rounded-3xl hover:shadow-xl bg-azul-300 border-azul-400">
+                <h3 class="mb-2 text-xl font-semibold text-azul-950">Responsabilidad</h3>
+                <p class="text-azul-900">Asumimos cada caso con compromiso total.</p>
             </div>
         </article>
     </section>
@@ -86,7 +90,7 @@
         </header>
         <figure>
             <video controls playsinline preload="metadata" poster="/images/Nosotros/portadaVideo.jpeg"
-                class="rounded-3xl">
+                class="w-full rounded-3xl">
                 <source src="/video/institucional_HR2.mp4" type="video/mp4">
             </video>
         </figure>
