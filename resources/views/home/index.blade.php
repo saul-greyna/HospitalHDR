@@ -1,1 +1,1 @@
-<x-main />
+<x-main></x-main>
