@@ -1,5 +1,5 @@
 <template>
-    <section class="py-3 bg-gray-200 md:py-0 md:my-14 rounded-2xl">
+    <section class="py-3 bg-plata-100 md:py-0 md:my-14 rounded-2xl">
         <header class="flex flex-col items-center md:py-11">
             <span class="text-xs font-medium tracking-wide md:text-sm text-plata-600">
                 Directorio del Hospital

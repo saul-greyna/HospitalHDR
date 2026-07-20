@@ -47,7 +47,7 @@
             </div>
         </article>
     </section>
-    <section class="px-4 py-4 my-16 bg-gray-100 md:p-12 rounded-3xl">
+    <section class="px-4 py-4 my-16 bg-plata-100 md:p-12 rounded-3xl">
         <header class="text-center">
             <span class="text-xs font-medium tracking-wide text-plata-700 md:text-sm">Valores</span>
             <h2 class="my-4 text-3xl font-medium text-center text-azul-700 md:text-5xl">
